@@ -1,0 +1,4454 @@
+[
+  {
+    "name": "1 On 1 Soccer",
+    "url": "https://velara.cc/assets/games/1on1soccer.html",
+    "img": "https://velara.cc/assets/games/1on1soccer.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "1 On 1 Tennis",
+    "url": "https://velara.cc/assets/games/1on1tennis.html",
+    "img": "https://velara.cc/assets/games/1on1tennis.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "10 Minutes Till Dawn",
+    "url": "https://velara.cc/assets/games/10minutestilldawn.html",
+    "img": "https://velara.cc/assets/games/10minutestilldawn.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "12 Mini Battles",
+    "url": "https://velara.cc/assets/games/12minibattles.html",
+    "img": "https://velara.cc/assets/games/12minibattles.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "1v1 Lol",
+    "url": "https://velara.cc/assets/games/1v1lol.html",
+    "img": "https://velara.cc/assets/games/1v1.lol.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "2 Doom Game",
+    "url": "https://velara.cc/assets/games/2doomgame.html",
+    "img": "https://velara.cc/assets/games/2doom.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "2048 Game",
+    "url": "https://velara.cc/assets/games/2048game.html",
+    "img": "https://velara.cc/assets/games/2048.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "2048 Mergerun",
+    "url": "https://velara.cc/assets/games/2048mergerun.html",
+    "img": "https://velara.cc/assets/games/2048mergerun.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "3 Dash",
+    "url": "https://velara.cc/assets/games/3dash.html",
+    "img": "https://velara.cc/assets/games/3dash.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "3D Bowling",
+    "url": "https://velara.cc/assets/games/3dbowling.html",
+    "img": "https://velara.cc/assets/games/3dbowling.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "500 Caliber Contractz",
+    "url": "https://velara.cc/assets/games/500calibercontractz.html",
+    "img": "https://velara.cc/assets/games/500calibercontractz.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "60 Second Burger Run",
+    "url": "https://velara.cc/assets/games/60secondburgerrun.html",
+    "img": "https://velara.cc/assets/games/60secondburgerrun.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "8 Ball Classic",
+    "url": "https://velara.cc/assets/games/8ballclassic.html",
+    "img": "https://velara.cc/assets/games/8ballclassic.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "8 Ball Pool",
+    "url": "https://velara.cc/assets/games/8ballpool.html",
+    "img": "https://velara.cc/assets/games/8ballpool.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "99 Balls",
+    "url": "https://velara.cc/assets/games/99balls.html",
+    "img": "https://velara.cc/assets/games/99balls.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "99 Nights",
+    "url": "https://velara.cc/assets/games/99nights.html",
+    "img": "https://velara.cc/assets/games/99nights.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "A Bite At Freddys",
+    "url": "https://velara.cc/assets/games/abiteatfreddys.html",
+    "img": "https://velara.cc/assets/games/abiteatfreddys.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "A Dance of Fire and Ice",
+    "url": "https://velara.cc/assets/games/adanceoffireandice.html",
+    "img": "https://velara.cc/assets/games/adanceoffireandice.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "A Small World Cup",
+    "url": "https://velara.cc/assets/games/asmallworldcup.html",
+    "img": "https://velara.cc/assets/games/asmallworldcup.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Abandoned 3",
+    "url": "https://velara.cc/assets/games/abandoned3.html",
+    "img": "https://velara.cc/assets/games/abandoned3.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Abandoned Game",
+    "url": "https://velara.cc/assets/games/abandonedgame.html",
+    "img": "https://velara.cc/assets/games/abandoned.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Achievement Unlocked",
+    "url": "https://velara.cc/assets/games/achievementunlocked.html",
+    "img": "https://velara.cc/assets/games/achievementunlocked.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Achievement Unlocked 2",
+    "url": "https://velara.cc/assets/games/achievementunlocked2.html",
+    "img": "https://velara.cc/assets/games/achievementunlocked2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Achievement Unlocked 3",
+    "url": "https://velara.cc/assets/games/achievementunlocked3.html",
+    "img": "https://velara.cc/assets/games/achievementunlocked3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Adventure Capitalist",
+    "url": "https://velara.cc/assets/games/adventurecapitalist.html",
+    "img": "https://velara.cc/assets/games/adventurecapitalist.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Adventure Drivers",
+    "url": "https://velara.cc/assets/games/adventuredrivers.html",
+    "img": "https://velara.cc/assets/games/adventuredrivers.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Agario",
+    "url": "https://velara.cc/assets/games/agario.html",
+    "img": "https://velara.cc/assets/games/agario.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ages Of Conflict",
+    "url": "https://velara.cc/assets/games/agesofconflict.html",
+    "img": "https://velara.cc/assets/games/agesofconflict.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Alien Hominid",
+    "url": "https://velara.cc/assets/games/alienhominid.html",
+    "img": "https://velara.cc/assets/games/alienhominid.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Amanda The Adventurer",
+    "url": "https://velara.cc/assets/games/Amanda the Adventurer.html",
+    "img": "https://velara.cc/assets/games/amandatheadventurer.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Amaze",
+    "url": "https://velara.cc/assets/games/amazegame.html",
+    "img": "https://velara.cc/assets/games/amaze.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Amazing Stranger Rope Police",
+    "url": "https://velara.cc/assets/games/amazingstrangeropepolice.html",
+    "img": "https://velara.cc/assets/games/amazingstrangeropepolice.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Among Us",
+    "url": "https://velara.cc/assets/games/amongus.html",
+    "img": "https://velara.cc/assets/games/amongus.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Andys Apple Farm",
+    "url": "https://velara.cc/assets/games/andysapplefarm.html",
+    "img": "https://velara.cc/assets/games/andysapplefarm.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Angry Birds",
+    "url": "https://velara.cc/assets/games/angrybirds.html",
+    "img": "https://velara.cc/assets/games/angrybirds.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Angry Birds Chrome",
+    "url": "https://velara.cc/assets/games/angrybirdschrome.html",
+    "img": "https://velara.cc/assets/games/angrybirdschrome.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Angry Birds Showdown",
+    "url": "https://velara.cc/assets/games/angrybirdsshowdown.html",
+    "img": "https://velara.cc/assets/games/angrybirds.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Apes Vs Helium",
+    "url": "https://velara.cc/assets/games/apesvshelium.html",
+    "img": "https://velara.cc/assets/games/apesvshelium.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Aqua Park Io",
+    "url": "https://velara.cc/assets/games/aquaparkio.html",
+    "img": "https://velara.cc/assets/games/aquaparkio.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Archery World Tour",
+    "url": "https://velara.cc/assets/games/archeryworldtour.html",
+    "img": "https://velara.cc/assets/games/archeryworldtour.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Asteroids",
+    "url": "https://velara.cc/assets/games/asteroidsgame.html",
+    "img": "https://velara.cc/assets/games/asteroids.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Attack Hole",
+    "url": "https://velara.cc/assets/games/attackhole.html",
+    "img": "https://velara.cc/assets/games/attackhole.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Awesome Tanks",
+    "url": "https://velara.cc/assets/games/awesometanks.html",
+    "img": "https://velara.cc/assets/games/awesometanks.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Awesometanks 2",
+    "url": "https://velara.cc/assets/games/awesometanks2.html",
+    "img": "https://velara.cc/assets/games/awesometanks2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bacon May Die",
+    "url": "https://velara.cc/assets/games/baconmaydie.html",
+    "img": "https://velara.cc/assets/games/baconmaydie.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bad Ice Cream",
+    "url": "https://velara.cc/assets/games/badicecream.html",
+    "img": "https://velara.cc/assets/games/badicecream.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bad Monday Simulator",
+    "url": "https://velara.cc/assets/games/badmondaysimulator.html",
+    "img": "https://velara.cc/assets/games/badmondaysimulator.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bad Parenting 1",
+    "url": "https://velara.cc/assets/games/badparenting1.html",
+    "img": "https://velara.cc/assets/games/badparenting.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bad Piggies",
+    "url": "https://velara.cc/assets/games/badpiggies.html",
+    "img": "https://velara.cc/assets/games/badpiggies.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bad Time Simulator",
+    "url": "https://velara.cc/assets/games/badtimesimulator.html",
+    "img": "https://velara.cc/assets/games/badtimesimulator.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Badicecream 2",
+    "url": "https://velara.cc/assets/games/badicecream2.html",
+    "img": "https://velara.cc/assets/games/badicecream2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Badicecream 3",
+    "url": "https://velara.cc/assets/games/badicecream3.html",
+    "img": "https://velara.cc/assets/games/badicecream3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Balatro",
+    "url": "https://velara.cc/assets/games/balatrogame.html",
+    "img": "https://velara.cc/assets/games/balatro.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Baldi's Basics",
+    "url": "https://velara.cc/assets/games/baldisbasics.html",
+    "img": "https://velara.cc/assets/games/baldisbasics.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Baldi's Basics Classic Remastered",
+    "url": "https://velara.cc/assets/games/baldisbasicsclassicremastered.html",
+    "img": "https://velara.cc/assets/games/baldisbasicsclassicremastered.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Baldi's Basics Plus",
+    "url": "https://velara.cc/assets/games/baldisbasicsplus.html",
+    "img": "https://velara.cc/assets/games/baldi'sbasicsplus.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Baldursgate 2",
+    "url": "https://velara.cc/assets/games/baldursgate2.html",
+    "img": "https://velara.cc/assets/games/baldursgate2.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ball Blast",
+    "url": "https://velara.cc/assets/games/ballblast.html",
+    "img": "https://velara.cc/assets/games/ballblast.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bank Robbery",
+    "url": "https://velara.cc/assets/games/bankrobbery.html",
+    "img": "https://velara.cc/assets/games/bankrobbery1.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bankrobbery 2",
+    "url": "https://velara.cc/assets/games/bankrobbery2.html",
+    "img": "https://velara.cc/assets/games/bankrobbery2.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bankrobbery 3",
+    "url": "https://velara.cc/assets/games/bankrobbery3.html",
+    "img": "https://velara.cc/assets/games/bankrobbery3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Baseball Bros",
+    "url": "https://velara.cc/assets/games/baseballbros.html",
+    "img": "https://velara.cc/assets/games/baseballbros.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Basket Battle",
+    "url": "https://velara.cc/assets/games/basketbattle.html",
+    "img": "https://velara.cc/assets/games/basketbattle.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Basket Bros",
+    "url": "https://velara.cc/assets/games/basketbros.html",
+    "img": "https://velara.cc/assets/games/basketbros.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Basket Random",
+    "url": "https://velara.cc/assets/games/Basketrandom.html",
+    "img": "https://velara.cc/assets/games/basketrandom.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Basketball Frvr",
+    "url": "https://velara.cc/assets/games/basketballfrvr.html",
+    "img": "https://velara.cc/assets/games/basketballfrvr.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Basketball Stars",
+    "url": "https://velara.cc/assets/games/basketballstars.html",
+    "img": "https://velara.cc/assets/games/basketballstars.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Basketball Superstars",
+    "url": "https://velara.cc/assets/games/basketball-superstars/index.html",
+    "img": "https://velara.cc/assets/games/basketball-superstars.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Battle Simulator",
+    "url": "https://velara.cc/assets/games/battlesimulator.html",
+    "img": "https://velara.cc/assets/games/battlesimulator.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bazooka Boy",
+    "url": "https://velara.cc/assets/games/bazookaboy.html",
+    "img": "https://velara.cc/assets/games/bazookaboy.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bendy and the Ink Machine",
+    "url": "https://velara.cc/assets/games/Bendyandtheinkmachine.html",
+    "img": "https://velara.cc/assets/games/bendy.jfif",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bergen Truck",
+    "url": "https://velara.cc/assets/games/bergentruckgame.html",
+    "img": "https://velara.cc/assets/games/bergentruck.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Big Ice Tower Tiny Square",
+    "url": "https://velara.cc/assets/games/bigicetowertinysquare.html",
+    "img": "https://velara.cc/assets/games/bigicetowertinysquare.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Big Tower Tiny Square",
+    "url": "https://velara.cc/assets/games/bigtowertinysquare.html",
+    "img": "https://velara.cc/assets/games/bigtowertinysquare.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bigtowertinysquare 2",
+    "url": "https://velara.cc/assets/games/bigtowertinysquare2.html",
+    "img": "https://velara.cc/assets/games/bigtowertinysquare2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Binding Of Isaac",
+    "url": "https://velara.cc/assets/games/bindingofisaac.html",
+    "img": "https://velara.cc/assets/games/bindingofisaac.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bit Gun Io",
+    "url": "https://velara.cc/assets/games/bitgunio.html",
+    "img": "https://velara.cc/assets/games/bitgunio.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bit Life",
+    "url": "https://velara.cc/assets/games/bitlife.html",
+    "img": "https://velara.cc/assets/games/bitlife.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bit Planes",
+    "url": "https://velara.cc/assets/games/bitplanesgame.html",
+    "img": "https://velara.cc/assets/games/bitplanes.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Black Jack",
+    "url": "https://velara.cc/assets/games/blackjackgame.html",
+    "img": "https://velara.cc/assets/games/blackjack.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Blade Ball",
+    "url": "https://velara.cc/assets/games/bladeball.html",
+    "img": "https://velara.cc/assets/games/bladeball.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Block Blast",
+    "url": "https://velara.cc/assets/games/blockblast.html",
+    "img": "https://velara.cc/assets/games/blockblast.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Block Post",
+    "url": "https://velara.cc/assets/games/blockpostgame.html",
+    "img": "https://velara.cc/assets/games/blockpost.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Block Y Snakes",
+    "url": "https://velara.cc/assets/games/blockysnakes.html",
+    "img": "https://velara.cc/assets/games/blockysnakes.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Blood Money",
+    "url": "https://velara.cc/assets/games/bloodmoney.html",
+    "img": "https://velara.cc/assets/games/bloodmoney.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bloxorz",
+    "url": "https://velara.cc/assets/games/bloxorzgame.html",
+    "img": "https://velara.cc/assets/games/bloxorz.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Blumgi Racers",
+    "url": "https://velara.cc/assets/games/blumgiracers.html",
+    "img": "https://velara.cc/assets/games/blumgiracers.avif",
+    "mode": "proxy"
+  },
+  {
+    "name": "Blumgi Rocket",
+    "url": "https://velara.cc/assets/games/blumgirocket.html",
+    "img": "https://velara.cc/assets/games/blumgirocket.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Blumgi Slime",
+    "url": "https://velara.cc/assets/games/blumgislime.html",
+    "img": "https://velara.cc/assets/games/blumgislime.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bobtherobber 2",
+    "url": "https://velara.cc/assets/games/bobtherobber2.html",
+    "img": "https://velara.cc/assets/games/bobtherobber2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Boom Slingers Re Boom",
+    "url": "https://velara.cc/assets/games/boomslingersreboom.html",
+    "img": "https://velara.cc/assets/games/boomslingersreboom.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bottlejump 3 D",
+    "url": "https://velara.cc/assets/games/bottlejump3d.html",
+    "img": "https://velara.cc/assets/games/bottlejump3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bounce Masters",
+    "url": "https://velara.cc/assets/games/bouncemasters.html",
+    "img": "https://velara.cc/assets/games/bouncemasters.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bow Masters",
+    "url": "https://velara.cc/assets/games/bowmasters.html",
+    "img": "https://velara.cc/assets/games/bowmasters.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Boxing Random",
+    "url": "https://velara.cc/assets/games/boxingrandom.html",
+    "img": "https://velara.cc/assets/games/boxingrandom.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Brawl Guys Io",
+    "url": "https://velara.cc/assets/games/brawlguysio.html",
+    "img": "https://velara.cc/assets/games/brawlguysio.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Breaking The Bank",
+    "url": "https://velara.cc/assets/games/breakingthebank.html",
+    "img": "https://velara.cc/assets/games/breakingthebank.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bridge Race",
+    "url": "https://velara.cc/assets/games/bridgerace.html",
+    "img": "https://velara.cc/assets/games/bridgerace.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Btd 1",
+    "url": "https://velara.cc/assets/games/btd1.html",
+    "img": "https://velara.cc/assets/games/btd1.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Btd 2",
+    "url": "https://velara.cc/assets/games/btd2.html",
+    "img": "https://velara.cc/assets/games/btd2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Btd 3",
+    "url": "https://velara.cc/assets/games/btd3.html",
+    "img": "https://velara.cc/assets/games/btd3.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Btd 4",
+    "url": "https://velara.cc/assets/games/btd4.html",
+    "img": "https://velara.cc/assets/games/btd4.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Btd 5",
+    "url": "https://velara.cc/assets/games/btd5.html",
+    "img": "https://velara.cc/assets/games/btd5.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Buckshot Roulette",
+    "url": "https://velara.cc/assets/games/buckshotroulette.html",
+    "img": "https://velara.cc/assets/games/buckshotroulette.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Build A Plane",
+    "url": "https://velara.cc/assets/games/buildaplane.html",
+    "img": "https://velara.cc/assets/games/buildaplane.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Build A Queen",
+    "url": "https://velara.cc/assets/games/buildaqueen.html",
+    "img": "https://velara.cc/assets/games/buildaqueen.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Build Abig Army",
+    "url": "https://velara.cc/assets/games/buildabigarmy.html",
+    "img": "https://velara.cc/assets/games/buildabigarmy.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Build Now Gg",
+    "url": "https://velara.cc/assets/games/buildnowgg.html",
+    "img": "https://velara.cc/assets/games/buildnowgg.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bullet Force",
+    "url": "https://velara.cc/assets/games/bulletforce.html",
+    "img": "https://velara.cc/assets/games/bulletforce.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Burrito Bison",
+    "url": "https://velara.cc/assets/games/burritobison.html",
+    "img": "https://velara.cc/assets/games/burritobison.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Bust A Loop",
+    "url": "https://velara.cc/assets/games/bustaloop.html",
+    "img": "https://velara.cc/assets/games/bustaloop.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Buster Jam",
+    "url": "https://velara.cc/assets/games/busterjam.html",
+    "img": "https://velara.cc/assets/games/busterjam.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Call Of Duty World At War",
+    "url": "https://velara.cc/assets/games/callofdutyworldatwar.html",
+    "img": "https://velara.cc/assets/games/callofdutyworldatwar.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Camouflage And Sniper",
+    "url": "https://velara.cc/assets/games/camouflageandsniper.html",
+    "img": "https://velara.cc/assets/games/camouflageandsniper.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Candy Crush",
+    "url": "https://velara.cc/assets/games/candycrush.html",
+    "img": "https://velara.cc/assets/games/candycrush.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cannon Basketball",
+    "url": "https://velara.cc/assets/games/cannonbasketball.html",
+    "img": "https://velara.cc/assets/games/cannonbasketball.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cannonballs 3 D",
+    "url": "https://velara.cc/assets/games/cannonballs3d.html",
+    "img": "https://velara.cc/assets/games/cannonballs3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cannonbasketball 2",
+    "url": "https://velara.cc/assets/games/cannonbasketball2.html",
+    "img": "https://velara.cc/assets/games/cannonbasketball2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Capybara Clicker",
+    "url": "https://velara.cc/assets/games/capybaraclicker.html",
+    "img": "https://velara.cc/assets/games/capybaraclicker.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Carrom Clash",
+    "url": "https://velara.cc/assets/games/carromclash.html",
+    "img": "https://velara.cc/assets/games/carromclash.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Carsurvival 3 D",
+    "url": "https://velara.cc/assets/games/carsurvival3d.html",
+    "img": "https://velara.cc/assets/games/carsurvival3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Castlevania The Adventure",
+    "url": "https://velara.cc/assets/games/castlevaniatheadventure.html",
+    "img": "https://velara.cc/assets/games/castlevaniatheadventure.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cat Connection",
+    "url": "https://velara.cc/assets/games/catconnection.html",
+    "img": "https://velara.cc/assets/games/catconnection.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cat Gunner",
+    "url": "https://velara.cc/assets/games/catgunner.html",
+    "img": "https://velara.cc/assets/games/catgunner.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cave Story",
+    "url": "https://velara.cc/assets/games/cavestory.html",
+    "img": "https://velara.cc/assets/games/cavestory.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Celeste",
+    "url": "https://velara.cc/assets/games/celestegame.html",
+    "img": "https://velara.cc/assets/games/celeste.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Celeste Pico",
+    "url": "https://velara.cc/assets/games/celestepico.html",
+    "img": "https://velara.cc/assets/games/celestepico.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cgfc 25",
+    "url": "https://velara.cc/assets/games/cgfc25.html",
+    "img": "https://velara.cc/assets/games/cgfc25.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cheesechompers 3 D",
+    "url": "https://velara.cc/assets/games/cheesechompers3d.html",
+    "img": "https://velara.cc/assets/games/cheesechompers3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Chess Classic",
+    "url": "https://velara.cc/assets/games/chessclassic.html",
+    "img": "https://velara.cc/assets/games/chessclassic.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Chiikawa Puzzle",
+    "url": "https://velara.cc/assets/games/chiikawapuzzle.html",
+    "img": "https://velara.cc/assets/games/chiikawapuzzle.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Choppy Orc",
+    "url": "https://velara.cc/assets/games/choppyorc.html",
+    "img": "https://velara.cc/assets/games/choppyorc.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Circloo 1",
+    "url": "https://velara.cc/assets/games/circloo1.html",
+    "img": "https://velara.cc/assets/games/circloo.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Circloo 2",
+    "url": "https://velara.cc/assets/games/circloo2.html",
+    "img": "https://velara.cc/assets/games/circloo2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "City Defense",
+    "url": "https://velara.cc/assets/games/citydefense.html",
+    "img": "https://velara.cc/assets/games/citydefense.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "City Smash",
+    "url": "https://velara.cc/assets/games/citysmash.html",
+    "img": "https://velara.cc/assets/games/citysmash.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Clash Of Vikings",
+    "url": "https://velara.cc/assets/games/clashofvikings.html",
+    "img": "https://velara.cc/assets/games/clashofvikings.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Classof'09",
+    "url": "https://velara.cc/assets/games/classof'09.html",
+    "img": "https://velara.cc/assets/games/classof09.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Clothingshop 3 D",
+    "url": "https://velara.cc/assets/games/clothingshop3d.html",
+    "img": "https://velara.cc/assets/games/clothingshop3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cluster Rush",
+    "url": "https://velara.cc/assets/games/clusterrush.html",
+    "img": "https://velara.cc/assets/games/clusterrush.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cod 4 Modernwarfare",
+    "url": "https://velara.cc/assets/games/cod4modernwarfare.html",
+    "img": "https://velara.cc/assets/games/cod4modernwarfare.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Color Match",
+    "url": "https://velara.cc/assets/games/colormatch.html",
+    "img": "https://velara.cc/assets/games/colormatch.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Colorwatersort 3 D",
+    "url": "https://velara.cc/assets/games/colorwatersort3d.html",
+    "img": "https://velara.cc/assets/games/colorwatersort3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cookie Clicker",
+    "url": "https://velara.cc/assets/games/cookieclicker.html",
+    "img": "https://velara.cc/assets/games/cookieclicker.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Coolcarsrun 3 D",
+    "url": "https://velara.cc/assets/games/coolcarsrun3d.html",
+    "img": "https://velara.cc/assets/games/coolcarsrun3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Core Ball",
+    "url": "https://velara.cc/assets/games/coreballgame.html",
+    "img": "https://velara.cc/assets/games/coreball.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Count Masters Stickman Games",
+    "url": "https://velara.cc/assets/games/countmastersstickmangames.html",
+    "img": "https://velara.cc/assets/games/countmastersstickmangames.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Counter Strike Ds",
+    "url": "https://velara.cc/assets/games/counterstrikeds.html",
+    "img": "https://velara.cc/assets/games/counterstrikeds.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Counterstrike 1.6",
+    "url": "https://velara.cc/assets/games/counterstrike1.6.html",
+    "img": "https://velara.cc/assets/games/counterstrike1.6.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Crashbandicoot 2",
+    "url": "https://velara.cc/assets/games/crashbandicoot2.html",
+    "img": "https://velara.cc/assets/games/crashbandicoot2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Crazy Cars",
+    "url": "https://velara.cc/assets/games/crazycars.html",
+    "img": "https://velara.cc/assets/games/crazycars.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Crazycattle 3 D",
+    "url": "https://velara.cc/assets/games/crazycattle3d.html",
+    "img": "https://velara.cc/assets/games/crazycattle3d.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Crazychicken 3 D",
+    "url": "https://velara.cc/assets/games/crazychicken3d.html",
+    "img": "https://velara.cc/assets/games/crazychicken3d.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Crazykitty 3 D",
+    "url": "https://velara.cc/assets/games/crazykitty3d.html",
+    "img": "https://velara.cc/assets/games/crazykitty3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Crossy Road",
+    "url": "https://velara.cc/assets/games/crossyroad.html",
+    "img": "https://velara.cc/assets/games/crossyroad.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Crush Cars 3d",
+    "url": "https://velara.cc/assets/games/Crush Cars 3D.html",
+    "img": "https://velara.cc/assets/games/crushcars3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Crushcars 3 D",
+    "url": "https://velara.cc/assets/games/crushcars3d.html",
+    "img": "https://velara.cc/assets/games/crushcars3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Csgo Clicker",
+    "url": "https://velara.cc/assets/games/csgoclicker.html",
+    "img": "https://velara.cc/assets/games/csgoclicker.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cube Field",
+    "url": "https://velara.cc/assets/games/cubefield.html",
+    "img": "https://velara.cc/assets/games/cubefield.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cuphead",
+    "url": "https://velara.cc/assets/games/cupheadgame.html",
+    "img": "https://velara.cc/assets/games/cuphead.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Customer Support",
+    "url": "https://velara.cc/assets/games/customersupport.html",
+    "img": "https://velara.cc/assets/games/customersupport.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cut The Rope",
+    "url": "https://velara.cc/assets/games/cuttherope.html",
+    "img": "https://velara.cc/assets/games/cuttherope.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cut The Rope Holiday",
+    "url": "https://velara.cc/assets/games/cuttheropeholiday.html",
+    "img": "https://velara.cc/assets/games/cuttheropeholiday.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cut The Rope Time Travel",
+    "url": "https://velara.cc/assets/games/cuttheropetimetravel.html",
+    "img": "https://velara.cc/assets/games/cuttheropetimetravel.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Cuttherope 1",
+    "url": "https://velara.cc/assets/games/cuttherope1.html",
+    "img": "https://velara.cc/assets/games/cuttherope1.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Dadish",
+    "url": "https://velara.cc/assets/games/dadish1.html",
+    "img": "https://velara.cc/assets/games/dadish.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Dadish 2",
+    "url": "https://velara.cc/assets/games/dadish2.html",
+    "img": "https://velara.cc/assets/games/dadish2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Dadish 3",
+    "url": "https://velara.cc/assets/games/dadish3.html",
+    "img": "https://velara.cc/assets/games/dadish3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Dadish 3 D",
+    "url": "https://velara.cc/assets/games/dadish3d.html",
+    "img": "https://velara.cc/assets/games/dadish3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Daily Dadish",
+    "url": "https://velara.cc/assets/games/dailydadish.html",
+    "img": "https://velara.cc/assets/games/dailydadish.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Dalgonacandy Honeycomb Cookie",
+    "url": "https://velara.cc/assets/games/dalgonacandyhoneycombcookie.html",
+    "img": "https://velara.cc/assets/games/dalgonacandyhoneycombcookie.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Dan The Man",
+    "url": "https://velara.cc/assets/games/dantheman.html",
+    "img": "https://velara.cc/assets/games/dantheman.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ddlc",
+    "url": "https://velara.cc/assets/games/ddlc.html",
+    "img": "https://velara.cc/assets/games/ddlc.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Dead Plate",
+    "url": "https://velara.cc/assets/games/deadplate.html",
+    "img": "https://velara.cc/assets/games/deadplate.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Dead Tapes",
+    "url": "https://velara.cc/assets/games/deadtapes.html",
+    "img": "https://velara.cc/assets/games/deadtapes.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Deathrun 3 D",
+    "url": "https://velara.cc/assets/games/deathrun3d.html",
+    "img": "https://velara.cc/assets/games/deathrun3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Delta Rune",
+    "url": "https://velara.cc/assets/games/deltarunegame.html",
+    "img": "https://velara.cc/assets/games/deltarune.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Delta Traveler",
+    "url": "https://velara.cc/assets/games/deltatravelergame.html",
+    "img": "https://velara.cc/assets/games/deltatraveler.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Destinyrun 3 D",
+    "url": "https://velara.cc/assets/games/destinyrun3d.html",
+    "img": "https://velara.cc/assets/games/destinyrun3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Destroythecar 3 D",
+    "url": "https://velara.cc/assets/games/destroythecar3d.html",
+    "img": "https://velara.cc/assets/games/destroythecar3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Diablo",
+    "url": "https://velara.cc/assets/games/diablo1.html",
+    "img": "https://velara.cc/assets/games/diablo.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Diamond Seeker",
+    "url": "https://velara.cc/assets/games/diamondseeker.html",
+    "img": "https://velara.cc/assets/games/diamondseeker.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Dig Deep",
+    "url": "https://velara.cc/assets/games/digdeep.html",
+    "img": "https://velara.cc/assets/games/digdeep.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Doge Miner",
+    "url": "https://velara.cc/assets/games/dogeminer.html",
+    "img": "https://velara.cc/assets/games/dogeminer.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Dogeminer 2",
+    "url": "https://velara.cc/assets/games/dogeminer2.html",
+    "img": "https://velara.cc/assets/games/dogeminer2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Donkey Kong",
+    "url": "https://velara.cc/assets/games/donkeykong.html",
+    "img": "https://velara.cc/assets/games/donkeykong.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Donot Take This Cat Home",
+    "url": "https://velara.cc/assets/games/donottakethiscathome.html",
+    "img": "https://velara.cc/assets/games/donottakethiscathome.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Dont You Lecture Me",
+    "url": "https://velara.cc/assets/games/dontyoulectureme.html",
+    "img": "https://velara.cc/assets/games/dontyoulectureme.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Doodle Jump",
+    "url": "https://velara.cc/assets/games/doodlejump.html",
+    "img": "https://velara.cc/assets/games/doodlejump.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Doom 1",
+    "url": "https://velara.cc/assets/games/doom1.html",
+    "img": "https://velara.cc/assets/games/doom1.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Doom 2",
+    "url": "https://velara.cc/assets/games/doom2.html",
+    "img": "https://velara.cc/assets/games/doom2.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Doom 3",
+    "url": "https://velara.cc/assets/games/doom3.html",
+    "img": "https://velara.cc/assets/games/doom3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Doom 64",
+    "url": "https://velara.cc/assets/games/doom64.html",
+    "img": "https://velara.cc/assets/games/doom64.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Dragon Vs Bricks",
+    "url": "https://velara.cc/assets/games/dragonvsbricks.html",
+    "img": "https://velara.cc/assets/games/dragonvsbricks.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Draw Climber",
+    "url": "https://velara.cc/assets/games/drawclimber.html",
+    "img": "https://velara.cc/assets/games/drawclimber.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Draw Joust",
+    "url": "https://velara.cc/assets/games/drawjoust.html",
+    "img": "https://velara.cc/assets/games/drawjoust.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Draw The Hill",
+    "url": "https://velara.cc/assets/games/drawthehill.html",
+    "img": "https://velara.cc/assets/games/drawthehill.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Draw The Line",
+    "url": "https://velara.cc/assets/games/drawtheline.html",
+    "img": "https://velara.cc/assets/games/drawtheline.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Dread Head Parkour",
+    "url": "https://velara.cc/assets/games/dreadheadparkour.html",
+    "img": "https://velara.cc/assets/games/dreadheadparkour.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Drift Boss",
+    "url": "https://velara.cc/assets/games/driftboss.html",
+    "img": "https://velara.cc/assets/games/driftboss.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Drift Hunters",
+    "url": "https://velara.cc/assets/games/drifthunters.html",
+    "img": "https://velara.cc/assets/games/drifthunters.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Drive Mad",
+    "url": "https://velara.cc/assets/games/drivemad.html",
+    "img": "https://velara.cc/assets/games/drivemad.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Drive N Wild",
+    "url": "https://velara.cc/assets/games/drivenwild.html",
+    "img": "https://velara.cc/assets/games/drivenwild.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ducklife 1",
+    "url": "https://velara.cc/assets/games/ducklife1.html",
+    "img": "https://velara.cc/assets/games/ducklife1.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ducklife 2",
+    "url": "https://velara.cc/assets/games/ducklife2.html",
+    "img": "https://velara.cc/assets/games/ducklife2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ducklife 3",
+    "url": "https://velara.cc/assets/games/ducklife3.html",
+    "img": "https://velara.cc/assets/games/ducklife3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ducklife 4",
+    "url": "https://velara.cc/assets/games/ducklife4.html",
+    "img": "https://velara.cc/assets/games/ducklife4.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ducklife 5",
+    "url": "https://velara.cc/assets/games/ducklife5.html",
+    "img": "https://velara.cc/assets/games/ducklife5.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ducklife 6 Space",
+    "url": "https://velara.cc/assets/games/ducklife6space.html",
+    "img": "https://velara.cc/assets/games/ducklife6space.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ducklife 7 Battle",
+    "url": "https://velara.cc/assets/games/ducklife7battle.html",
+    "img": "https://velara.cc/assets/games/ducklife7battle.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ducklife 8",
+    "url": "https://velara.cc/assets/games/ducklife8.html",
+    "img": "https://velara.cc/assets/games/ducklife8.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Eggy Car",
+    "url": "https://velara.cc/assets/games/eggycar.html",
+    "img": "https://velara.cc/assets/games/eggycar.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Elastic Man",
+    "url": "https://velara.cc/assets/games/elasticman.html",
+    "img": "https://velara.cc/assets/games/elasticman.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Emulator Js",
+    "url": "https://velara.cc/assets/games/emulatorjs.html",
+    "img": "https://velara.cc/assets/games/emulatorjs.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "End Roll Game",
+    "url": "https://velara.cc/assets/games/endrollgame.html",
+    "img": "https://velara.cc/assets/games/endroll.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Endo Parasitic Game",
+    "url": "https://velara.cc/assets/games/endoparasiticgame.html",
+    "img": "https://velara.cc/assets/games/endoparasitic.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Es Cap Ing The Prison",
+    "url": "https://velara.cc/assets/games/escapingtheprison.html",
+    "img": "https://velara.cc/assets/games/escapingtheprison.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Escape Road",
+    "url": "https://velara.cc/assets/games/escaperoad.html",
+    "img": "https://velara.cc/assets/games/escaperoad.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Escaperoad 2",
+    "url": "https://velara.cc/assets/games/escaperoad2.html",
+    "img": "https://velara.cc/assets/games/escaperoad2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Evil Glitch",
+    "url": "https://velara.cc/assets/games/evilglitch.html",
+    "img": "https://velara.cc/assets/games/evilglitch.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Evo Wars Io",
+    "url": "https://velara.cc/assets/games/evowarsio.html",
+    "img": "https://velara.cc/assets/games/evowarsio.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Evolvingbombs 3 D",
+    "url": "https://velara.cc/assets/games/evolvingbombs3d.html",
+    "img": "https://velara.cc/assets/games/evolvingbombs3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fallout 1",
+    "url": "https://velara.cc/assets/games/fallout1.html",
+    "img": "https://velara.cc/assets/games/fallout1.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fancy Pants Adventure",
+    "url": "https://velara.cc/assets/games/fancypantsadventure.html",
+    "img": "https://velara.cc/assets/games/fancypantsadventure.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fancypantsadventure 2",
+    "url": "https://velara.cc/assets/games/fancypantsadventure2.html",
+    "img": "https://velara.cc/assets/games/fancypantsadventure2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fancypantsadventure 3",
+    "url": "https://velara.cc/assets/games/fancypantsadventure3.html",
+    "img": "https://velara.cc/assets/games/fancypantsadventure3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fancypantsadventure 4 Part 1",
+    "url": "https://velara.cc/assets/games/fancypantsadventure4part1.html",
+    "img": "https://velara.cc/assets/games/fancypantsadventure4part1.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fancypantsadventure 4 Part 2",
+    "url": "https://velara.cc/assets/games/fancypantsadventure4part2.html",
+    "img": "https://velara.cc/assets/games/fancypantsadventure4part2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fashion Battle",
+    "url": "https://velara.cc/assets/games/fashionbattle.html",
+    "img": "https://velara.cc/assets/games/fashionbattle.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fears To Fathom",
+    "url": "https://velara.cc/assets/games/fearstofathom.html",
+    "img": "https://velara.cc/assets/games/fearstofathom.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Finalearth 2",
+    "url": "https://velara.cc/assets/games/finalearth2.html",
+    "img": "https://velara.cc/assets/games/finalearth2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Find The Alien",
+    "url": "https://velara.cc/assets/games/findthealien.html",
+    "img": "https://velara.cc/assets/games/findthealien.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fire And Frost Master",
+    "url": "https://velara.cc/assets/games/fireandfrostmaster.html",
+    "img": "https://velara.cc/assets/games/fireandfrostmaster.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fire Boy And Water Girl",
+    "url": "https://velara.cc/assets/games/fireboyandwatergirl.html",
+    "img": "https://velara.cc/assets/games/fireboyandwatergirl.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fireboyandwatergirl 2",
+    "url": "https://velara.cc/assets/games/fireboyandwatergirl2.html",
+    "img": "https://velara.cc/assets/games/fireboyandwatergirl2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fireboyandwatergirl 3",
+    "url": "https://velara.cc/assets/games/fireboyandwatergirl3.html",
+    "img": "https://velara.cc/assets/games/fireboyandwatergirl3.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fitness Empire",
+    "url": "https://velara.cc/assets/games/fitnessempire.html",
+    "img": "https://velara.cc/assets/games/fitnessempire.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Five Nights At Candys",
+    "url": "https://velara.cc/assets/games/fivenightsatcandys.html",
+    "img": "https://velara.cc/assets/games/fivenightsatcandys.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Five Nights at Epstein's",
+    "url": "https://velara.cc/assets/games/fivenightsepstien.html",
+    "img": "https://velara.cc/assets/games/nightsepstein.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Five Nights At Winstons",
+    "url": "https://velara.cc/assets/games/fivenightsatwinstons.html",
+    "img": "https://velara.cc/assets/games/fivenightsatwinstons.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fivenightsatcandys 2",
+    "url": "https://velara.cc/assets/games/fivenightsatcandys2.html",
+    "img": "https://velara.cc/assets/games/fivenightsatcandys2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Flappy Bird",
+    "url": "https://velara.cc/assets/games/flappybird.html",
+    "img": "https://velara.cc/assets/games/flappybird.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Flappy Dunk",
+    "url": "https://velara.cc/assets/games/flappydunk.html",
+    "img": "https://velara.cc/assets/games/flappydunk.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fleeing The Complex",
+    "url": "https://velara.cc/assets/games/fleeingthecomplex.html",
+    "img": "https://velara.cc/assets/games/fleeingthecomplex.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Flick Goal",
+    "url": "https://velara.cc/assets/games/flickgoal.html",
+    "img": "https://velara.cc/assets/games/flickgoal.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Flip Master",
+    "url": "https://velara.cc/assets/games/flipmaster.html",
+    "img": "https://velara.cc/assets/games/flipmaster.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fnaf",
+    "url": "https://velara.cc/assets/games/fnaf.html",
+    "img": "https://velara.cc/assets/games/fnaf.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fnaf 2",
+    "url": "https://velara.cc/assets/games/fnaf2.html",
+    "img": "https://velara.cc/assets/games/fnaf2.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fnaf 3",
+    "url": "https://velara.cc/assets/games/fnaf3.html",
+    "img": "https://velara.cc/assets/games/fnaf3.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fnaf 4",
+    "url": "https://velara.cc/assets/games/fnaf4.html",
+    "img": "https://velara.cc/assets/games/fnaf4.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fnaf 4 Halloween",
+    "url": "https://velara.cc/assets/games/fnaf4halloween.html",
+    "img": "https://velara.cc/assets/games/fnaf4halloween.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fnaf Pizza Sim",
+    "url": "https://velara.cc/assets/games/fnafpizzasim.html",
+    "img": "https://velara.cc/assets/games/fnafpizzasim.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fnaf Sister Location",
+    "url": "https://velara.cc/assets/games/fnafsisterlocation.html",
+    "img": "https://velara.cc/assets/games/fnafsisterlocation.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fnaf Ucn",
+    "url": "https://velara.cc/assets/games/fnafucn.html",
+    "img": "https://velara.cc/assets/games/fnafucn.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fnaf World",
+    "url": "https://velara.cc/assets/games/fnafworld.html",
+    "img": "https://velara.cc/assets/games/fnafworld.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fnf",
+    "url": "https://velara.cc/assets/games/fnf.html",
+    "img": "https://velara.cc/assets/games/fnf.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fnf Vs Hatsune Miku",
+    "url": "https://velara.cc/assets/games/fnfvshatsunemiku.html",
+    "img": "https://velara.cc/assets/games/fnfvshatsunemiku.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Football Bros",
+    "url": "https://velara.cc/assets/games/footballbros.html",
+    "img": "https://velara.cc/assets/games/footballbros.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fork N Sausage",
+    "url": "https://velara.cc/assets/games/forknsausage.html",
+    "img": "https://velara.cc/assets/games/forknsausage.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fort Zone Battle Royale",
+    "url": "https://velara.cc/assets/games/fortzonebattleroyale.html",
+    "img": "https://velara.cc/assets/games/fortzonebattleroyale.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Fruit Ninja",
+    "url": "https://velara.cc/assets/games/fruitninja.html",
+    "img": "https://velara.cc/assets/games/fruitninja.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Funnyshooter 2",
+    "url": "https://velara.cc/assets/games/funnyshooter2.html",
+    "img": "https://velara.cc/assets/games/funnyshooter2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gacha Life",
+    "url": "https://velara.cc/assets/games/gachalife.html",
+    "img": "https://velara.cc/assets/games/gachalife.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gacha Verse",
+    "url": "https://velara.cc/assets/games/gachaverse.html",
+    "img": "https://velara.cc/assets/games/gachaverse.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Generic Fighter Maybe",
+    "url": "https://velara.cc/assets/games/genericfightermaybe.html",
+    "img": "https://velara.cc/assets/games/genericfightermaybe.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Geometry Dash L It E",
+    "url": "https://velara.cc/assets/games/geometrydashlite.html",
+    "img": "https://velara.cc/assets/games/geometrydashlite.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Geometry Dash Subzero",
+    "url": "https://velara.cc/assets/games/geometrydashsubzero.html",
+    "img": "https://velara.cc/assets/games/geometrydashsubzero.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Geometry Dash World",
+    "url": "https://velara.cc/assets/games/geometrydashworld.html",
+    "img": "https://velara.cc/assets/games/geometrydashworld.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Get Yoked",
+    "url": "https://velara.cc/assets/games/getyoked.html",
+    "img": "https://velara.cc/assets/games/getyoked.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Getaway Shootout",
+    "url": "https://velara.cc/assets/games/getawayshootout.html",
+    "img": "https://velara.cc/assets/games/getawayshootout.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Getting Over It",
+    "url": "https://velara.cc/assets/games/gettingoverit.html",
+    "img": "https://velara.cc/assets/games/gettingoverit.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Giant Wanted",
+    "url": "https://velara.cc/assets/games/giantwanted.html",
+    "img": "https://velara.cc/assets/games/giantwanted.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gimme The Airpod",
+    "url": "https://velara.cc/assets/games/gimmetheairpod.html",
+    "img": "https://velara.cc/assets/games/gimmetheairpod.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gladi Hoppers",
+    "url": "https://velara.cc/assets/games/gladihoppersgame.html",
+    "img": "https://velara.cc/assets/games/gladihoppers.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gobble",
+    "url": "https://velara.cc/assets/games/gobblegame.html",
+    "img": "https://velara.cc/assets/games/gobble.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gods Flesh",
+    "url": "https://velara.cc/assets/games/godsflesh.html",
+    "img": "https://velara.cc/assets/games/godsflesh.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Going Balls",
+    "url": "https://velara.cc/assets/games/goingballs.html",
+    "img": "https://velara.cc/assets/games/goingballs.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Google Baseball",
+    "url": "https://velara.cc/assets/games/googlebaseball.html",
+    "img": "https://velara.cc/assets/games/googlebaseball.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Google Dino",
+    "url": "https://velara.cc/assets/games/googledino.html",
+    "img": "https://velara.cc/assets/games/googledino.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Google Feud",
+    "url": "https://velara.cc/assets/games/googlefeud.html",
+    "img": "https://velara.cc/assets/games/googlefeud.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gorilla Tag",
+    "url": "https://velara.cc/assets/games/gorillatag.html",
+    "img": "https://velara.cc/assets/games/gorillatag.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Granny",
+    "url": "https://velara.cc/assets/games/grannygame.html",
+    "img": "https://velara.cc/assets/games/granny.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Granny 2",
+    "url": "https://velara.cc/assets/games/granny2.html",
+    "img": "https://velara.cc/assets/games/granny2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Granny 3",
+    "url": "https://velara.cc/assets/games/granny3.html",
+    "img": "https://velara.cc/assets/games/granny3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Groon Groon Babey",
+    "url": "https://velara.cc/assets/games/groongroonbabey.html",
+    "img": "https://velara.cc/assets/games/groongroonbabey.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Grow Denio",
+    "url": "https://velara.cc/assets/games/growdenio.html",
+    "img": "https://velara.cc/assets/games/growdenio.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gta 1",
+    "url": "https://velara.cc/assets/games/gta1.html",
+    "img": "https://velara.cc/assets/games/gta1.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gta 2",
+    "url": "https://velara.cc/assets/games/gta2.html",
+    "img": "https://velara.cc/assets/games/gta2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gta Advance",
+    "url": "https://velara.cc/assets/games/gtaadvance.html",
+    "img": "https://velara.cc/assets/games/gtaadvance.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gta China Town Wars",
+    "url": "https://velara.cc/assets/games/gtachinatownwars.html",
+    "img": "https://velara.cc/assets/games/gtachinatownwars.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gta Vice City",
+    "url": "https://velara.cc/assets/games/gtavicecity.html",
+    "img": "https://velara.cc/assets/games/gtavicecity.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Guess Their Answer",
+    "url": "https://velara.cc/assets/games/guesstheiranswer.html",
+    "img": "https://velara.cc/assets/games/guesstheiranswer.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gun Clone",
+    "url": "https://velara.cc/assets/games/gunclone.html",
+    "img": "https://velara.cc/assets/games/gunclone.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gun Runner",
+    "url": "https://velara.cc/assets/games/gunrunner.html",
+    "img": "https://velara.cc/assets/games/gunrunner.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Gun Spin ",
+    "url": "https://velara.cc/assets/games/gunspingame.html",
+    "img": "https://velara.cc/assets/games/gunspin.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Half Life",
+    "url": "https://velara.cc/assets/games/halflife.html",
+    "img": "https://velara.cc/assets/games/halflife.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Half Life Opposing Force",
+    "url": "https://velara.cc/assets/games/halflifeopposingforce.html",
+    "img": "https://velara.cc/assets/games/halflifeopposingforce.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Happy Sheepies",
+    "url": "https://velara.cc/assets/games/happysheepies.html",
+    "img": "https://velara.cc/assets/games/happysheepies.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Happy Wheels",
+    "url": "https://velara.cc/assets/games/happywheels.html",
+    "img": "https://velara.cc/assets/games/happywheels.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Harvest Io",
+    "url": "https://velara.cc/assets/games/harvestio.html",
+    "img": "https://velara.cc/assets/games/harvestio.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Hel Io Sbrowser",
+    "url": "https://velara.cc/assets/games/heliosbrowser.html",
+    "img": "https://velara.cc/assets/games/heliosbrowser.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Helix Jump",
+    "url": "https://velara.cc/assets/games/helixjump.html",
+    "img": "https://velara.cc/assets/games/helixjump.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Hide N Seek",
+    "url": "https://velara.cc/assets/games/hidenseek.html",
+    "img": "https://velara.cc/assets/games/hidenseek.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "High Heels",
+    "url": "https://velara.cc/assets/games/highheels.html",
+    "img": "https://velara.cc/assets/games/highheels.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Highway Racer",
+    "url": "https://velara.cc/assets/games/highwayracer.html",
+    "img": "https://velara.cc/assets/games/highwayracer.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Highwayracer 2",
+    "url": "https://velara.cc/assets/games/highwayracer2.html",
+    "img": "https://velara.cc/assets/games/highwayracer2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Highwayracer 2 Remastered",
+    "url": "https://velara.cc/assets/games/highwayracer2remastered.html",
+    "img": "https://velara.cc/assets/games/highwayracer2remastered.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Hill Climb Racing",
+    "url": "https://velara.cc/assets/games/hillclimbracing.html",
+    "img": "https://velara.cc/assets/games/hillclimbracing.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Hollow Knight",
+    "url": "https://velara.cc/assets/games/hollowknight.html",
+    "img": "https://velara.cc/assets/games/hollowknight.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Horror Tale",
+    "url": "https://velara.cc/assets/games/horrortale/index.html",
+    "img": "https://velara.cc/assets/games/horrortale.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Horror Tale 2",
+    "url": "https://velara.cc/assets/games/horrortale2/index.html",
+    "img": "https://velara.cc/assets/games/horrortale2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Horror Tale 3",
+    "url": "https://velara.cc/assets/games/horrortale3/index.html",
+    "img": "https://velara.cc/assets/games/horrortale3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Hotline Miami",
+    "url": "https://velara.cc/assets/games/hotlinemiami.html",
+    "img": "https://velara.cc/assets/games/hotlinemiami.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "House Of Hazards",
+    "url": "https://velara.cc/assets/games/houseofhazards.html",
+    "img": "https://velara.cc/assets/games/houseofhazards.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Hula Hoop Race",
+    "url": "https://velara.cc/assets/games/hulahooprace.html",
+    "img": "https://velara.cc/assets/games/hulahooprace.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Human Expenditure Program",
+    "url": "https://velara.cc/assets/games/humanexpenditureprogram.html",
+    "img": "https://velara.cc/assets/games/humanexpenditureprogram.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Hypper Sandbox",
+    "url": "https://velara.cc/assets/games/hyppersandbox.html",
+    "img": "https://velara.cc/assets/games/hyppersandbox.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "I Woke Up Next Toy Ou Again",
+    "url": "https://velara.cc/assets/games/iwokeupnexttoyouagain.html",
+    "img": "https://velara.cc/assets/games/iwokeupnexttoyouagain.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ice Dodo",
+    "url": "https://velara.cc/assets/games/icedodo.html",
+    "img": "https://velara.cc/assets/games/icedodo.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Idle Breakout",
+    "url": "https://velara.cc/assets/games/idlebreakout.html",
+    "img": "https://velara.cc/assets/games/idlebreakout.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Idle Dice",
+    "url": "https://velara.cc/assets/games/idledice.html",
+    "img": "https://velara.cc/assets/games/idledice.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Idle Lumber Inc",
+    "url": "https://velara.cc/assets/games/idlelumberinc.html",
+    "img": "https://velara.cc/assets/games/idlelumberinc.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Idle Mining Empire",
+    "url": "https://velara.cc/assets/games/idleminingempire.html",
+    "img": "https://velara.cc/assets/games/idleminingempire.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Infiltrating The Airship",
+    "url": "https://velara.cc/assets/games/infiltratingtheairship.html",
+    "img": "https://velara.cc/assets/games/infiltratingtheairship.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Infinimoes",
+    "url": "https://velara.cc/assets/games/infinimoesgame.html",
+    "img": "https://velara.cc/assets/games/infinimoes.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Infinite Craft",
+    "url": "https://velara.cc/assets/games/infinitecraft.html",
+    "img": "https://velara.cc/assets/games/infinitecraft.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Jelly Drift",
+    "url": "https://velara.cc/assets/games/jellydrift.html",
+    "img": "https://velara.cc/assets/games/jellydrift.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Jelly Mario",
+    "url": "https://velara.cc/assets/games/jellymario.html",
+    "img": "https://velara.cc/assets/games/jellymario.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Jelly Restaurant",
+    "url": "https://velara.cc/assets/games/jellyrestaurant.html",
+    "img": "https://velara.cc/assets/games/jellyrestaurant.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Jetpack Joyride",
+    "url": "https://velara.cc/assets/games/jetpackjoyride.html",
+    "img": "https://velara.cc/assets/games/jetpackjoyride.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Jjba",
+    "url": "https://velara.cc/assets/games/jjba.html",
+    "img": "https://velara.cc/assets/games/jjba.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Johnny Trigger",
+    "url": "https://velara.cc/assets/games/johnnytrigger.html",
+    "img": "https://velara.cc/assets/games/johnnytrigger.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Journey Downhill",
+    "url": "https://velara.cc/assets/games/journeydownhill.html",
+    "img": "https://velara.cc/assets/games/journeydownhill.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Just Fall Lol",
+    "url": "https://velara.cc/assets/games/justfalllol.html",
+    "img": "https://velara.cc/assets/games/justfalllol.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Kaji Run",
+    "url": "https://velara.cc/assets/games/kajirun.html",
+    "img": "https://velara.cc/assets/games/kajirun.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Karlson",
+    "url": "https://velara.cc/assets/games/karlsongame.html",
+    "img": "https://velara.cc/assets/games/karlson.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Kindergarten 1",
+    "url": "https://velara.cc/assets/games/kindergarten1.html",
+    "img": "https://velara.cc/assets/games/kindergarten1.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Kindergarten 2",
+    "url": "https://velara.cc/assets/games/kindergarten2.html",
+    "img": "https://velara.cc/assets/games/kindergarten2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Kindergarten 3",
+    "url": "https://velara.cc/assets/games/kindergarten3.html",
+    "img": "https://velara.cc/assets/games/kindergarten3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Kirby S Adventure",
+    "url": "https://velara.cc/assets/games/kirbysadventure.html",
+    "img": "https://velara.cc/assets/games/kirbysadventure.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Kitchen Bazar",
+    "url": "https://velara.cc/assets/games/kitchenbazar.html",
+    "img": "https://velara.cc/assets/games/kitchenbazar.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Kitty Toy",
+    "url": "https://velara.cc/assets/games/kittytoy.html",
+    "img": "https://velara.cc/assets/games/kittytoy.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Kourio",
+    "url": "https://velara.cc/assets/games/kourio.html",
+    "img": "https://velara.cc/assets/games/kourio.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Lacey S Flash Games",
+    "url": "https://velara.cc/assets/games/laceysflashgames.html",
+    "img": "https://velara.cc/assets/games/laceysflashgames.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Layers Roll",
+    "url": "https://velara.cc/assets/games/layersroll.html",
+    "img": "https://velara.cc/assets/games/layersroll.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Lazy Jumper",
+    "url": "https://velara.cc/assets/games/lazyjumper.html",
+    "img": "https://velara.cc/assets/games/lazyjumper.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Learn To Fly",
+    "url": "https://velara.cc/assets/games/learntofly.html",
+    "img": "https://velara.cc/assets/games/learntofly.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Learn To Fly Idle",
+    "url": "https://velara.cc/assets/games/learntoflyidle.html",
+    "img": "https://velara.cc/assets/games/learntoflyidle.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Learntofly 2",
+    "url": "https://velara.cc/assets/games/learntofly2.html",
+    "img": "https://velara.cc/assets/games/learntofly2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Learntofly 3",
+    "url": "https://velara.cc/assets/games/learntofly3.html",
+    "img": "https://velara.cc/assets/games/learntofly3.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Level Devil",
+    "url": "https://velara.cc/assets/games/leveldevil.html",
+    "img": "https://velara.cc/assets/games/leveldevil.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Line Rider",
+    "url": "https://velara.cc/assets/games/linerider.html",
+    "img": "https://velara.cc/assets/games/linerider.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Little Alchemy",
+    "url": "https://velara.cc/assets/games/littlealchemy.html",
+    "img": "https://velara.cc/assets/games/littlealchemy.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Little Runmo",
+    "url": "https://velara.cc/assets/games/littlerunmo.html",
+    "img": "https://velara.cc/assets/games/littlerunmo.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Littlealchemy 2",
+    "url": "https://velara.cc/assets/games/littlealchemy2.html",
+    "img": "https://velara.cc/assets/games/littlealchemy2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Love Letters",
+    "url": "https://velara.cc/assets/games/loveletters.html",
+    "img": "https://velara.cc/assets/games/loveletters.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Madalinstuntcars 2",
+    "url": "https://velara.cc/assets/games/madalinstuntcars2.html",
+    "img": "https://velara.cc/assets/games/madalinstuntcars2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Madalinstuntcars 3",
+    "url": "https://velara.cc/assets/games/madalinstuntcars3.html",
+    "img": "https://velara.cc/assets/games/madalinstuntcars3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Madness Combat Project Nexus",
+    "url": "https://velara.cc/assets/games/madnesscombatprojectnexus.html",
+    "img": "https://velara.cc/assets/games/madnesscombatprojectnexus.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Magictiles 3",
+    "url": "https://velara.cc/assets/games/magictiles3.html",
+    "img": "https://velara.cc/assets/games/magictiles3.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Make A Super Boat",
+    "url": "https://velara.cc/assets/games/makeasuperboat.html",
+    "img": "https://velara.cc/assets/games/makeasuperboat.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Make Over Run",
+    "url": "https://velara.cc/assets/games/makeoverrun.html",
+    "img": "https://velara.cc/assets/games/makeoverrun.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Manrunner 2048",
+    "url": "https://velara.cc/assets/games/manrunner2048.html",
+    "img": "https://velara.cc/assets/games/manrunner2048.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Mario Tennis",
+    "url": "https://velara.cc/assets/games/mariotennis.html",
+    "img": "https://velara.cc/assets/games/mariotennis.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Maze Speed Run",
+    "url": "https://velara.cc/assets/games/mazespeedrun.html",
+    "img": "https://velara.cc/assets/games/mazespeedrun.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Mega Car Jumps",
+    "url": "https://velara.cc/assets/games/megacarjumps.html",
+    "img": "https://velara.cc/assets/games/megacarjumps.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Melon Playground",
+    "url": "https://velara.cc/assets/games/melonplayground.html",
+    "img": "https://velara.cc/assets/games/melonplayground.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Merge Harvest",
+    "url": "https://velara.cc/assets/games/mergeharvest.html",
+    "img": "https://velara.cc/assets/games/mergeharvest.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Metal Gear Solid",
+    "url": "https://velara.cc/assets/games/metalgearsolid.html",
+    "img": "https://velara.cc/assets/games/metalgearsolid.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Metroid Zero Mission",
+    "url": "https://velara.cc/assets/games/metroidzeromission.html",
+    "img": "https://velara.cc/assets/games/metroidzeromission.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Minecraft 1.12.2",
+    "url": "https://velara.cc/assets/games/minecraft1.12.2.html",
+    "img": "https://velara.cc/assets/games/minecraft.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Minecraft 1.21.4",
+    "url": "https://velara.cc/assets/games/minecraft1.21.4.html",
+    "img": "https://velara.cc/assets/games/minecraft.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Minecraft 1.5.2",
+    "url": "https://velara.cc/assets/games/minecraft1.5.2.html",
+    "img": "https://velara.cc/assets/games/minecraft.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Minecraft 1.7.3",
+    "url": "https://velara.cc/assets/games/minecraft1.7.3.html",
+    "img": "https://velara.cc/assets/games/minecraft.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Minecraft 1.8.8",
+    "url": "https://velara.cc/assets/games/minecraft1.8.8.html",
+    "img": "https://velara.cc/assets/games/minecraft.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Minecraft Indev",
+    "url": "https://velara.cc/assets/games/minecraftindev.html",
+    "img": "https://velara.cc/assets/games/minecraft.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Minecraftalpha 1.2.6",
+    "url": "https://velara.cc/assets/games/minecraftalpha1.2.6.html",
+    "img": "https://velara.cc/assets/games/minecraft.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Minecraftbeta 1.3",
+    "url": "https://velara.cc/assets/games/minecraftbeta1.3.html",
+    "img": "https://velara.cc/assets/games/minecraft.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Minesweeper Mania",
+    "url": "https://velara.cc/assets/games/minesweepermania.html",
+    "img": "https://velara.cc/assets/games/minesweepermania.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Minesweeper Plus",
+    "url": "https://velara.cc/assets/games/minesweeperplus.html",
+    "img": "https://velara.cc/assets/games/minesweeperplus.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Mini Crosswords",
+    "url": "https://velara.cc/assets/games/minicrosswords.html",
+    "img": "https://velara.cc/assets/games/minicrosswords.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Mob Control",
+    "url": "https://velara.cc/assets/games/mobcontrol.html",
+    "img": "https://velara.cc/assets/games/mobcontrol.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Money Rush",
+    "url": "https://velara.cc/assets/games/moneyrush.html",
+    "img": "https://velara.cc/assets/games/moneyrush.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Monkey Mart",
+    "url": "https://velara.cc/assets/games/monkeymart.html",
+    "img": "https://velara.cc/assets/games/monkeymart.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Monster Tracks",
+    "url": "https://velara.cc/assets/games/monstertracks.html",
+    "img": "https://velara.cc/assets/games/monstertracks.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Monsterbox 3 D",
+    "url": "https://velara.cc/assets/games/monsterbox3d.html",
+    "img": "https://velara.cc/assets/games/monsterbox3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Mortal Kombat Advance",
+    "url": "https://velara.cc/assets/games/mortalkombatadvance.html",
+    "img": "https://velara.cc/assets/games/mortalkombatadvance.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Motox 3 M",
+    "url": "https://velara.cc/assets/games/motox3m.html",
+    "img": "https://velara.cc/assets/games/motox3m.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Motox 3 M 2",
+    "url": "https://velara.cc/assets/games/motox3m2.html",
+    "img": "https://velara.cc/assets/games/motox3m2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Motox 3 M 3",
+    "url": "https://velara.cc/assets/games/motox3m3.html",
+    "img": "https://velara.cc/assets/games/motox3m3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Motox 3 Mpoolparty",
+    "url": "https://velara.cc/assets/games/motox3mpoolparty.html",
+    "img": "https://velara.cc/assets/games/motox3mpoolparty.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Motox 3 Mspooky",
+    "url": "https://velara.cc/assets/games/motox3mspooky.html",
+    "img": "https://velara.cc/assets/games/motox3mspooky.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Motox 3 Mwinter",
+    "url": "https://velara.cc/assets/games/motox3mwinter.html",
+    "img": "https://velara.cc/assets/games/motox3mwinter.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Mutilateadoll 2",
+    "url": "https://velara.cc/assets/games/mutilateadoll2.html",
+    "img": "https://velara.cc/assets/games/mutilateadoll2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "My Tear Drop ",
+    "url": "https://velara.cc/assets/games/myteardropgame.html",
+    "img": "https://velara.cc/assets/games/myteardrop.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "New Super Mario Bros",
+    "url": "https://velara.cc/assets/games/newsupermariobros.html",
+    "img": "https://velara.cc/assets/games/newsupermariobros.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Newgrounds Rumble",
+    "url": "https://velara.cc/assets/games/newgroundsrumble.html",
+    "img": "https://velara.cc/assets/games/newgroundsrumble.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ngon",
+    "url": "https://velara.cc/assets/games/ngon.html",
+    "img": "https://velara.cc/assets/games/ngon.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Nickelodeonsuperbrawl 2",
+    "url": "https://velara.cc/assets/games/nickelodeonsuperbrawl2.html",
+    "img": "https://velara.cc/assets/games/nickelodeonsuperbrawl2.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ninja Vs Evil Corp",
+    "url": "https://velara.cc/assets/games/ninjavsevilcorp.html",
+    "img": "https://velara.cc/assets/games/ninjavsevilcorp.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Nubby S Number Factory",
+    "url": "https://velara.cc/assets/games/nubbysnumberfactory.html",
+    "img": "https://velara.cc/assets/games/nubbysnumberfactory.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Nuts Imul At Or",
+    "url": "https://velara.cc/assets/games/nutsimulator.html",
+    "img": "https://velara.cc/assets/games/nutsimulator.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Nzp",
+    "url": "https://velara.cc/assets/games/nzp.html",
+    "img": "https://velara.cc/assets/games/nzp.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ocarina Of Time",
+    "url": "https://velara.cc/assets/games/ocarinaoftime.html",
+    "img": "https://velara.cc/assets/games/ocarinaoftime.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Off",
+    "url": "https://velara.cc/assets/games/offgame.html",
+    "img": "https://velara.cc/assets/games/off.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Office Fight",
+    "url": "https://velara.cc/assets/games/officefight.html",
+    "img": "https://velara.cc/assets/games/officefight.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Offroad Mountain Bike",
+    "url": "https://velara.cc/assets/games/offroadmountainbike.html",
+    "img": "https://velara.cc/assets/games/offroadmountainbike.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Omnom Run",
+    "url": "https://velara.cc/assets/games/omnomrun.html",
+    "img": "https://velara.cc/assets/games/omnomrun.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Omori",
+    "url": "https://velara.cc/assets/games/omorigame.html",
+    "img": "https://velara.cc/assets/games/omori.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "One Piece",
+    "url": "https://velara.cc/assets/games/onepiece.html",
+    "img": "https://velara.cc/assets/games/onepiece.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "One Piece Fighting",
+    "url": "https://velara.cc/assets/games/onepiecefighting.html",
+    "img": "https://velara.cc/assets/games/onepiecefighting.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "One Shot",
+    "url": "https://velara.cc/assets/games/oneshotgame.html",
+    "img": "https://velara.cc/assets/games/oneshot.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Onlyup",
+    "url": "https://velara.cc/assets/games/onlyup.html",
+    "img": "https://velara.cc/assets/games/onlyup.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Oshio Ship Unch",
+    "url": "https://velara.cc/assets/games/oshioshipunch.html",
+    "img": "https://velara.cc/assets/games/oshioshipunch.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Osu",
+    "url": "https://velara.cc/assets/games/osu.html",
+    "img": "https://velara.cc/assets/games/osu.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ovo 1",
+    "url": "https://velara.cc/assets/games/ovo1.html",
+    "img": "https://velara.cc/assets/games/ovo1.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ovo 2",
+    "url": "https://velara.cc/assets/games/ovo2.html",
+    "img": "https://velara.cc/assets/games/ovo2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ovo 3 Dimensions",
+    "url": "https://velara.cc/assets/games/ovo3dimensions.html",
+    "img": "https://velara.cc/assets/games/ovo3dimensions.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pacman",
+    "url": "https://velara.cc/assets/games/pacman.html",
+    "img": "https://velara.cc/assets/games/pacman.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pacman (horror)",
+    "url": "https://velara.cc/assets/games/PacMan (Horror).html",
+    "img": "https://velara.cc/assets/games/pacmanhorror.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pacman Horror",
+    "url": "https://velara.cc/assets/games/pacmanhorror.html",
+    "img": "https://velara.cc/assets/games/pacmanhorror.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pacman Super Fast",
+    "url": "https://velara.cc/assets/games/pacmansuperfast.html",
+    "img": "https://velara.cc/assets/games/pacmansuperfast.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pacman World",
+    "url": "https://velara.cc/assets/games/pacmanworld.html",
+    "img": "https://velara.cc/assets/games/pacmanworld.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pacmanworld 2",
+    "url": "https://velara.cc/assets/games/pacmanworld2.html",
+    "img": "https://velara.cc/assets/games/pacmanworld2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa S Bakeria",
+    "url": "https://velara.cc/assets/games/papasbakeria.html",
+    "img": "https://velara.cc/assets/games/papasbakeria.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa S Burgeria",
+    "url": "https://velara.cc/assets/games/papasburgeria.html",
+    "img": "https://velara.cc/assets/games/papasburgeria.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa S Cheeseria",
+    "url": "https://velara.cc/assets/games/papascheeseria.html",
+    "img": "https://velara.cc/assets/games/papascheeseria.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa S Cupcakeria",
+    "url": "https://velara.cc/assets/games/papascupcakeria.html",
+    "img": "https://velara.cc/assets/games/papascupcakeria.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa S Donuteria",
+    "url": "https://velara.cc/assets/games/papasdonuteria.html",
+    "img": "https://velara.cc/assets/games/papasdonuteria.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa S Freezeria",
+    "url": "https://velara.cc/assets/games/papasfreezeria.html",
+    "img": "https://velara.cc/assets/games/papasfreezeria.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa S Pancakeria",
+    "url": "https://velara.cc/assets/games/papaspancakeria.html",
+    "img": "https://velara.cc/assets/games/papaspancakeria.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa S Pastaria",
+    "url": "https://velara.cc/assets/games/papaspastaria.html",
+    "img": "https://velara.cc/assets/games/papaspastaria.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa S Pizzeria",
+    "url": "https://velara.cc/assets/games/papaspizzeria.html",
+    "img": "https://velara.cc/assets/games/papaspizzeria.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa S Scooperia",
+    "url": "https://velara.cc/assets/games/papasscooperia.html",
+    "img": "https://velara.cc/assets/games/papasscooperia.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa S Sushiria",
+    "url": "https://velara.cc/assets/games/papassushiria.html",
+    "img": "https://velara.cc/assets/games/papassushiria.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa S Tacomia",
+    "url": "https://velara.cc/assets/games/papastacomia.html",
+    "img": "https://velara.cc/assets/games/papastacomia.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa S Wingeria",
+    "url": "https://velara.cc/assets/games/papaswingeria.html",
+    "img": "https://velara.cc/assets/games/papaswingeria.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papa Shot Doggeria",
+    "url": "https://velara.cc/assets/games/papashotdoggeria.html",
+    "img": "https://velara.cc/assets/games/papashotdoggeria.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Paper.io 2",
+    "url": "https://velara.cc/assets/games/paper.io2.html",
+    "img": "https://velara.cc/assets/games/paper.io2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papers Please",
+    "url": "https://velara.cc/assets/games/papersplease.html",
+    "img": "https://velara.cc/assets/games/papersplease.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Papery Planes",
+    "url": "https://velara.cc/assets/games/paperyplanes.html",
+    "img": "https://velara.cc/assets/games/paperyplanes.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Parappa The Rapper",
+    "url": "https://velara.cc/assets/games/parappatherapper.html",
+    "img": "https://velara.cc/assets/games/parappatherapper.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Parking Rush",
+    "url": "https://velara.cc/assets/games/parkingrush.html",
+    "img": "https://velara.cc/assets/games/parkingrush.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Parkingfury 3 D",
+    "url": "https://velara.cc/assets/games/parkingfury3d.html",
+    "img": "https://velara.cc/assets/games/parkingfury3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Peggle",
+    "url": "https://velara.cc/assets/games/pegglegame.html",
+    "img": "https://velara.cc/assets/games/peggle.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "People Playground",
+    "url": "https://velara.cc/assets/games/peopleplayground.html",
+    "img": "https://velara.cc/assets/games/peopleplayground.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Persona 2",
+    "url": "https://velara.cc/assets/games/persona2.html",
+    "img": "https://velara.cc/assets/games/persona2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pixel Gun Survival",
+    "url": "https://velara.cc/assets/games/pixelgunsurvival.html",
+    "img": "https://velara.cc/assets/games/pixelgunsurvival.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pixel Shooter",
+    "url": "https://velara.cc/assets/games/pixelshooter.html",
+    "img": "https://velara.cc/assets/games/pixelshooter.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pizza Tower",
+    "url": "https://velara.cc/assets/games/pizzatower.html",
+    "img": "https://velara.cc/assets/games/pizzatower.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pizza Tower Scout Digo",
+    "url": "https://velara.cc/assets/games/pizzatowerscoutdigo.html",
+    "img": "https://velara.cc/assets/games/pizzatowerscoutdigo.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Playjs",
+    "url": "https://velara.cc/assets/games/playjs.html",
+    "img": "https://velara.cc/assets/games/playjs.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Plinko",
+    "url": "https://velara.cc/assets/games/plinkogame.html",
+    "img": "https://velara.cc/assets/games/plinko.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Black",
+    "url": "https://velara.cc/assets/games/pokemonblack.html",
+    "img": "https://velara.cc/assets/games/pokemonblack.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Blue",
+    "url": "https://velara.cc/assets/games/pokemonblue.html",
+    "img": "https://velara.cc/assets/games/pokemonblue.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Crystal",
+    "url": "https://velara.cc/assets/games/pokemoncrystal.html",
+    "img": "https://velara.cc/assets/games/pokemoncrystal.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Diamond",
+    "url": "https://velara.cc/assets/games/pokemondiamond.html",
+    "img": "https://velara.cc/assets/games/pokemondiamond.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Dream Stone Mysteries",
+    "url": "https://velara.cc/assets/games/pokemondreamstonemysteries.html",
+    "img": "https://velara.cc/assets/games/pokemondreamstonemysteries.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Emerald",
+    "url": "https://velara.cc/assets/games/pokemonemerald.html",
+    "img": "https://velara.cc/assets/games/pokemonemerald.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Fire Red",
+    "url": "https://velara.cc/assets/games/pokemonfirered.html",
+    "img": "https://velara.cc/assets/games/pokemonfirered.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Flora Sky",
+    "url": "https://velara.cc/assets/games/pokemonflorasky.html",
+    "img": "https://velara.cc/assets/games/pokemonflorasky.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Gaia",
+    "url": "https://velara.cc/assets/games/pokemongaia.html",
+    "img": "https://velara.cc/assets/games/pokemongaia.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Gold",
+    "url": "https://velara.cc/assets/games/pokemongold.html",
+    "img": "https://velara.cc/assets/games/pokemongold.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Heart Gold",
+    "url": "https://velara.cc/assets/games/pokemonheartgold.html",
+    "img": "https://velara.cc/assets/games/pokemonheartgold.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Leaf Green",
+    "url": "https://velara.cc/assets/games/pokemonleafgreen.html",
+    "img": "https://velara.cc/assets/games/pokemonleafgreen.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Mega Moemon",
+    "url": "https://velara.cc/assets/games/pokemonmegamoemon.html",
+    "img": "https://velara.cc/assets/games/pokemonmegamoemon.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Pearl",
+    "url": "https://velara.cc/assets/games/pokemonpearl.html",
+    "img": "https://velara.cc/assets/games/pokemonpearl.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Platinum",
+    "url": "https://velara.cc/assets/games/pokemonplatinum.html",
+    "img": "https://velara.cc/assets/games/pokemonplatinum.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Quetzal",
+    "url": "https://velara.cc/assets/games/pokemonquetzal.html",
+    "img": "https://velara.cc/assets/games/pokemonquetzal.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Red",
+    "url": "https://velara.cc/assets/games/pokemonred.html",
+    "img": "https://velara.cc/assets/games/pokemonred.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Ruby",
+    "url": "https://velara.cc/assets/games/pokemonruby.html",
+    "img": "https://velara.cc/assets/games/pokemonruby.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Sapphire",
+    "url": "https://velara.cc/assets/games/pokemonsapphire.html",
+    "img": "https://velara.cc/assets/games/pokemonsapphire.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Shiny Gold Sigma",
+    "url": "https://velara.cc/assets/games/pokemonshinygoldsigma.html",
+    "img": "https://velara.cc/assets/games/pokemonshinygoldsigma.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Silver",
+    "url": "https://velara.cc/assets/games/pokemonsilver.html",
+    "img": "https://velara.cc/assets/games/pokemonsilver.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Snap",
+    "url": "https://velara.cc/assets/games/pokemonsnap.html",
+    "img": "https://velara.cc/assets/games/pokemonsnap.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Souls Ilver",
+    "url": "https://velara.cc/assets/games/pokemonsoulsilver.html",
+    "img": "https://velara.cc/assets/games/pokemonsoulsilver.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Stadium",
+    "url": "https://velara.cc/assets/games/pokemonstadium.html",
+    "img": "https://velara.cc/assets/games/pokemonstadium.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Sword And Shield Ultimate Plus",
+    "url": "https://velara.cc/assets/games/pokemonswordandshieldultimateplus.html",
+    "img": "https://velara.cc/assets/games/pokemonswordandshieldultimateplus.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Tower Defense",
+    "url": "https://velara.cc/assets/games/pokemontowerdefense.html",
+    "img": "https://velara.cc/assets/games/pokemontowerdefense.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Ultraviolet",
+    "url": "https://velara.cc/assets/games/pokemonultraviolet.html",
+    "img": "https://velara.cc/assets/games/pokemonultraviolet.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Unbound",
+    "url": "https://velara.cc/assets/games/pokemonunbound.html",
+    "img": "https://velara.cc/assets/games/pokemonunbound.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon White",
+    "url": "https://velara.cc/assets/games/pokemonwhite.html",
+    "img": "https://velara.cc/assets/games/pokemonwhite.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemon Yellow",
+    "url": "https://velara.cc/assets/games/pokemonyellow.html",
+    "img": "https://velara.cc/assets/games/pokemonyellow.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemonblack 2",
+    "url": "https://velara.cc/assets/games/pokemonblack2.html",
+    "img": "https://velara.cc/assets/games/pokemonblack2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokemonwhite 2",
+    "url": "https://velara.cc/assets/games/pokemonwhite2.html",
+    "img": "https://velara.cc/assets/games/pokemonwhite2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pokey Ball",
+    "url": "https://velara.cc/assets/games/pokeyball.html",
+    "img": "https://velara.cc/assets/games/pokeyball.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Polytrack",
+    "url": "https://velara.cc/assets/games/polytrack.html",
+    "img": "https://velara.cc/assets/games/polytrack.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Porta Boy",
+    "url": "https://velara.cc/assets/games/portaboy.html",
+    "img": "https://velara.cc/assets/games/portaboy.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Portal",
+    "url": "https://velara.cc/assets/games/portalgame.html",
+    "img": "https://velara.cc/assets/games/portal.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Postal",
+    "url": "https://velara.cc/assets/games/postalgame.html",
+    "img": "https://velara.cc/assets/games/postal.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pottery Master",
+    "url": "https://velara.cc/assets/games/potterymaster.html",
+    "img": "https://velara.cc/assets/games/potterymaster.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pou",
+    "url": "https://velara.cc/assets/games/pougame.html",
+    "img": "https://velara.cc/assets/games/pou.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pretend It S Not There",
+    "url": "https://velara.cc/assets/games/pretenditsnotthere.html",
+    "img": "https://velara.cc/assets/games/pretenditsnotthere.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Prison Escape",
+    "url": "https://velara.cc/assets/games/prison-escape/index.html",
+    "img": "https://velara.cc/assets/games/prison-escape.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Protek Tor",
+    "url": "https://velara.cc/assets/games/protektorgame.html",
+    "img": "https://velara.cc/assets/games/protektor.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Puppet Master",
+    "url": "https://velara.cc/assets/games/puppetmaster.html",
+    "img": "https://velara.cc/assets/games/puppetmaster.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pvz",
+    "url": "https://velara.cc/assets/games/pvz.html",
+    "img": "https://velara.cc/assets/games/pvz.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Pvz 2",
+    "url": "https://velara.cc/assets/games/pvz2.html",
+    "img": "https://velara.cc/assets/games/pvz2.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Quake 3 Arena",
+    "url": "https://velara.cc/assets/games/quake3arena.html",
+    "img": "https://velara.cc/assets/games/quake3arena.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Racemaster 3 D",
+    "url": "https://velara.cc/assets/games/racemaster3d.html",
+    "img": "https://velara.cc/assets/games/racemaster3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Raft",
+    "url": "https://velara.cc/assets/games/raftgame.html",
+    "img": "https://velara.cc/assets/games/raft.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Raft Wars",
+    "url": "https://velara.cc/assets/games/raftwars.html",
+    "img": "https://velara.cc/assets/games/raftwars.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Raftwars 2",
+    "url": "https://velara.cc/assets/games/raftwars2.html",
+    "img": "https://velara.cc/assets/games/raftwars2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ragdoll Archers",
+    "url": "https://velara.cc/assets/games/ragdollarchers.html",
+    "img": "https://velara.cc/assets/games/ragdollarchers.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ragdoll Hit",
+    "url": "https://velara.cc/assets/games/ragdollhit.html",
+    "img": "https://velara.cc/assets/games/ragdollhit.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Rainbow Obby",
+    "url": "https://velara.cc/assets/games/rainbowobby.html",
+    "img": "https://velara.cc/assets/games/rainbowobby.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Real Flight Simulator",
+    "url": "https://velara.cc/assets/games/realflightsimulator.html",
+    "img": "https://velara.cc/assets/games/realflightsimulator.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Recoil",
+    "url": "https://velara.cc/assets/games/recoilgame.html",
+    "img": "https://velara.cc/assets/games/recoil.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Red Ball",
+    "url": "https://velara.cc/assets/games/redball.html",
+    "img": "https://velara.cc/assets/games/redball.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Redball 2",
+    "url": "https://velara.cc/assets/games/redball2.html",
+    "img": "https://velara.cc/assets/games/redball2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Redball 3",
+    "url": "https://velara.cc/assets/games/redball3.html",
+    "img": "https://velara.cc/assets/games/redball3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Redball 4",
+    "url": "https://velara.cc/assets/games/redball4.html",
+    "img": "https://velara.cc/assets/games/redball4.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Redball 4 Vol 2",
+    "url": "https://velara.cc/assets/games/redball4vol2.html",
+    "img": "https://velara.cc/assets/games/redball4vol2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Redball 4 Vol 3",
+    "url": "https://velara.cc/assets/games/redball4vol3.html",
+    "img": "https://velara.cc/assets/games/redball4vol3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Repo",
+    "url": "https://velara.cc/assets/games/repo.html",
+    "img": "https://velara.cc/assets/games/repo.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Rerun",
+    "url": "https://velara.cc/assets/games/rerun.html",
+    "img": "https://velara.cc/assets/games/rerun.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Resident Evil",
+    "url": "https://velara.cc/assets/games/residentevil.html",
+    "img": "https://velara.cc/assets/games/residentevil.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Residentevil 2",
+    "url": "https://velara.cc/assets/games/residentevil2.html",
+    "img": "https://velara.cc/assets/games/residentevil2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Residentevil 3",
+    "url": "https://velara.cc/assets/games/residentevil3.html",
+    "img": "https://velara.cc/assets/games/residentevil3.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Retro Bowl",
+    "url": "https://velara.cc/assets/games/retrobowl.html",
+    "img": "https://velara.cc/assets/games/retrobowl.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Retro Bowl College",
+    "url": "https://velara.cc/assets/games/retrobowlcollege.html",
+    "img": "https://velara.cc/assets/games/retrobowlcollege.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Richrun 3 D",
+    "url": "https://velara.cc/assets/games/richrun3d.html",
+    "img": "https://velara.cc/assets/games/richrun3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Riddle School",
+    "url": "https://velara.cc/assets/games/riddleschool.html",
+    "img": "https://velara.cc/assets/games/riddleschool.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Riddle Transfer",
+    "url": "https://velara.cc/assets/games/riddletransfer.html",
+    "img": "https://velara.cc/assets/games/riddletransfer.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Riddleschool 2",
+    "url": "https://velara.cc/assets/games/riddleschool2.html",
+    "img": "https://velara.cc/assets/games/riddleschool2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Riddleschool 3",
+    "url": "https://velara.cc/assets/games/riddleschool3.html",
+    "img": "https://velara.cc/assets/games/riddleschool3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Riddleschool 4",
+    "url": "https://velara.cc/assets/games/riddleschool4.html",
+    "img": "https://velara.cc/assets/games/riddleschool4.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Riddleschool 5",
+    "url": "https://velara.cc/assets/games/riddleschool5.html",
+    "img": "https://velara.cc/assets/games/riddleschool5.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Riddletransfer 2",
+    "url": "https://velara.cc/assets/games/riddletransfer2.html",
+    "img": "https://velara.cc/assets/games/riddletransfer2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Rig Bmx Game",
+    "url": "https://velara.cc/assets/games/rigbmxgame.html",
+    "img": "https://velara.cc/assets/games/rigbmx.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Rigbmx 2",
+    "url": "https://velara.cc/assets/games/rigbmx2.html",
+    "img": "https://velara.cc/assets/games/rigbmx2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Road Off Ury",
+    "url": "https://velara.cc/assets/games/roadoffury.html",
+    "img": "https://velara.cc/assets/games/roadoffury.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Robot Invasion",
+    "url": "https://velara.cc/assets/games/robotinvasion.html",
+    "img": "https://velara.cc/assets/games/robotinvasion.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Rocket Soccer Derby",
+    "url": "https://velara.cc/assets/games/rocketsoccerderby.html",
+    "img": "https://velara.cc/assets/games/rocketsoccerderby.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Rolling Sky",
+    "url": "https://velara.cc/assets/games/rollingsky.html",
+    "img": "https://velara.cc/assets/games/rollingsky.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Rolly Vortex",
+    "url": "https://velara.cc/assets/games/rollyvortex.html",
+    "img": "https://velara.cc/assets/games/rollyvortex.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Rooftop Snipers",
+    "url": "https://velara.cc/assets/games/rooftopsnipers.html",
+    "img": "https://velara.cc/assets/games/rooftopsnipers.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Rooftopsnipers 2",
+    "url": "https://velara.cc/assets/games/rooftopsnipers2.html",
+    "img": "https://velara.cc/assets/games/rooftopsnipers2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Room Clicker",
+    "url": "https://velara.cc/assets/games/roomclicker.html",
+    "img": "https://velara.cc/assets/games/roomclicker.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Room Sort",
+    "url": "https://velara.cc/assets/games/roomsort.html",
+    "img": "https://velara.cc/assets/games/roomsort.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Run 1",
+    "url": "https://velara.cc/assets/games/run1.html",
+    "img": "https://velara.cc/assets/games/run1.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Run 2",
+    "url": "https://velara.cc/assets/games/run2.html",
+    "img": "https://velara.cc/assets/games/run2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Run 3",
+    "url": "https://velara.cc/assets/games/run3.html",
+    "img": "https://velara.cc/assets/games/run3.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sand Spiel",
+    "url": "https://velara.cc/assets/games/sandspielgame.html",
+    "img": "https://velara.cc/assets/games/sandspiel.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sand Tris",
+    "url": "https://velara.cc/assets/games/sandtrisgame.html",
+    "img": "https://velara.cc/assets/games/sandtris.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sandbox City",
+    "url": "https://velara.cc/assets/games/sandboxcity.html",
+    "img": "https://velara.cc/assets/games/sandboxcity.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sandbox Els",
+    "url": "https://velara.cc/assets/games/sandboxels.html",
+    "img": "https://velara.cc/assets/games/sandboxels.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "School Boy Run Away",
+    "url": "https://velara.cc/assets/games/schoolboyrunaway.html",
+    "img": "https://velara.cc/assets/games/schoolboyrunaway.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Scrapmetal 3",
+    "url": "https://velara.cc/assets/games/scrapmetal3.html",
+    "img": "https://velara.cc/assets/games/scrapmetal3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Seatjam 3 D",
+    "url": "https://velara.cc/assets/games/seatjam3d.html",
+    "img": "https://velara.cc/assets/games/seatjam3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Shape Zio",
+    "url": "https://velara.cc/assets/games/shapezio.html",
+    "img": "https://velara.cc/assets/games/shapezio.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Shark Game",
+    "url": "https://velara.cc/assets/games/sharkgame.html",
+    "img": "https://velara.cc/assets/games/sharkgame.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ship O Io",
+    "url": "https://velara.cc/assets/games/shipoio.html",
+    "img": "https://velara.cc/assets/games/shipoio.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ships Battlefield 3D",
+    "url": "https://velara.cc/assets/games/ships-battlefield-3d/index.html",
+    "img": "https://velara.cc/assets/games/ships-battlefield-3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Shooting Master",
+    "url": "https://velara.cc/assets/games/shootingmaster.html",
+    "img": "https://velara.cc/assets/games/shootingmaster.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Shovel 3 D",
+    "url": "https://velara.cc/assets/games/shovel3d.html",
+    "img": "https://velara.cc/assets/games/shovel3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Side Effects",
+    "url": "https://velara.cc/assets/games/sideeffects.html",
+    "img": "https://velara.cc/assets/games/sideeffects.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Silent Hill",
+    "url": "https://velara.cc/assets/games/silenthill.html",
+    "img": "https://velara.cc/assets/games/silenthill.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sky Riders",
+    "url": "https://velara.cc/assets/games/skyriders.html",
+    "img": "https://velara.cc/assets/games/skyriders.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Slender",
+    "url": "https://velara.cc/assets/games/slender.html",
+    "img": "https://velara.cc/assets/games/slender.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Slice It All",
+    "url": "https://velara.cc/assets/games/sliceitall.html",
+    "img": "https://velara.cc/assets/games/sliceitall.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Slime Io",
+    "url": "https://velara.cc/assets/games/slimeio.html",
+    "img": "https://velara.cc/assets/games/slimeio.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Slime Rancher",
+    "url": "https://velara.cc/assets/games/slimerancher.html",
+    "img": "https://velara.cc/assets/games/slimerancher.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Slither Io",
+    "url": "https://velara.cc/assets/games/slitherio.html",
+    "img": "https://velara.cc/assets/games/slitherio.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Slope 1",
+    "url": "https://velara.cc/assets/games/slope1.html",
+    "img": "https://velara.cc/assets/games/slope1.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Slope 2",
+    "url": "https://velara.cc/assets/games/slope2.html",
+    "img": "https://velara.cc/assets/games/slope2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Slope 3",
+    "url": "https://velara.cc/assets/games/slope3.html",
+    "img": "https://velara.cc/assets/games/slope3.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Slow Road S",
+    "url": "https://velara.cc/assets/games/slowroads.html",
+    "img": "https://velara.cc/assets/games/slowroads.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Smash Karts",
+    "url": "https://velara.cc/assets/games/smashkarts.html",
+    "img": "https://velara.cc/assets/games/smashkarts.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Snow Ball Io",
+    "url": "https://velara.cc/assets/games/snowballio.html",
+    "img": "https://velara.cc/assets/games/snowball.io.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Snow Battle Io",
+    "url": "https://velara.cc/assets/games/snowbattleio.html",
+    "img": "https://velara.cc/assets/games/snowbattleio.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Snowrider 3 D",
+    "url": "https://velara.cc/assets/games/snowrider3d.html",
+    "img": "https://velara.cc/assets/games/snowrider3d.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Soccer Random",
+    "url": "https://velara.cc/assets/games/soccerrandom.html",
+    "img": "https://velara.cc/assets/games/soccerrandom.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Solar Smash",
+    "url": "https://velara.cc/assets/games/solarsmash.html",
+    "img": "https://velara.cc/assets/games/solarsmash.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Solitaire",
+    "url": "https://velara.cc/assets/games/solitairegame.html",
+    "img": "https://velara.cc/assets/games/solitaire.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sonic Advance",
+    "url": "https://velara.cc/assets/games/sonicadvance.html",
+    "img": "https://velara.cc/assets/games/sonicadvance.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sonic Cd",
+    "url": "https://velara.cc/assets/games/soniccd.html",
+    "img": "https://velara.cc/assets/games/soniccd.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sonic Classic Collection",
+    "url": "https://velara.cc/assets/games/sonicclassiccollection.html",
+    "img": "https://velara.cc/assets/games/sonicclassiccollection.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sonic Erazor",
+    "url": "https://velara.cc/assets/games/sonicerazor.html",
+    "img": "https://velara.cc/assets/games/sonicerazor.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sonic Exe",
+    "url": "https://velara.cc/assets/games/sonicexe.html",
+    "img": "https://velara.cc/assets/games/sonicexe.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sonic Exe Original",
+    "url": "https://velara.cc/assets/games/sonicexeoriginal.html",
+    "img": "https://velara.cc/assets/games/sonicexeoriginal.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sonic Mania",
+    "url": "https://velara.cc/assets/games/sonicmania.html",
+    "img": "https://velara.cc/assets/games/sonicmania.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sonicthehedgehog 2 Communityscut",
+    "url": "https://velara.cc/assets/games/sonicthehedgehog2communityscut.html",
+    "img": "https://velara.cc/assets/games/sonicthehedgehog2communityscut.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sonicthehedgehog 3 Angelislandremastered",
+    "url": "https://velara.cc/assets/games/sonicthehedgehog3angelislandremastered.html",
+    "img": "https://velara.cc/assets/games/sonicthehedgehog3angelislandremastered.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sort The Court",
+    "url": "https://velara.cc/assets/games/sortthecourt.html",
+    "img": "https://velara.cc/assets/games/sortthecourt.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sound Board ",
+    "url": "https://velara.cc/assets/games/soundboardgame.html",
+    "img": "https://velara.cc/assets/games/soundboard.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Space Bar Clicker",
+    "url": "https://velara.cc/assets/games/spacebarclicker.html",
+    "img": "https://velara.cc/assets/games/spacebarclicker.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Space Funeral",
+    "url": "https://velara.cc/assets/games/spacefuneral.html",
+    "img": "https://velara.cc/assets/games/spacefuneral.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Space Invaders",
+    "url": "https://velara.cc/assets/games/spaceinvaders.html",
+    "img": "https://velara.cc/assets/games/spaceinvaders.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Space Waves",
+    "url": "https://velara.cc/assets/games/spacewaves.html",
+    "img": "https://velara.cc/assets/games/spacewaves.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Speed Stars",
+    "url": "https://velara.cc/assets/games/speedstars.html",
+    "img": "https://velara.cc/assets/games/speedstars.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Spelunky Classic Hd",
+    "url": "https://velara.cc/assets/games/spelunkyclassichd.html",
+    "img": "https://velara.cc/assets/games/spelunkyclassichd.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Spider Doll",
+    "url": "https://velara.cc/assets/games/spiderdollgame.html",
+    "img": "https://velara.cc/assets/games/spiderdoll.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Spiral Roll",
+    "url": "https://velara.cc/assets/games/spiralroll.html",
+    "img": "https://velara.cc/assets/games/spiralroll.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Spongebob Squarepants Krabby Katch",
+    "url": "https://velara.cc/assets/games/spongebobsquarepantskrabbykatch.html",
+    "img": "https://velara.cc/assets/games/spongebobsquarepantskrabbykatch.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sprunki Game",
+    "url": "https://velara.cc/assets/games/sprunkigame.html",
+    "img": "https://velara.cc/assets/games/sprunki.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Stack Tris ",
+    "url": "https://velara.cc/assets/games/stacktrisgame.html",
+    "img": "https://velara.cc/assets/games/stacktris.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Stacky Dash",
+    "url": "https://velara.cc/assets/games/stackydash.html",
+    "img": "https://velara.cc/assets/games/stackydash.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "State Io",
+    "url": "https://velara.cc/assets/games/stateio.html",
+    "img": "https://velara.cc/assets/games/stateio.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Station 141",
+    "url": "https://velara.cc/assets/games/station141.html",
+    "img": "https://velara.cc/assets/games/station141.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Station Saturn",
+    "url": "https://velara.cc/assets/games/stationsaturn.html",
+    "img": "https://velara.cc/assets/games/stationsaturn.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Steal A Brain Rot",
+    "url": "https://velara.cc/assets/games/stealabrainrot.html",
+    "img": "https://velara.cc/assets/games/stealabrainrot.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Steal Brain Rot Online",
+    "url": "https://velara.cc/assets/games/stealbrainrotonline.html",
+    "img": "https://velara.cc/assets/games/stealbrainrotonline.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Stealing The Diamond",
+    "url": "https://velara.cc/assets/games/stealingthediamond.html",
+    "img": "https://velara.cc/assets/games/stealingthediamond.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Stealth Masters",
+    "url": "https://velara.cc/assets/games/stealthmasters.html",
+    "img": "https://velara.cc/assets/games/stealthmasters.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Stick With It",
+    "url": "https://velara.cc/assets/games/stickwithit.html",
+    "img": "https://velara.cc/assets/games/stickwithit.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Stickman And Gun S",
+    "url": "https://velara.cc/assets/games/stickmanandguns.html",
+    "img": "https://velara.cc/assets/games/stickmanandguns.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Stickman Boost",
+    "url": "https://velara.cc/assets/games/stickmanboost.html",
+    "img": "https://velara.cc/assets/games/stickmanboost.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Stickman Climb",
+    "url": "https://velara.cc/assets/games/stickmanclimb.html",
+    "img": "https://velara.cc/assets/games/stickmanclimb.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Stickman Destruction",
+    "url": "https://velara.cc/assets/games/stickmandestruction.html",
+    "img": "https://velara.cc/assets/games/stickmandestruction.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Stickman Fight Ragdoll",
+    "url": "https://velara.cc/assets/games/stickmanfightragdoll.html",
+    "img": "https://velara.cc/assets/games/stickmanfightragdoll.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Stickman Golf",
+    "url": "https://velara.cc/assets/games/stickmangolf.html",
+    "img": "https://velara.cc/assets/games/stickmangolf.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Stickman Hook",
+    "url": "https://velara.cc/assets/games/stickmanhook.html",
+    "img": "https://velara.cc/assets/games/stickmanhook.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Stone Grass Mowing Simulator",
+    "url": "https://velara.cc/assets/games/stonegrassmowingsimulator.html",
+    "img": "https://velara.cc/assets/games/stonegrassmowingsimulator.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Subway Surfers",
+    "url": "https://velara.cc/assets/games/subwaysurfers.html",
+    "img": "https://velara.cc/assets/games/subwaysurfers.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Suika Game",
+    "url": "https://velara.cc/assets/games/suikagame.html",
+    "img": "https://velara.cc/assets/games/suikagame.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Super Hot ",
+    "url": "https://velara.cc/assets/games/superhotgame.html",
+    "img": "https://velara.cc/assets/games/superhot.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Super Liquid Soccer",
+    "url": "https://velara.cc/assets/games/superliquidsoccer.html",
+    "img": "https://velara.cc/assets/games/superliquidsoccer.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Super Mario Bros",
+    "url": "https://velara.cc/assets/games/supermariobros.html",
+    "img": "https://velara.cc/assets/games/supermariobros.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Super Smash Bros",
+    "url": "https://velara.cc/assets/games/supersmashbros.html",
+    "img": "https://velara.cc/assets/games/supersmashbros.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Super Star Car",
+    "url": "https://velara.cc/assets/games/superstarcar.html",
+    "img": "https://velara.cc/assets/games/superstarcar.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Supermario 63",
+    "url": "https://velara.cc/assets/games/supermario63.html",
+    "img": "https://velara.cc/assets/games/supermario63.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Supermario 64",
+    "url": "https://velara.cc/assets/games/supermario64.html",
+    "img": "https://velara.cc/assets/games/supermario64.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Supermariobros 2",
+    "url": "https://velara.cc/assets/games/supermariobros2.html",
+    "img": "https://velara.cc/assets/games/supermariobros2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Supermariobros 3",
+    "url": "https://velara.cc/assets/games/supermariobros3.html",
+    "img": "https://velara.cc/assets/games/supermariobros3.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Supermarket 3 D",
+    "url": "https://velara.cc/assets/games/supermarket3d.html",
+    "img": "https://velara.cc/assets/games/supermarket3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Supreme Duelist",
+    "url": "https://velara.cc/assets/games/supremeduelist.html",
+    "img": "https://velara.cc/assets/games/supremeduelist.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Survival Race",
+    "url": "https://velara.cc/assets/games/survivalrace.html",
+    "img": "https://velara.cc/assets/games/survivalrace.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Survive To Victory",
+    "url": "https://velara.cc/assets/games/survivetovictory.html",
+    "img": "https://velara.cc/assets/games/survivetovictory.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sushi Roll",
+    "url": "https://velara.cc/assets/games/sushiroll.html",
+    "img": "https://velara.cc/assets/games/sushiroll.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sword Fight",
+    "url": "https://velara.cc/assets/games/swordfight.html",
+    "img": "https://velara.cc/assets/games/swordfight.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Sword Sand Souls",
+    "url": "https://velara.cc/assets/games/swordsandsouls.html",
+    "img": "https://velara.cc/assets/games/swordsandsouls.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tag Game",
+    "url": "https://velara.cc/assets/games/taggame.html",
+    "img": "https://velara.cc/assets/games/tag.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tall Man Run",
+    "url": "https://velara.cc/assets/games/tallmanrun.html",
+    "img": "https://velara.cc/assets/games/tallmanrun.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tanuki Sunset",
+    "url": "https://velara.cc/assets/games/tanukisunset.html",
+    "img": "https://velara.cc/assets/games/tanukisunset.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tattletail",
+    "url": "https://velara.cc/assets/games/tattletailgame.html",
+    "img": "https://velara.cc/assets/games/tattletail.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Teen Titans Go Jump Jousts",
+    "url": "https://velara.cc/assets/games/teentitansgojumpjousts.html",
+    "img": "https://velara.cc/assets/games/teentitansgojumpjousts.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Teentitansgojumpjousts 2",
+    "url": "https://velara.cc/assets/games/teentitansgojumpjousts2.html",
+    "img": "https://velara.cc/assets/games/teentitansgojumpjousts2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Telekinesis ",
+    "url": "https://velara.cc/assets/games/telekinesisgame.html",
+    "img": "https://velara.cc/assets/games/telekinesis.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Telekinesis Attack",
+    "url": "https://velara.cc/assets/games/telekinesisattack.html",
+    "img": "https://velara.cc/assets/games/telekinesisattack.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Telekinesis Car",
+    "url": "https://velara.cc/assets/games/telekinesiscar.html",
+    "img": "https://velara.cc/assets/games/telekinesiscar.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Telekinesis Drive",
+    "url": "https://velara.cc/assets/games/telekinesisdrive.html",
+    "img": "https://velara.cc/assets/games/telekinesisdrive.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Templerun 2",
+    "url": "https://velara.cc/assets/games/templerun2.html",
+    "img": "https://velara.cc/assets/games/templerun2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Terraria",
+    "url": "https://velara.cc/assets/games/terrariagame.html",
+    "img": "https://velara.cc/assets/games/terraria.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Territorial Io",
+    "url": "https://velara.cc/assets/games/territorialio.html",
+    "img": "https://velara.cc/assets/games/territorialio.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tetris",
+    "url": "https://velara.cc/assets/games/tetrisgame.html",
+    "img": "https://velara.cc/assets/games/tetris.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "That's Not My Neighbor",
+    "url": "https://velara.cc/assets/games/That's Not My Neighbor.html",
+    "img": "https://velara.cc/assets/games/thatsnotmyneighbour.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "The Backrooms",
+    "url": "https://velara.cc/assets/games/thebackrooms.html",
+    "img": "https://velara.cc/assets/games/thebackrooms.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "The Dead Seat",
+    "url": "https://velara.cc/assets/games/thedeadseat.html",
+    "img": "https://velara.cc/assets/games/thedeadseat.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "The Impossible Quiz",
+    "url": "https://velara.cc/assets/games/theimpossiblequiz.html",
+    "img": "https://velara.cc/assets/games/theimpossiblequiz.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "The Legend Of Zelda",
+    "url": "https://velara.cc/assets/games/thelegendofzelda.html",
+    "img": "https://velara.cc/assets/games/thelegendofzelda.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "The Legend Of Zelda Links Awakening",
+    "url": "https://velara.cc/assets/games/thelegendofzeldalinksawakening.html",
+    "img": "https://velara.cc/assets/games/thelegendofzeldalinksawakening.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "The Legend Of Zelda Majora S Mask",
+    "url": "https://velara.cc/assets/games/thelegendofzeldamajorasmask.html",
+    "img": "https://velara.cc/assets/games/thelegendofzeldamajorasmask.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "The Legend Of Zelda Oracle Of Seasons",
+    "url": "https://velara.cc/assets/games/thelegendofzeldaoracleofseasons.html",
+    "img": "https://velara.cc/assets/games/thelegendofzeldaoracleofseasons.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "The Legend Of Zelda Spirit Tracks",
+    "url": "https://velara.cc/assets/games/thelegendofzeldaspirittracks.html",
+    "img": "https://velara.cc/assets/games/thelegendofzeldaspirittracks.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "The Legend Of Zelda The Minish Cap",
+    "url": "https://velara.cc/assets/games/thelegendofzeldatheminishcap.html",
+    "img": "https://velara.cc/assets/games/thelegendofzeldatheminishcap.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "The Man From The Window",
+    "url": "https://velara.cc/assets/games/themanfromthewindow.html",
+    "img": "https://velara.cc/assets/games/themanfromthewindow.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "The Oregon Trail",
+    "url": "https://velara.cc/assets/games/theoregontrail.html",
+    "img": "https://velara.cc/assets/games/theoregontrail.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "The Worlds Hardest Game",
+    "url": "https://velara.cc/assets/games/theworldshardestgame.html",
+    "img": "https://velara.cc/assets/games/theworldshardestgame.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Theelderscrolls 1",
+    "url": "https://velara.cc/assets/games/theelderscrolls1.html",
+    "img": "https://velara.cc/assets/games/theelderscrolls1.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Theelderscrolls 2",
+    "url": "https://velara.cc/assets/games/theelderscrolls2.html",
+    "img": "https://velara.cc/assets/games/theelderscrolls2.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Theworldshardestgame 3",
+    "url": "https://velara.cc/assets/games/theworldshardestgame3.html",
+    "img": "https://velara.cc/assets/games/theworldshardestgame3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Theworldshardestgame 4",
+    "url": "https://velara.cc/assets/games/theworldshardestgame4.html",
+    "img": "https://velara.cc/assets/games/theworldshardestgame4.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "They Are Coming",
+    "url": "https://velara.cc/assets/games/theyarecoming.html",
+    "img": "https://velara.cc/assets/games/theyarecoming.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "This Is The Only Level",
+    "url": "https://velara.cc/assets/games/thisistheonlylevel.html",
+    "img": "https://velara.cc/assets/games/thisistheonlylevel.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Thisistheonlylevel 2",
+    "url": "https://velara.cc/assets/games/thisistheonlylevel2.html",
+    "img": "https://velara.cc/assets/games/thisistheonlylevel2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Three Goblets",
+    "url": "https://velara.cc/assets/games/threegoblets.html",
+    "img": "https://velara.cc/assets/games/threegoblets.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tile Topia",
+    "url": "https://velara.cc/assets/games/tiletopiagame.html",
+    "img": "https://velara.cc/assets/games/tiletopia.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Timeshooter 1",
+    "url": "https://velara.cc/assets/games/timeshooter1.html",
+    "img": "https://velara.cc/assets/games/timeshooter1.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Timeshooter 2",
+    "url": "https://velara.cc/assets/games/timeshooter2.html",
+    "img": "https://velara.cc/assets/games/timeshooter2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Timeshooter 3",
+    "url": "https://velara.cc/assets/games/timeshooter3.html",
+    "img": "https://velara.cc/assets/games/timeshooter3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tiny Fishing",
+    "url": "https://velara.cc/assets/games/tinyfishing.html",
+    "img": "https://velara.cc/assets/games/tinyfishing.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "To The Core",
+    "url": "https://velara.cc/assets/games/tothecore.html",
+    "img": "https://velara.cc/assets/games/tothecore.webp",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tom Clancy S Rainbow Six",
+    "url": "https://velara.cc/assets/games/tomclancysrainbowsix.html",
+    "img": "https://velara.cc/assets/games/tomclancysrainbowsix.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tomb Of The Mask",
+    "url": "https://velara.cc/assets/games/tombofthemask.html",
+    "img": "https://velara.cc/assets/games/tombofthemask.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tomodachi Collection",
+    "url": "https://velara.cc/assets/games/tomodachicollection.html",
+    "img": "https://velara.cc/assets/games/tomodachicollection.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 4",
+    "url": "https://velara.cc/assets/games/tonyhawksproskater4.html",
+    "img": "https://velara.cc/assets/games/tonyhawksproskater4.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Toss The Turtle",
+    "url": "https://velara.cc/assets/games/tosstheturtle.html",
+    "img": "https://velara.cc/assets/games/tosstheturtle.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Touhou 1",
+    "url": "https://velara.cc/assets/games/touhou1.html",
+    "img": "https://velara.cc/assets/games/touhou1.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Touhou 2",
+    "url": "https://velara.cc/assets/games/touhou2.html",
+    "img": "https://velara.cc/assets/games/touhou2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Touhou 3",
+    "url": "https://velara.cc/assets/games/touhou3.html",
+    "img": "https://velara.cc/assets/games/touhou3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Touhou 4",
+    "url": "https://velara.cc/assets/games/touhou4.html",
+    "img": "https://velara.cc/assets/games/touhou4.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Touhou 5",
+    "url": "https://velara.cc/assets/games/touhou5.html",
+    "img": "https://velara.cc/assets/games/touhou5.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Touhou Luminous Strike",
+    "url": "https://velara.cc/assets/games/touhouluminousstrike.html",
+    "img": "https://velara.cc/assets/games/touhouluminousstrike.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Touhou Mother",
+    "url": "https://velara.cc/assets/games/touhoumother.html",
+    "img": "https://velara.cc/assets/games/touhoumother.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Towercrash 3 D",
+    "url": "https://velara.cc/assets/games/towercrash3d.html",
+    "img": "https://velara.cc/assets/games/towercrash3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Toy Rider",
+    "url": "https://velara.cc/assets/games/toyrider.html",
+    "img": "https://velara.cc/assets/games/toyrider.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Traffic Rider",
+    "url": "https://velara.cc/assets/games/trafficrider.html",
+    "img": "https://velara.cc/assets/games/trafficrider.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Trafficjam 3 D",
+    "url": "https://velara.cc/assets/games/trafficjam3d.html",
+    "img": "https://velara.cc/assets/games/trafficjam3d.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Triplematch 3 D",
+    "url": "https://velara.cc/assets/games/triplematch3d.html",
+    "img": "https://velara.cc/assets/games/triplematch3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Trivia Crack",
+    "url": "https://velara.cc/assets/games/triviacrack.html",
+    "img": "https://velara.cc/assets/games/triviacrack.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tube Jumpers",
+    "url": "https://velara.cc/assets/games/tubejumpers.html",
+    "img": "https://velara.cc/assets/games/tubejumpers.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tug Of War With Cars",
+    "url": "https://velara.cc/assets/games/tugofwarwithcars.html",
+    "img": "https://velara.cc/assets/games/tugofwarwithcars.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Tunnel Rush",
+    "url": "https://velara.cc/assets/games/tunnelrush.html",
+    "img": "https://velara.cc/assets/games/tunnelrush.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Turbo Stars",
+    "url": "https://velara.cc/assets/games/turbostars.html",
+    "img": "https://velara.cc/assets/games/turbostars.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Twerkrace 3 D",
+    "url": "https://velara.cc/assets/games/twerkrace3d.html",
+    "img": "https://velara.cc/assets/games/twerkrace3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Twinshot",
+    "url": "https://velara.cc/assets/games/twinshot.html",
+    "img": "https://velara.cc/assets/games/twinshot.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Twistedrope 3 D",
+    "url": "https://velara.cc/assets/games/twistedrope3d.html",
+    "img": "https://velara.cc/assets/games/twistedrope3d.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ultimate Car Driving Simulator",
+    "url": "https://velara.cc/assets/games/ultimatecardrivingsimulator.html",
+    "img": "https://velara.cc/assets/games/ultimatecardrivingsimulator.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Ultra Kill",
+    "url": "https://velara.cc/assets/games/ultrakillgame.html",
+    "img": "https://velara.cc/assets/games/ultrakill.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Under Wheels",
+    "url": "https://velara.cc/assets/games/underwheelsgame.html",
+    "img": "https://velara.cc/assets/games/underwheels.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Undertale",
+    "url": "https://velara.cc/assets/games/undertalegame.html",
+    "img": "https://velara.cc/assets/games/undertale.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Undertale Yellow",
+    "url": "https://velara.cc/assets/games/undertaleyellow.html",
+    "img": "https://velara.cc/assets/games/undertaleyellow.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Uno",
+    "url": "https://velara.cc/assets/games/unogame.html",
+    "img": "https://velara.cc/assets/games/uno.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Untitled Goose Game",
+    "url": "https://velara.cc/assets/games/Untitled Goose Game.html",
+    "img": "https://velara.cc/assets/games/untitled-goose-game.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Vapor Trails",
+    "url": "https://velara.cc/assets/games/vaportrails.html",
+    "img": "https://velara.cc/assets/games/vaportrails.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Vex 1",
+    "url": "https://velara.cc/assets/games/vex1.html",
+    "img": "https://velara.cc/assets/games/vex1.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Vex 2",
+    "url": "https://velara.cc/assets/games/vex2.html",
+    "img": "https://velara.cc/assets/games/vex2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Vex 3",
+    "url": "https://velara.cc/assets/games/vex3.html",
+    "img": "https://velara.cc/assets/games/vex3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Vex 3 Xmas",
+    "url": "https://velara.cc/assets/games/vex3xmas.html",
+    "img": "https://velara.cc/assets/games/vex3xmas.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Vex 4",
+    "url": "https://velara.cc/assets/games/vex4.html",
+    "img": "https://velara.cc/assets/games/vex4.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Vex 5",
+    "url": "https://velara.cc/assets/games/vex5.html",
+    "img": "https://velara.cc/assets/games/vex5.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Vex 6",
+    "url": "https://velara.cc/assets/games/vex6.html",
+    "img": "https://velara.cc/assets/games/vex6.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Vex 7",
+    "url": "https://velara.cc/assets/games/vex7.html",
+    "img": "https://velara.cc/assets/games/vex7.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Vex 8",
+    "url": "https://velara.cc/assets/games/vex8.html",
+    "img": "https://velara.cc/assets/games/vex8.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Vex Challenges",
+    "url": "https://velara.cc/assets/games/vexchallenges.html",
+    "img": "https://velara.cc/assets/games/vexchallenges.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Vexx 3 M",
+    "url": "https://velara.cc/assets/games/vexx3m.html",
+    "img": "https://velara.cc/assets/games/vexx3m.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Vexx 3 M 2",
+    "url": "https://velara.cc/assets/games/vexx3m2.html",
+    "img": "https://velara.cc/assets/games/vexx3m2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Volley Random",
+    "url": "https://velara.cc/assets/games/volleyrandom.html",
+    "img": "https://velara.cc/assets/games/volleyrandom.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Wall Crawler",
+    "url": "https://velara.cc/assets/games/wallcrawler.html",
+    "img": "https://velara.cc/assets/games/wallcrawler.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "War Regions",
+    "url": "https://velara.cc/assets/games/warregions.html",
+    "img": "https://velara.cc/assets/games/warregions.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "War The Knights",
+    "url": "https://velara.cc/assets/games/wartheknights.html",
+    "img": "https://velara.cc/assets/games/wartheknights.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Water Works",
+    "url": "https://velara.cc/assets/games/waterworks.html",
+    "img": "https://velara.cc/assets/games/waterworks.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Wavedash",
+    "url": "https://velara.cc/assets/games/wavedash.html",
+    "img": "https://velara.cc/assets/games/wavedash.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Weapon Craft Run",
+    "url": "https://velara.cc/assets/games/weaponcraftrun.html",
+    "img": "https://velara.cc/assets/games/weaponcraftrun.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Weapon Scale",
+    "url": "https://velara.cc/assets/games/weaponscale.html",
+    "img": "https://velara.cc/assets/games/weaponscale.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Weapon Upgrade Rush",
+    "url": "https://velara.cc/assets/games/weaponupgraderush.html",
+    "img": "https://velara.cc/assets/games/weaponupgraderush.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Web Fishing",
+    "url": "https://velara.cc/assets/games/webfishinggame.html",
+    "img": "https://velara.cc/assets/games/webfishing.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Whack Your Boss",
+    "url": "https://velara.cc/assets/games/whackyourboss.html",
+    "img": "https://velara.cc/assets/games/whackyourboss.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Wheely",
+    "url": "https://velara.cc/assets/games/wheely1.html",
+    "img": "https://velara.cc/assets/games/wheely.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Wheely 2",
+    "url": "https://velara.cc/assets/games/wheely2.html",
+    "img": "https://velara.cc/assets/games/wheely2.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Wheely 3",
+    "url": "https://velara.cc/assets/games/wheely3.html",
+    "img": "https://velara.cc/assets/games/wheely3.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Wheely 4",
+    "url": "https://velara.cc/assets/games/wheely4.html",
+    "img": "https://velara.cc/assets/games/wheely4.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Wheely 5",
+    "url": "https://velara.cc/assets/games/wheely5.html",
+    "img": "https://velara.cc/assets/games/wheely5.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Wheely 6",
+    "url": "https://velara.cc/assets/games/wheely6.html",
+    "img": "https://velara.cc/assets/games/wheely6.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Wheely 7",
+    "url": "https://velara.cc/assets/games/wheely7.html",
+    "img": "https://velara.cc/assets/games/wheely7.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Wheely 8",
+    "url": "https://velara.cc/assets/games/wheely8.html",
+    "img": "https://velara.cc/assets/games/wheely8.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Wolfenstein 3D",
+    "url": "https://velara.cc/assets/games/wolfenstein3d.html",
+    "img": "https://velara.cc/assets/games/wolfenstein3d.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Wordle",
+    "url": "https://velara.cc/assets/games/wordlegame.html",
+    "img": "https://velara.cc/assets/games/wordle.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "World Box",
+    "url": "https://velara.cc/assets/games/worldbox.html",
+    "img": "https://velara.cc/assets/games/worldbox.png",
+    "mode": "proxy"
+  },
+  {
+    "name": "Yandere Simulator",
+    "url": "https://velara.cc/assets/games/yanderesimulator.html",
+    "img": "https://velara.cc/assets/games/yanderesimulator.jpg",
+    "mode": "proxy"
+  },
+  {
+    "name": "Yume Nikki",
+    "url": "https://velara.cc/assets/games/yumenikkigame.html",
+    "img": "https://velara.cc/assets/games/yumenikki.png",
+    "mode": "proxy"
+  }
+]

@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <script src="/assets/js/compat.js"></script>
+    <link rel="icon" type="image/png" href="/assets/img/lonelii.png">
+    <title>lonlii</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="/proxy/uv/uv.bundle.js"></script>
+    <script src="/proxy/uv/uv.config.js"></script>
+    <script src="/proxy/bare-mux/index.js"></script>
+    <script src="/assets/js/transport.js"></script>
+    <script src="/assets/js/t.js" defer></script>
+    <script src="/proxy/scramjet/scramjet.all.js"></script>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/colors.css" id="css-theme-link">
+    <link rel="stylesheet" href="/assets/css/t.css">
+    <link rel="stylesheet" href="/assets/css/dropdown.css">
+    <link rel="stylesheet" href="/assets/css/glass.css">
+    <script src="/assets/js/cursor.js" defer></script>
+    <script src="/assets/js/colors.js"></script>
+    <script src="/assets/js/splash.js" defer></script>
+    <script src="/assets/js/browserfunctions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/eruda@3.4.3/eruda.min.js"></script>
+    <script src="/assets/js/background.js" defer></script>
+    <script src="/assets/js/profile.js" defer></script>
+    <script src="/assets/js/ui.js" defer></script>
+    <script src="/assets/js/router.js" defer></script>
+    <script src="/assets/js/routes.js"></script>
+    <script>
+        // without ?launch or a subject url (/chemistry, ...), visitors land on the decoy page first
+        const params = new URLSearchParams(window.location.search)
+        if (!params.get("launch") && !lonliiRoutes.sectionFor(location.pathname)) {
+            window.location.replace('/start.html');
+        }
+    </script>
+    <meta name="title" content="Lonlii">
+    <meta name="description"
+        content="A state of the art unblocked games website. Clean, customizable, and made of glass.">
+    <meta name="keywords"
+        content="unblocked, ub, school, games, gn-math, gnmath, unblockedgames, proxy, ultraviolet, scramjet, roblox, fortnite, nowgg, movies, tv, browser, webos, ubgames, apps, freemovies, vm">
+    <meta name="robots" content="index, nofollow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta property="og:image" content="/assets/img/lonelii.png">
+    <meta property="twitter:image" content="/assets/img/lonelii.png">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="2 days">
+    <meta name="author" content="yaanscoat">
+    <link rel="stylesheet" href="/assets/css/font.css">
+    <link rel="stylesheet" href="/assets/icons/remixicon/remixicon.css">
+
+</html>
+    <link rel="stylesheet" href="/assets/css/compat.css">
+</head>
+
+<body>
+    <div id="lonlii-intro" aria-hidden="true">
+        <div class="intro-time">
+            <span id="intro-clock">--:--</span>
+            <span id="intro-date"></span>
+        </div>
+        <div class="intro-card glass">
+            <div class="intro-avatar">
+                <svg class="intro-ring" viewBox="0 0 120 120">
+                    <circle class="ring-track" cx="60" cy="60" r="54" />
+                    <circle class="ring-progress" cx="60" cy="60" r="54" pathLength="100" />
+                </svg>
+                <img src="/assets/img/lonelii.png" alt="">
+            </div>
+            <p class="intro-greeting" id="intro-greeting">welcome</p>
+            <h1 class="intro-name"><span>l</span><span>o</span><span>n</span><span>l</span><span>i</span><span>i</span></h1>
+            <p class="intro-status" id="intro-status">getting things ready</p>
+        </div>
+        <p class="intro-skip">press any key to skip</p>
+    </div>
+    <button id="gohomeblock" onclick="navTo('home?launch=1')">
+        <i class="ri-home-4-line"></i>
+    </button>
+    <nav>
+        <ul>
+            <li style="width: 40px;">
+                <a onclick="navTo('home?launch=1')" style="margin-top: 7.5px; margin-left: 10px;" href="#"
+                    data-page="home">
+                    <div class="hcontainer">
+                        <img src="/assets/img/lonelii.png" style="height: 24px; margin-top: -1px; margin-right: -0px;"
+                            alt="">
+                    </div>
+                </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a onclick="toggleGames()" href="#" data-page="games">
+                    <i class="ri-gamepad-line"></i>
+                </a>
+            </li>
+            <li>
+                <a onclick="toggleApps()" href="#" data-page="apps">
+                    <i class="ri-apps-line"></i>
+                </a>
+            </li>
+            <li>
+                <a onclick="navTo('movies')" href="#" data-page="movies">
+                    <i class="ri-video-line"></i>
+                </a>
+            </li>
+            <li>
+                <a onclick="navTo('music')" href="#" data-page="music">
+                    <i class="ri-music-2-line"></i>
+                </a>
+            </li>
+            <li>
+                <a onclick="navTo('ai')" href="#" data-page="ai" title="AI">
+                    <i class="ri-sparkling-2-line"></i>
+                </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a onclick="toggleSettings()" href="#" data-page="dc">
+                    <i class="ri-settings-3-line"></i>
+                </a>
+            </li>
+            <li class="nav-github">
+                <a target="_blank" href="https://github.com/yaanscoat/lonlii" data-page="github">
+                    <i class="ri-github-fill"></i>
+                </a>
+            </li>
+            <li class="divider"></li>
+            <li class="nav-avatar">
+                <a onclick="openProfile()" href="#" data-page="profile" title="Your profile">
+                    <span id="navAvatar"></span>
+                </a>
+            </li>
+            <!--
+            <li class="divider"></li>
+            <li style="width: 85px">
+                <a onclick="navTo('gmbl'); showToast('warning', 'Lonlii in NO WAY encourages gambling, betting, or any actions of the kind. This is just a joke.', 'ri-alert-line')"
+                    href="#" data-page="gmbl">
+                    <i class="ri-coins-line"
+                        style="font-size: 17px; transform: translateY(40%); left: 10px;"></i><span
+                        class="new">NEW</span>
+                </a>
+            </li>
+            -->
+        </ul>
+    </nav>
+    <div id="homeContent">
+        <div class="home-icon glass"><img src="/assets/img/lonelii.png" alt="lonlii"></div>
+        <h1 class="text-7xl font-medium home-gradient">
+            lonlii</h1>
+        <p id="splash" class="text-medium font-light text-white/50">
+            wsp
+        </p>
+        <br>
+        <div class="searchathome">
+            <i class="ri-search-line"></i>
+            <input id="homesearch" disabled autocomplete="off" style="margin-right: -3%;" type="text"
+                placeholder="search not ready yet!" />
+            <i style="margin-right: 1%; animation: rotationlmao .45s linear infinite forwards; transition: 0.2s;"
+                class="ri-loader-4-line"></i>
+        </div>
+        <br><br>
+    </div>
+
+    <div class="toast-container fixed right-4 top-4 w-1/4">
+    </div>
+
+    <div class="toast-container"></div>
+
+    <iframe id="contentFrame"></iframe>
+
+    <div class="settings-container settings-hidden">
+        <div class="container">
+            <div class="settings-sidebar vflex">
+                <div class="settings-section" style="background: var(--bg-3);" onclick="switchSettingsPage('general')"
+                    data-target="general">
+                    <i class="ri-settings-3-line"></i>
+                    General
+                </div>
+                <div class="settings-section" onclick="switchSettingsPage('profile')" data-target="profile">
+                    <i class="ri-user-smile-line"></i>
+                    Profile
+                </div>
+                <div class="settings-section" onclick="switchSettingsPage('gaming')" data-target="gaming">
+                    <i class="ri-gamepad-line"></i>
+                    Gaming
+                </div>
+                <div class="settings-section" onclick="switchSettingsPage('cloaking')" data-target="cloaks">
+                    <i class="ri-spy-line"></i>
+                    Cloaking
+                </div>
+                <div class="settings-section" onclick="switchSettingsPage('proxy')" data-target="proxy">
+                    <i class="ri-global-line"></i>
+                    Proxy
+                </div>
+                <div class="settings-section" onclick="switchSettingsPage('info')" data-target="info">
+                    <i class="ri-information-line"></i>
+                    Info
+                </div>
+                <div class="settings-section" onclick="switchSettingsPage('updates')" data-target="info">
+                    <i class="ri-notification-3-line"></i>
+                    Updates
+                </div>
+            </div>
+
+            <div class="settings-content-container">
+                <div id="settings-general" class="settings-page settings-active">
+                    <h2>Theme</h2>
+                    <p>The color scheme used across the whole site. Some changes might not happen instantly, so refresh
+                        to see those take place.</p>
+                    <div class="theme-selector">
+                        <div class="theme-selected"></div>
+                        <div class="theme-options">
+
+                        </div>
+                    </div>
+
+                    <h2>Custom Cursor</h2>
+                    <p>Enable or disable the ZXS cursor, which could also improve performance.</p>
+                    <!-- From Uiverse.io by Galahhad -->
+                    <label class="switch">
+                        <input id="cursor-toggle" checked="" onchange="updateCur()" type="checkbox">
+                        <div class="slider">
+                            <div class="circle">
+                                <svg class="cross" xml:space="preserve" style="enable-background:new 0 0 512 512"
+                                    viewBox="0 0 365.696 365.696" y="0" x="0" height="6" width="6"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path data-original="#000000" fill="currentColor"
+                                            d="M243.188 182.86 356.32 69.726c12.5-12.5 12.5-32.766 0-45.247L341.238 9.398c-12.504-12.503-32.77-12.503-45.25 0L182.86 122.528 69.727 9.374c-12.5-12.5-32.766-12.5-45.247 0L9.375 24.457c-12.5 12.504-12.5 32.77 0 45.25l113.152 113.152L9.398 295.99c-12.503 12.503-12.503 32.769 0 45.25L24.48 356.32c12.5 12.5 32.766 12.5 45.247 0l113.132-113.132L295.99 356.32c12.503 12.5 32.769 12.5 45.25 0l15.081-15.082c12.5-12.504 12.5-32.77 0-45.25zm0 0">
+                                        </path>
+                                    </g>
+                                </svg>
+                                <svg class="checkmark" xml:space="preserve" style="enable-background:new 0 0 512 512"
+                                    viewBox="0 0 24 24" y="0" x="0" height="10" width="10"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path class="" data-original="#000000" fill="currentColor"
+                                            d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </label>
+                    <br>
+                    <br>
+                </div>
+
+                <div id="settings-profile" class="settings-page">
+                    <h2>Profile</h2>
+                    <p>Your name, picture and decoration. There are no accounts, so this is only saved in this
+                        browser and nobody else sees it.</p>
+                    <div class="profile-card">
+                        <div id="profilePreview"></div>
+                        <div class="profile-card-text">
+                            <span class="profile-card-name" id="profileNameShow">you</span>
+                            <span class="profile-card-deco" id="profileDecoName"></span>
+                        </div>
+                    </div>
+                    <h3>Name</h3>
+                    <input class="wispInput" id="profileName" maxlength="24" placeholder="What should lonlii call you?"
+                        autocomplete="nickname">
+                    <h3>Picture</h3>
+                    <div class="profile-buttons">
+                        <button class="button" id="pfpUpload" type="button"><i class="ri-upload-2-line"></i> Upload</button>
+                        <button class="button" id="pfpRemove" type="button"><i class="ri-delete-bin-line"></i> Remove</button>
+                    </div>
+                    <input type="file" id="pfpFile" accept="image/*" hidden>
+                    <p class="bg-status" id="profileStatus"></p>
+                    <h3>Decoration</h3>
+                    <div class="deco-grid" id="decoGrid"></div>
+                    <br>
+                </div>
+
+                <div id="settings-gaming" class="settings-page">
+                    <h2>Game Library</h2>
+                    <p>The set of games that the whole site uses! This will automatically reload the games.</p>
+                    <div class="store-selector">
+                        <div class="store-selected"></div>
+                        <div class="store-options">
+
+                        </div>
+                    </div>
+
+                    <h2>Game Overlay</h2>
+                    <p>Enable or disable the game overlay, which provides useful tools while gaming such as a browser,
+                        recording tools, etc. Turn off if you're experiencing performance issues.</p>
+                    <!-- From Uiverse.io by Galahhad -->
+                    <label class="switch">
+                        <input id="overlay-toggle" checked="" onchange="updateOverlaySettings()" type="checkbox">
+                        <div class="slider">
+                            <div class="circle">
+                                <svg class="cross" xml:space="preserve" style="enable-background:new 0 0 512 512"
+                                    viewBox="0 0 365.696 365.696" y="0" x="0" height="6" width="6"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path data-original="#000000" fill="currentColor"
+                                            d="M243.188 182.86 356.32 69.726c12.5-12.5 12.5-32.766 0-45.247L341.238 9.398c-12.504-12.503-32.77-12.503-45.25 0L182.86 122.528 69.727 9.374c-12.5-12.5-32.766-12.5-45.247 0L9.375 24.457c-12.5 12.504-12.5 32.77 0 45.25l113.152 113.152L9.398 295.99c-12.503 12.503-12.503 32.769 0 45.25L24.48 356.32c12.5 12.5 32.766 12.5 45.247 0l113.132-113.132L295.99 356.32c12.503 12.5 32.769 12.5 45.25 0l15.081-15.082c12.5-12.504 12.5-32.77 0-45.25zm0 0">
+                                        </path>
+                                    </g>
+                                </svg>
+                                <svg class="checkmark" xml:space="preserve" style="enable-background:new 0 0 512 512"
+                                    viewBox="0 0 24 24" y="0" x="0" height="10" width="10"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path class="" data-original="#000000" fill="currentColor"
+                                            d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </label>
+
+                    <br><br>
+
+                    <h2>Download Games</h2>
+                    <p>Download all game stores.</p>
+                    <button class="button" style="margin-left: 0;" onclick="toggleDownloadGames()">Download</button>
+
+                    <br><br><br>
+                </div>
+
+                <div id="settings-cloaking" class="settings-page">
+                    <h2>Tab Cloak</h2>
+                    <p>How your tab will appear in history, on filtering extensions, and more.</p>
+                    <div class="decoy-selector">
+                        <div class="decoy-selected"></div>
+                        <div class="decoy-options">
+
+                        </div>
+                    </div>
+
+                    <h2>about:blank</h2>
+                    <p>Create a new about:blank tab to hide Lonlii from your history and filter.</p>
+                    <button onclick="
+                        openAB()
+                    " class="button"><i class="ri-external-link-line"></i>&nbsp;Open in about:blank</button>
+                    <br><br>
+                    <h2>Auto Cloak</h2>
+                    <p>If this toggle is switched on, then as soon as the page loads, it will immediately open the
+                        about:blank cloaked page and redirect the main page to Google. Off by default.</p>
+                    <label class="switch">
+                        <input id="cloak-toggle" checked="" onchange="updateABSettings()" type="checkbox">
+                        <div class="slider">
+                            <div class="circle">
+                                <svg class="cross" xml:space="preserve" style="enable-background:new 0 0 512 512"
+                                    viewBox="0 0 365.696 365.696" y="0" x="0" height="6" width="6"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path data-original="#000000" fill="currentColor"
+                                            d="M243.188 182.86 356.32 69.726c12.5-12.5 12.5-32.766 0-45.247L341.238 9.398c-12.504-12.503-32.77-12.503-45.25 0L182.86 122.528 69.727 9.374c-12.5-12.5-32.766-12.5-45.247 0L9.375 24.457c-12.5 12.504-12.5 32.77 0 45.25l113.152 113.152L9.398 295.99c-12.503 12.503-12.503 32.769 0 45.25L24.48 356.32c12.5 12.5 32.766 12.5 45.247 0l113.132-113.132L295.99 356.32c12.503 12.5 32.769 12.5 45.25 0l15.081-15.082c12.5-12.504 12.5-32.77 0-45.25zm0 0">
+                                        </path>
+                                    </g>
+                                </svg>
+                                <svg class="checkmark" xml:space="preserve" style="enable-background:new 0 0 512 512"
+                                    viewBox="0 0 24 24" y="0" x="0" height="10" width="10"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path class="" data-original="#000000" fill="currentColor"
+                                            d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </label>
+                    <br><br>
+                    <h2>Confirm Leave</h2>
+                    <p>This setting is useful if teachers are trying to close your tab. When the tab is closed, it will
+                        show an "Are you sure you want to leave this site?" popup to prevent tab closing.</p>
+                    <label class="switch">
+                        <input id="confirm-leave-toggle" checked="" onchange="updateCLSettings()" type="checkbox">
+                        <div class="slider">
+                            <div class="circle">
+                                <svg class="cross" xml:space="preserve" style="enable-background:new 0 0 512 512"
+                                    viewBox="0 0 365.696 365.696" y="0" x="0" height="6" width="6"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path data-original="#000000" fill="currentColor"
+                                            d="M243.188 182.86 356.32 69.726c12.5-12.5 12.5-32.766 0-45.247L341.238 9.398c-12.504-12.503-32.77-12.503-45.25 0L182.86 122.528 69.727 9.374c-12.5-12.5-32.766-12.5-45.247 0L9.375 24.457c-12.5 12.504-12.5 32.77 0 45.25l113.152 113.152L9.398 295.99c-12.503 12.503-12.503 32.769 0 45.25L24.48 356.32c12.5 12.5 32.766 12.5 45.247 0l113.132-113.132L295.99 356.32c12.503 12.5 32.769 12.5 45.25 0l15.081-15.082c12.5-12.504 12.5-32.77 0-45.25zm0 0">
+                                        </path>
+                                    </g>
+                                </svg>
+                                <svg class="checkmark" xml:space="preserve" style="enable-background:new 0 0 512 512"
+                                    viewBox="0 0 24 24" y="0" x="0" height="10" width="10"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path class="" data-original="#000000" fill="currentColor"
+                                            d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </label>
+                    <br><br><br>
+                </div>
+
+                <div id="settings-proxy" class="settings-page">
+                    <h2>Background</h2>
+                    <p>What plays behind everything. The default is a looping Minecraft video. You can upload your own
+                        image or video, paste a link (an image, a video, or a YouTube / LoopTube link), or turn it off.</p>
+                    <div class="bg-picker">
+                        <button data-bg="minecraft"><i class="ri-box-3-line"></i> Minecraft</button>
+                        <button data-bg="upload"><i class="ri-upload-2-line"></i> Upload</button>
+                        <button data-bg="link"><i class="ri-link"></i> Link</button>
+                        <button data-bg="off"><i class="ri-forbid-line"></i> Off</button>
+                    </div>
+                    <input type="file" id="bgFile" accept="image/*,video/*" hidden>
+                    <form class="hcontainer" id="bgLinkForm" hidden>
+                        <input class="wispInput" id="bgLinkInput" type="url" placeholder="https://... image, video or YouTube link">
+                        <button class="button" type="submit">Set</button>
+                    </form>
+                    <p class="bg-status" id="bgStatus"></p>
+                    <div class="bg-dim">
+                        <label for="bgDim">Dim</label>
+                        <input type="range" id="bgDim" min="0" max="90" value="45">
+                    </div>
+                    <br>
+                    <h2>Bare Server</h2>
+                    <p>The bare server all proxied content will be transferred through. Make sure the one in use is not
+                        blocked, or else it will not function! <b>The server you use must start with http(s):// and end
+                        with a /.</b> Leave empty and press Set to go back to the default.
+                    </p>
+                    <div class="hcontainer">
+                        <input class="wispInput bareInput" type="text" placeholder="https://domain.tld/bare/">
+                        <button class="button"
+                            onclick="setBare(document.querySelector('.bareInput').value)">Set</button>
+                    </div>
+                    <br>
+                    <h2>Backend</h2>
+                    <p>The main proxy service. Scramjet is newer but more experimental, while Ultraviolet is older but
+                        less advanced.</p>
+                    <div class="backend-selector">
+                        <div class="backend-selected"></div>
+                        <div class="backend-options">
+
+                        </div>
+                    </div>
+
+                    <h2>Search Engine</h2>
+                    <p>This is the search engine that the proxy will use with search queries.</p>
+                    <div class="search-engine-selector">
+                        <div class="search-engine-selected"></div>
+                        <div class="search-engine-options">
+
+                        </div>
+                    </div>
+
+                    <br><br><br>
+                </div>
+
+                <div id="settings-info" class="settings-page">
+                    <h2>Credits</h2>
+                    <p>
+                        <b style="font-weight: 600;">Gn-Math</b> - game source <br>
+                        <b style="font-weight: 600;">Velara</b> - game source <br>
+                        <b style="font-weight: 600;">Selenite</b> - game source <br>
+                        <b style="font-weight: 600;">Truffled</b> - game source <br>
+                        <b style="font-weight: 600;">Wasm.rip</b> - game source <br>
+                        <b style="font-weight: 600;">Classplay</b> - game source <br>
+                        <b style="font-weight: 600;">Zones</b> - game source <br>
+                        <b style="font-weight: 600;">Mercury Workshop</b> - Scramjet, Bare-Mux, Bare Client &amp; Wisp <br>
+                        <b style="font-weight: 600;">Titanium Network</b> - Ultraviolet <br>
+                    </p>
+
+                    <br>
+
+                    <h2>About</h2>
+                    <p>Made by yaanscoat, inspired by <a href="https://github.com/x8rr/cherri" target="_blank">cherri</a>.
+                        Check out the source on <a href="https://github.com/yaanscoat/lonlii" target="_blank">GitHub</a>.</p>
+
+                    <br>
+
+                    <h2>Changelog</h2>
+                    <div class="changelog">
+                        <div class="release">
+                            <h3>v2.3 <span>latest</span></h3>
+                            <ul>
+                                <li>Profiles: a name, your own picture and 34 animated decorations (Settings → Profile).
+                                    No accounts, it's all saved in your browser</li>
+                                <li>The AI is back at /ap-research, running on free models with saved chats</li>
+                                <li>The intro greets you by name with your picture</li>
+                            </ul>
+                        </div>
+                        <div class="release">
+                            <h3>v2.2</h3>
+                            <ul>
+                                <li>The background is now a looping Minecraft video, and you can swap it for your own
+                                    image, video or link (Settings → Proxy), dim it, or turn it off</li>
+                                <li>Removed the particles and the old background video</li>
+                                <li>Removed the VMs button (VMs are still at /computer-science)</li>
+                            </ul>
+                        </div>
+                        <div class="release">
+                            <h3>v2.1</h3>
+                            <ul>
+                                <li>Music: search, artist pages, albums and a queue, powered by YouTube Music with SoundCloud as a backup</li>
+                                <li>New welcome screen that fades into the site</li>
+                                <li>Every section has its own address, like /chemistry and /advanced-music</li>
+                                <li>Works better on phones, tablets, iPads, Firefox, Chrome and Edge</li>
+                                <li>Fixed YouTube saying "you're offline" and TikTok refusing to load in the proxy</li>
+                                <li>Removed the AI assistant</li>
+                            </ul>
+                        </div>
+                        <div class="release">
+                            <h3>v2.0</h3>
+                            <ul>
+                                <li>Liquid glass look, brown default theme and 11 new themes</li>
+                                <li>Video background with particles, both can be turned off</li>
+                                <li>New movies &amp; TV player, streamed through the proxy</li>
+                                <li>Games from Velara, Truffled, Selenite, Wasm.rip and Zones, all proxied</li>
+                                <li>Removed chat and partners, cleaned up the project folders</li>
+                            </ul>
+                        </div>
+                        <div class="release">
+                            <h3>v1.0</h3>
+                            <ul>
+                                <li>lonlii is born: rebranded from cherri with the Lexend font and a new icon</li>
+                                <li>The proxy switched to Bare only, so lonlii runs on any static host</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="settings-updates" class="settings-page">
+                    <h2>What's New in lonlii 2.3</h2>
+                    <p class="update-cont">
+                        • Profiles with your own picture and animated decorations <br>
+                        • The AI is back, free for everyone <br>
+                        • A personal welcome on the intro <br>
+                        <br>
+                        The full history is in Info → Changelog.
+                    </p>
+                </div>
+            </div>
+
+            <p class="version-tag">lonlii <a href="https://github.com/yaanscoat/lonlii"
+                    target="_blank">v2.3</a></p>
+        </div>
+    </div>
+
+    <div class="browser-container">
+        <div class="browser-controls">
+            <div class="tabs">
+                <button class="newtab" onclick="newTab()">
+                    <i class="ri-add-line"></i>
+                </button>
+            </div>
+            <div class="browser-buttons">
+                <div class="hcontainer">
+                    <button onclick="b()">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </button>
+                    <button onclick="f()">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </button>
+                    <button onclick="r()">
+                        <i class="ri-refresh-line"></i>
+                    </button>
+                    <input type="text" id="searchbar" onkeydown="((e) => {
+                        if (e.key === 'Enter' || e.key === 'enter') {
+                            console.log('hi')
+                            rSearch(this.value.trim())
+                        }
+                    })" placeholder="search anything...">
+                    <button onclick="full()">
+                        <i class="ri-fullscreen-line"></i>
+                    </button>
+                    <button onclick="launchEruda()">
+                        <i class="ri-code-box-line"></i>
+                    </button>
+                    <button onclick="hideBrowser()">
+                        <i class="ri-home-4-line"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="browser-loading"></div>
+    </div>
+
+    <div id="bg-layer" aria-hidden="true"></div>
+    <div id="bg-tint"></div>
+
+    <div id="cursor-thank-you-zxs"
+        style="position: fixed; top: 0px; left: 0px; width: 16px; height: 16px; border-radius: 50%; background: color-mix(in srgb, var(--accent) 70%, white 30%); pointer-events: none; z-index: 9999; transform: translate(748px, 592px); transition: width 0.15s, height 0.15s, opacity 0.15s; mix-blend-mode: difference; opacity: 0;">
+    </div>
+
+    <div class="apps-wrapper settings-hidden">
+        <input onkeyup="searchApps(this.value)" type="text"
+            placeholder="search through the apps..." id="apps-search"
+            class="h-fit p-4 px-5 w-[975px] bg-[var(--bg-2)] border-none absolute left-1/2 translate-x-[-50%] rounded-2xl transition-all focus:bg-[var(--bg-3)] focus:outline-none ">
+        <br><br><br>
+        <div
+            class="apps-container h-[83%] overflow-y-scroll w-[475px] flex flex-wrap w-7/8 absolute left-1/2 translate-x-[-50%] justify-center">
+            <br>
+        </div>
+        <br>
+    </div>
+
+    <div class="download-wrapper settings-hidden">
+        <div style="text-align: center;">
+            <br>
+            <h1 style="font-size: 23px; margin-bottom: 10px;">Download Games</h1>
+        </div>
+        <div style="text-align: center;">
+            <a href="https://drive.google.com/file/d/1jenQFXTxrgbNqfLYzH7ckVEC_hskECl1/view?usp=sharing"
+                target="_blank">
+                <button class="button">Google Drive 1</button>
+            </a>
+        </div>
+        <br>
+        <p style="opacity: .5; font-size: 14px; font-style: italic; text-align: center; ">more coming before gta 6 twin
+            <br> :broken-heart: :wilted-rose: :low-battery:
+        </p>
+    </div>
+
+    <div class="games-wrapper settings-hidden">
+        <input onkeyup="searchApps(this.value)" type="text"
+            placeholder="search through the games..." id="apps-search"
+            class="h-fit p-4 px-5 w-[975px] bg-[var(--bg-2)] border-none absolute left-1/2 translate-x-[-50%] rounded-2xl transition-all focus:bg-[var(--bg-3)] focus:outline-none ">
+        <br><br><br>
+        <div
+            class="games-container h-[83%] overflow-y-scroll w-[475px] flex flex-wrap w-7/8 absolute left-1/2 translate-x-[-50%] justify-center">
+            <br>
+        </div>
+        <br>
+    </div>
+
+
+    <button id="reset-theme" onclick="resetTheme()">CLICK HERE TO RESET YOUR THEME!</button>
+
+    <!-- site version -->
+    <lonliiattr version="s2.3.0"></lonliiattr>
+
+    <script src="/assets/js/dropdown.js"></script>
+    <script>
+        const selectedStore = localStorage.getItem("lonlii_gameStore") ?? "Classplay"
+
+        let res
+        let data
+
+        async function gj(file) {
+            res = await fetch(`/assets/data/${file}.json`);
+            data = await res.json()
+        }
+
+        // welcome to my super bad json loader
+        // time wasted on this:
+        // 0.25 hour(s)
+
+        function load(file, type, functionName, toRun, additions) {
+            gj(file).then(() => {
+                console.log(
+                    "%clonlii" + "%c recieved json data!",
+                    "color: white; background: linear-gradient(to bottom right, #040c16, #000000); border-radius: 5px; font-weight: bold; padding: 6px; font-family: sans-serif;",
+                    "color: white; background: transparent; border-radius: 0px; padding: 0px;"
+                )
+            }).then(() => {
+                data.forEach(item => {
+                    const aCont = document.querySelector(`.${type}-container`)
+                    const newAppContainer = document.createElement("div")
+
+                    newAppContainer.classList.add("app")
+                    newAppContainer.style.setProperty("--i", Math.min(aCont.children.length, 40))
+                    newAppContainer.addEventListener("click", () => {
+                        window[`toggle${functionName}`]()
+                        // game urls ride in a query string, so encode them and pass along how play.html should load them
+                        const target = type === "games"
+                            ? `${additions}${encodeURIComponent(item.url)}${item.mode ? `&mode=${item.mode}` : ""}`
+                            : `${additions}${item.url}`
+                        window[toRun](target)
+                    })
+                    newAppContainer.innerHTML = `
+                        <div class="bg-img"></div>
+                        <div class="app-title-cont">
+                            <h2 class="app-title-h2"></h2>
+                        </div>
+                    `
+                    // names and images come from third-party lists, so never treat them as markup
+                    newAppContainer.querySelector(".bg-img").dataset.bg = item.img
+                    newAppContainer.querySelector(".app-title-h2").textContent = item.name
+
+                    aCont.appendChild(newAppContainer)
+                })
+            }).then(() => {
+                observe()
+            })
+        }
+
+        const bgO = new IntersectionObserver(cards => {
+            cards.forEach(c => {
+                if (c.isIntersecting) {
+                    const el = c.target
+                    el.style.backgroundImage = `url('${el.dataset.bg}')`
+                    bgO.unobserve(el)
+                }
+            })
+        })
+
+        function observe() {
+            document.querySelectorAll(".bg-img[data-bg]").forEach(el => bgO.observe(el))
+        }
+
+        load("apps", "apps", "Apps", "rSearch", "")
+        load(`games/${selectedStore.toLowerCase()}`, "games", "Games", "navTo", "play.html?launch=")
+
+        document.addEventListener("DOMContentLoaded", observe)
+
+        document.addEventListener("storeUpdated", (e) => {
+            const newStore = e.detail.toLowerCase()
+            const container = document.querySelector(".games-container")
+
+            container.innerHTML = ''
+            load(`games/${newStore}`, "games", "Games", "navTo", "play.html?launch=")
+        })
+
+        function searchApps(term) {
+            const apps = document.querySelectorAll(".app")
+            apps.forEach((app) => {
+                if (!app.querySelector("h2").textContent.toLowerCase().includes(term.toLowerCase())) {
+                    app.style.display = "none"
+                } else {
+                    app.style.display = "block"
+                }
+            })
+        }
+    </script>
+    <script>
+        async function registerSW() {
+            if ("serviceWorker" in navigator) {
+                // ultraviolet used to live at /uv/; drop that old worker for returning visitors
+                for (const reg of await navigator.serviceWorker.getRegistrations()) {
+                    if (new URL(reg.scope).pathname === "/uv/") reg.unregister()
+                }
+
+                await navigator.serviceWorker.register("/proxy/uv/sw.js").then(() => {
+                    console.log(
+                        "%clonlii" + "%c UV sw registered!",
+                        "color: white; background: linear-gradient(to bottom right, #040c16, #000000); border-radius: 5px; font-weight: bold; padding: 6px; font-family: sans-serif;",
+                        "color: white; background: transparent; border-radius: 0px; padding: 0px;"
+                    );
+                }).catch(e => {
+                    console.log("Error registering service worker (UV): " + e)
+                    showToast("error", "Failed to register service worker", "ri-close-circle-fill")
+                });
+
+                await navigator.serviceWorker.register("/sw.js").then(() => {
+                    console.log(
+                        "%clonlii" + "%c SJ sw registered!",
+                        "color: white; background: linear-gradient(to bottom right, #040c16, #000000); border-radius: 5px; font-weight: bold; padding: 6px; font-family: sans-serif;",
+                        "color: white; background: transparent; border-radius: 0px; padding: 0px;"
+                    );
+                }).catch(e => {
+                    console.log("Error registering service worker (SJ): " + e)
+                    showToast("error", "Failed to register service worker", "ri-close-circle-fill")
+                });
+
+                window.lonliiProxyReady = true
+                window.dispatchEvent(new Event("lonlii:proxy-ready"))
+
+                setTimeout(() => {
+                    document.querySelector(".ri-loader-4-line").style.opacity = 0
+                    document.querySelector(".ri-loader-4-line").style.pointerEvents = "none"
+                    document.querySelector("#homesearch").disabled = false
+                    document.querySelector("#homesearch").placeholder = "search anything..."
+                }, 1000)
+            }
+        }
+
+        // register as soon as the page is parsed; the intro waits on this
+        window.addEventListener("DOMContentLoaded", () => {
+            registerSW();
+        });
+
+        const contentFrame = document.getElementById('contentFrame');
+        const homeContent = document.getElementById('homeContent');
+        const navLinks = document.querySelectorAll('nav a[data-page]');
+
+        function navTo(l) {
+            if (!l.startsWith("play.html") && l.includes("home")) {
+                contentFrame.remove();
+                document.querySelector("nav").style.display = "block"
+                setTimeout(() => {
+                    document.querySelector("nav").style.opacity = "1"
+                }, 3)
+                homeContent.style.display = "block";
+                document.querySelector("#gohomeblock").style.display = "none"
+            } else if (l === "vms") {
+                document.querySelector("nav").style.opacity = 0
+                setTimeout(() => {
+                    document.querySelector("nav").style.display = "none"
+                }, 350)
+                document.querySelector("#gohomeblock").style.display = "block"
+                homeContent.style.display = "none";
+                contentFrame.style.display = "block";
+                contentFrame.src = `/pages/${l}.html`
+            } else {
+                if (!document.body.contains(contentFrame)) {
+                    document.body.appendChild(contentFrame);
+                }
+                const overlayOn = localStorage.getItem("lonlii_useOverlay") ?? "yes"
+                const isGame = l.startsWith("play.html")
+                if (overlayOn === "yes" && isGame) {
+                    document.querySelector("nav").style.opacity = 0
+                    setTimeout(() => {
+                        document.querySelector("nav").style.display = "none"
+                    }, 350)
+                }
+                homeContent.style.display = "none";
+                contentFrame.style.display = "block";
+                contentFrame.src = isGame ? `/pages/${l}` : `/pages/${l}.html`;
+            }
+        }
+    </script>
+    <script>
+        const inp = document.getElementById("searchbar")
+
+        inp.addEventListener("keydown", e => {
+            if (e.key === "Enter") {
+                nav(inp.value)
+                console.log("i")
+            }
+        })
+    </script>
+    <script defer>
+        window.addEventListener("load", () => {
+            const frames = document.querySelectorAll(".viewframe")
+            const activeFrames = document.querySelectorAll(".active")
+
+            activeFrames.forEach(frame => {
+                frame.classList.remove("active")
+            })
+        })
+    </script>
+    <script defer>
+        const settingsHolder = document.querySelector(".settings-container")
+        const settingsViewframe = document.querySelector(".settings-content-container")
+
+        const appsHolder = document.querySelector(".apps-wrapper")
+        const gamesHolder = document.querySelector(".games-wrapper")
+        const downloadHolder = document.querySelector(".download-wrapper")
+
+        const general = document.querySelector("#settings-general")
+        const cloaking = document.querySelector("#settings-cloaking")
+        const proxy = document.querySelector("#settings-proxy")
+        const cookes = document.querySelector("#settings-cookies")
+        const info = document.querySelector("#settings-info")
+
+        const allPages = document.querySelectorAll(".settings-page")
+        const allButtons = document.querySelectorAll(".settings-section")
+
+        function switchSettingsPage(target) {
+            allPages.forEach(page => {
+                page?.classList.remove("settings-active")
+                document.querySelector(`#settings-${target}`)?.classList.add("settings-active")
+            })
+            // highlight the matching tab too, for when this is called from code (e.g. the nav avatar)
+            allButtons.forEach(btn => {
+                btn.style.background = btn.getAttribute("onclick")?.includes(`'${target}'`) ? "var(--bg-3)" : ""
+            })
+        }
+
+        // the avatar in the nav opens settings on the profile tab
+        function openProfile() {
+            if (settingsHolder.classList.contains("settings-hidden")) toggleSettings()
+            switchSettingsPage("profile")
+        }
+
+        allButtons.forEach(button => {
+            button.addEventListener("click", () => {
+                allButtons.forEach(btn => {
+                    btn.style.background = ""
+                    button.style.background = "var(--bg-3)"
+                })
+            })
+        })
+
+        function toggleSettings() {
+            if (settingsHolder.classList.contains("settings-hidden")) {
+                if (appsHolder.classList.contains("settings-shown")) {
+                    toggleApps()
+                } else if (gamesHolder.classList.contains("settings-shown")) {
+                    toggleGames()
+                } else if (downloadHolder.classList.contains("settings-shown")) {
+                    toggleDownloadGames()
+                }
+                const newBlurOverlay = document.createElement("div")
+                newBlurOverlay.classList.add("blurOverlay")
+                document.body.appendChild(newBlurOverlay)
+                newBlurOverlay.addEventListener("click", () => {
+                    toggleSettings()
+                })
+                settingsHolder.classList.remove("settings-hidden")
+                settingsHolder.classList.add("settings-shown")
+            } else {
+                settingsHolder.classList.remove("settings-shown")
+                settingsHolder.classList.add("settings-hidden")
+                const newBlurOverlay = document.querySelector(".blurOverlay")
+                newBlurOverlay.remove()
+            }
+        }
+        function toggleApps() {
+            if (appsHolder.classList.contains("settings-hidden")) {
+                if (settingsHolder.classList.contains("settings-shown")) {
+                    toggleSettings()
+                } else if (gamesHolder.classList.contains("settings-shown")) {
+                    toggleGames()
+                } else if (downloadHolder.classList.contains("settings-shown")) {
+                    toggleDownloadGames()
+                }
+                const newBlurOverlay = document.createElement("div")
+                newBlurOverlay.classList.add("blurOverlay")
+                document.body.appendChild(newBlurOverlay)
+                newBlurOverlay.addEventListener("click", () => {
+                    toggleApps()
+                })
+                appsHolder.classList.remove("settings-hidden")
+                appsHolder.classList.add("settings-shown")
+                console.log("Apps toggled.")
+            } else {
+                appsHolder.classList.remove("settings-shown")
+                appsHolder.classList.add("settings-hidden")
+                const newBlurOverlay = document.querySelector(".blurOverlay")
+                newBlurOverlay.remove()
+            }
+        }
+
+        function toggleDownloadGames() {
+            if (downloadHolder.classList.contains("settings-hidden")) {
+                if (appsHolder.classList.contains("settings-shown")) {
+                    toggleApps()
+                } else if (gamesHolder.classList.contains("settings-shown")) {
+                    toggleGames()
+                } else if (settingsHolder.classList.contains("settings-shown")) {
+                    toggleSettings()
+                }
+                const newBlurOverlay = document.createElement("div")
+                newBlurOverlay.classList.add("blurOverlay")
+                document.body.appendChild(newBlurOverlay)
+                newBlurOverlay.addEventListener("click", () => {
+                    toggleDownloadGames()
+                })
+                downloadHolder.classList.remove("settings-hidden")
+                downloadHolder.classList.add("settings-shown")
+                console.log("Apps toggled.")
+            } else {
+                downloadHolder.classList.remove("settings-shown")
+                downloadHolder.classList.add("settings-hidden")
+                const newBlurOverlay = document.querySelector(".blurOverlay")
+                newBlurOverlay.remove()
+            }
+        }
+
+        function toggleGames() {
+            if (gamesHolder.classList.contains("settings-hidden")) {
+                if (appsHolder.classList.contains("settings-shown")) {
+                    toggleApps()
+                } else if (settingsHolder.classList.contains("settings-shown")) {
+                    toggleSettings()
+                } else if (downloadHolder.classList.contains("settings-shown")) {
+                    toggleDownloadGames()
+                }
+                const newBlurOverlay = document.createElement("div")
+                newBlurOverlay.classList.add("blurOverlay")
+                document.body.appendChild(newBlurOverlay)
+                newBlurOverlay.addEventListener("click", () => {
+                    console.log("clicked")
+                    toggleGames()
+                })
+                gamesHolder.classList.remove("settings-hidden")
+                gamesHolder.classList.add("settings-shown")
+            } else {
+                gamesHolder.classList.remove("settings-shown")
+                gamesHolder.classList.add("settings-hidden")
+                const newBlurOverlay = document.querySelector(".blurOverlay")
+                newBlurOverlay.remove()
+            }
+        }
+
+        function rSearch(input) {
+            const aw = document.querySelector(".apps-wrapper")
+
+            if (aw.classList.contains("settings-shown")) {
+                toggleApps()
+            }
+
+            let url = input;
+            if (!url.includes(".") || url.includes(" ")) {
+                url = url;
+            } else {
+                if (!url.startsWith("http://") && !url.startsWith("https://")) {
+                    url = "https://" + url;
+                }
+            }
+
+            const b = document.querySelector(".browser-container")
+            const frames = document.querySelectorAll(".viewframe")
+
+            b.style.opacity = 1
+            b.style.pointerEvents = "all"
+
+            frames.forEach(frame => {
+                frame.style.opacity = 1
+                frame.style.pointerEvents = "all"
+            })
+
+            console.log("rSearch")
+            newTab()
+            nav(url)
+            switchTab(aTab)
+        }
+    </script>
+    <script defer>
+        window.addEventListener("DOMContentLoaded", () => {
+            console.log("lonlii: dom content loaded")
+            const homesearch = document.getElementById("homesearch");
+
+            homesearch.addEventListener("keydown", (e) => {
+                console.log("askjdfaskhjlgdf")
+                if (e.key === "Enter") {
+                    rSearch(homesearch?.value.trim());
+                    console.log("rsearching")
+                }
+                console.log("check")
+            });
+        })
+    </script>
+    <script defer>
+        const overlayToggle = document.getElementById("overlay-toggle")
+        const overlayIsOn = localStorage.getItem("lonlii_useOverlay") ?? "yes"
+
+        function updateOverlaySettings() {
+            if (overlayToggle.checked) {
+                console.log("checked")
+                showToast("success", "Game overlay is now on!", "ri-checkbox-circle-fill")
+                localStorage.setItem("lonlii_useOverlay", "yes")
+            } else {
+                console.log("unchecked")
+                localStorage.setItem("lonlii_useOverlay", "no")
+                showToast("success", "Game overlay is now off!", "ri-checkbox-circle-fill")
+            }
+        }
+
+        if (overlayIsOn === "yes") {
+            overlayToggle.checked = true
+        } else {
+            overlayToggle.checked = false
+        }
+    </script>
+    <script defer>
+        const lonliiAttr = document.querySelector("lonliiattr")
+        const siteVersion = lonliiAttr.getAttribute("version")
+        const savedVer = localStorage.getItem("lonlii_siteVersion") ?? ""
+
+        window.addEventListener("DOMContentLoaded", () => {
+            if (savedVer === null || !savedVer) {
+                showToast("success", "Welcome to lonlii!", "ri-hand")
+                localStorage.setItem("lonlii_siteVersion", siteVersion)
+            } else if (savedVer !== siteVersion) {
+                showToast("success", "lonlii was updated! Check settings for more info.", "ri-checkbox-circle-fill")
+                localStorage.setItem("lonlii_siteVersion", siteVersion)
+            }
+        })
+
+        function resetTheme() {
+            localStorage.setItem("lonlii_theme", "default")
+            window.location.reload()
+        }
+
+        function openAB() {
+            if (window.self !== window.top) return
+
+            const win = window.open()
+            const url = window.location.href
+            const iframe = win.document.createElement('iframe')
+            iframe.style.width = '100vw'
+            iframe.style.height = '100vh'
+            iframe.style.border = 'none'
+            win.document.body.style.margin = '0'
+            iframe.src = url
+            win.document.body.appendChild(iframe)
+            window.location.href = "https://google.com/"
+        }
+
+        const abToggle = document.getElementById("cloak-toggle")
+        const abOn = localStorage.getItem("lonlii_autoAB") ?? "no"
+
+        function updateABSettings() {
+            if (abToggle.checked) {
+                console.log("checked")
+                showToast("success", "Auto cloaking is now on!", "ri-checkbox-circle-fill")
+                localStorage.setItem("lonlii_autoAB", "yes")
+            } else {
+                console.log("unchecked")
+                localStorage.setItem("lonlii_autoAB", "no")
+                showToast("success", "Auto cloaking is now off!", "ri-checkbox-circle-fill")
+            }
+        }
+
+        if (abOn === "yes") {
+            abToggle.checked = true
+        } else {
+            abToggle.checked = false
+        }
+
+        if (localStorage.getItem("lonlii_autoAB") === "yes") {
+            openAB()
+        }
+
+        const confirmLeaveOn = localStorage.getItem("lonlii_confirmLeave") ?? "no"
+        const confirmLeaveToggle = document.getElementById("confirm-leave-toggle")
+
+        if (confirmLeaveOn === "yes") {
+            confirmLeaveToggle.checked = true
+        } else {
+            confirmLeaveToggle.checked = false
+        }
+
+        function updateCLSettings() {
+            if (confirmLeaveToggle.checked) {
+                console.log("checked")
+                showToast("success", "Confirm leave is now on!", "ri-checkbox-circle-fill")
+                localStorage.setItem("lonlii_confirmLeave", "yes")
+            } else {
+                console.log("unchecked")
+                localStorage.setItem("lonlii_confirmLeave", "no")
+                showToast("success", "Confirm leave is now off!", "ri-checkbox-circle-fill")
+            }
+        }
+
+        window.addEventListener("beforeunload", function (e) {
+            if (localStorage.getItem("lonlii_confirmLeave") === "yes") {
+                e.preventDefault()
+                e.returnValue = ""
+            }
+        })
+
+        const cursorOn = localStorage.getItem("lonlii_customCursor") ?? "yes"
+        const cursorToggle = document.getElementById("cursor-toggle")
+
+        if (cursorOn === "yes") {
+            cursorToggle.checked = true
+        } else {
+            cursorToggle.checked = false
+        }
+
+        function updateCur() {
+            if (cursorToggle.checked) {
+                console.log("checked")
+                showToast("success", "Custom cursor is now on!", "ri-checkbox-circle-fill")
+                localStorage.setItem("lonlii_customCursor", "yes")
+                cursor()
+            } else {
+                console.log("unchecked")
+                document.querySelectorAll("#cursor-thank-you-zxs").forEach(el => el.remove())
+                document.querySelectorAll("#cursor-style-zxs").forEach(el => el.remove())
+                if (animationId) cancelAnimationFrame(animationId)
+                if (mouseMoveHandler) window.removeEventListener("mousemove", mouseMoveHandler)
+                if (messageHandler) window.removeEventListener("message", messageHandler)
+                if (hideInterval) clearInterval(hideInterval)
+                localStorage.setItem("lonlii_customCursor", "no")
+                showToast("success", "Custom cursor is now off!", "ri-checkbox-circle-fill")
+            }
+        }
+
+        window.addEventListener("beforeunload", function (e) {
+            if (localStorage.getItem("lonlii_confirmLeave") === "yes") {
+                e.preventDefault()
+                e.returnValue = ""
+            }
+        })
+
+        window.addEventListener("DOMContentLoaded", () => {
+            const params = new URLSearchParams(window.location.search)
+            if (!params.get("launch") && !lonliiRoutes.sectionFor(location.pathname)) {
+                window.location.href = "/start.html"
+            }
+            if (params.get("page") && params.get("launch")) {
+                navTo(params.get("page"))
+            }
+        })
+    </script>
+    <script>
+        document.querySelector(".bareInput").value = localStorage.getItem("lonlii_bareUrl") ?? ""
+
+        async function setBare(i) {
+            i = i.trim()
+
+            if (i === "") {
+                localStorage.removeItem("lonlii_bareUrl")
+            } else {
+                if (!i.startsWith("https://") && !i.startsWith("http://")) {
+                    showToast("error", "Bare server must start with http(s)://", "ri-close-circle-fill")
+                    return
+                }
+
+                if (!i.endsWith("/")) {
+                    showToast("error", "Bare server must end with a slash!", "ri-close-circle-fill")
+                    return
+                }
+
+                if (i.includes(" ")) {
+                    showToast("error", "Bare server must not contain space!", "ri-close-circle-fill")
+                    return
+                }
+
+                localStorage.setItem("lonlii_bareUrl", i)
+            }
+
+            await setBareTransport(connection)
+            showToast("success", "Bare server set to " + getBareUrl(), "ri-checkbox-circle-fill")
+            console.log("Bare updated", getBareUrl())
+        }
+
+    </script>
+</body>

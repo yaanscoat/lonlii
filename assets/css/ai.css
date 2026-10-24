@@ -1,0 +1,753 @@
+/* the AI chat page, in lonlii's glass and theme colors */
+
+html.embedded {
+    background: transparent;
+}
+
+html:not(.embedded) body {
+    background:
+        radial-gradient(ellipse at 15% 0%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 55%),
+        radial-gradient(ellipse at 90% 100%, color-mix(in srgb, var(--accent-2) 22%, transparent), transparent 55%),
+        var(--bg-5);
+}
+
+body {
+    margin: 0;
+    color: #fff;
+    overflow: hidden;
+}
+
+button {
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+
+.round {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    transition: background 0.2s ease;
+}
+
+.round:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* ---------- layout ---------- */
+
+.ai-app {
+    height: var(--app-height, 100vh);
+    height: 100dvh;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: 8px;
+    padding: 8px;
+}
+
+/* inside lonlii the main nav floats over the top of the page */
+html.embedded .ai-app {
+    padding-top: 74px;
+}
+
+.ai-side {
+    border-radius: 22px;
+    padding: 14px 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+.ai-main {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    min-width: 0;
+}
+
+/* ---------- sidebar ---------- */
+
+.new-chat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 14px;
+    border-radius: 14px;
+    font-weight: 600;
+    background: color-mix(in srgb, var(--accent) 35%, rgba(255, 255, 255, 0.06));
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    transition: background 0.2s ease, transform 0.3s var(--ease-spring);
+    position: relative;
+    z-index: 1;
+}
+
+.new-chat:hover {
+    background: color-mix(in srgb, var(--accent) 50%, rgba(255, 255, 255, 0.08));
+}
+
+.new-chat:active {
+    transform: scale(0.97);
+}
+
+.new-chat i {
+    font-size: 18px;
+}
+
+.side-label {
+    margin: 18px 8px 6px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.55;
+}
+
+.chat-list {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+    z-index: 1;
+}
+
+.chat-empty {
+    margin: 4px 8px;
+    font-size: 14px;
+    opacity: 0.55;
+}
+
+.chat-item {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    transition: background 0.15s ease;
+}
+
+.chat-item:hover,
+.chat-item.on {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.chat-item.on {
+    background: color-mix(in srgb, var(--accent) 22%, rgba(255, 255, 255, 0.05));
+}
+
+.chat-open {
+    flex: 1;
+    min-width: 0;
+    text-align: left;
+    padding: 9px 10px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.chat-delete {
+    padding: 6px 10px;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
+.chat-item:hover .chat-delete,
+.chat-delete:focus-visible {
+    opacity: 0.7;
+}
+
+.chat-delete:hover {
+    opacity: 1;
+    color: #ffb4a8;
+}
+
+.side-note {
+    margin: 10px 8px 0;
+    font-size: 12px;
+    line-height: 1.45;
+    opacity: 0.5;
+}
+
+/* ---------- top bar ---------- */
+
+.ai-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 2px 0 8px;
+    position: relative;
+}
+
+.side-toggle {
+    display: none;
+    position: absolute;
+    left: 0;
+}
+
+.model-pick {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0 12px;
+    height: 38px;
+    border-radius: 999px;
+    font-size: 14px;
+    cursor: pointer;
+    max-width: min(100%, 360px);
+}
+
+.model-pick i {
+    position: relative;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.model-pick select {
+    appearance: none;
+    -webkit-appearance: none;
+    background: none;
+    border: 0;
+    color: #fff;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    min-width: 0;
+    text-overflow: ellipsis;
+    position: relative;
+    z-index: 1;
+}
+
+.model-pick select option {
+    background: var(--bg-2);
+    color: #fff;
+}
+
+/* ---------- the conversation ---------- */
+
+.thread {
+    flex: 1;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 8px max(16px, calc((100% - 760px) / 2)) 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    /* keeps text readable over bright parts of the background */
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.45);
+}
+
+.code-block,
+.md table,
+.chip {
+    text-shadow: none;
+}
+
+.empty {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: rise 0.7s var(--ease-spring, ease) backwards;
+}
+
+.empty-logo {
+    width: 76px;
+    height: 76px;
+    border-radius: 24px;
+    display: grid;
+    place-items: center;
+}
+
+.empty-logo img {
+    width: 44px;
+    height: 44px;
+    image-rendering: pixelated;
+    position: relative;
+    z-index: 1;
+}
+
+.empty h1 {
+    margin: 18px 0 6px;
+    font-size: clamp(28px, 5vw, 40px);
+    font-weight: 600;
+}
+
+.empty p {
+    margin: 0 0 22px;
+    opacity: 0.7;
+}
+
+.chips {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 260px));
+    gap: 10px;
+}
+
+.chip {
+    padding: 14px 16px;
+    border-radius: 16px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.35;
+    transition: transform 0.3s var(--ease-spring, ease), background 0.2s ease;
+}
+
+.chip:hover {
+    transform: translateY(-2px);
+    background: color-mix(in srgb, var(--accent) 22%, var(--glass-tint));
+}
+
+.msg {
+    display: flex;
+    gap: 12px;
+    animation: rise 0.4s var(--ease-out, ease) backwards;
+}
+
+.msg.user {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.msg.user .bubble {
+    max-width: min(78%, 560px);
+    padding: 11px 16px;
+    border-radius: 20px 20px 6px 20px;
+    background: color-mix(in srgb, var(--accent) 38%, rgba(255, 255, 255, 0.06));
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    line-height: 1.5;
+}
+
+.msg.user .lonlii-avatar {
+    margin: 0 4px 2px 2px;
+}
+
+.ai-avatar {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: color-mix(in srgb, var(--bg-2) 70%, transparent);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.ai-avatar img {
+    width: 18px;
+    height: 18px;
+    image-rendering: pixelated;
+}
+
+.msg-col {
+    flex: 1;
+    min-width: 0;
+}
+
+.msg-head {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin: 4px 0 6px;
+}
+
+.msg-name {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.msg-model {
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+/* thinking, for models that reason before they answer */
+.thinking {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.thinking summary {
+    cursor: pointer;
+    opacity: 0.65;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.thinking summary::-webkit-details-marker {
+    display: none;
+}
+
+.thinking-text {
+    margin-top: 8px;
+    padding: 4px 0 4px 14px;
+    border-left: 2px solid rgba(255, 255, 255, 0.18);
+    white-space: pre-wrap;
+    opacity: 0.6;
+    max-height: 280px;
+    overflow-y: auto;
+    line-height: 1.5;
+}
+
+.typing {
+    display: flex;
+    gap: 5px;
+    padding: 10px 0;
+}
+
+.typing span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.4;
+    animation: blink 1.2s ease-in-out infinite;
+}
+
+.typing span:nth-child(2) { animation-delay: 0.15s; }
+.typing span:nth-child(3) { animation-delay: 0.3s; }
+
+.msg-error {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-top: 6px;
+    padding: 10px 14px;
+    border-radius: 14px;
+    background: rgba(255, 120, 100, 0.12);
+    border: 1px solid rgba(255, 140, 120, 0.3);
+    color: #ffd2ca;
+    font-size: 14px;
+}
+
+.msg-error button {
+    display: inline-flex;
+    gap: 4px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.msg-actions {
+    display: flex;
+    gap: 2px;
+    margin-top: 6px;
+    opacity: 0.6;
+}
+
+.msg-actions button {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.msg-actions button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 1;
+}
+
+/* ---------- the AI's markdown ---------- */
+
+.md {
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+}
+
+.md > :first-child {
+    margin-top: 0;
+}
+
+.md > :last-child {
+    margin-bottom: 0;
+}
+
+.md p,
+.md ul,
+.md ol,
+.md blockquote,
+.md .table-wrap,
+.md .code-block {
+    margin: 0 0 12px;
+}
+
+.md h2,
+.md h3,
+.md h4,
+.md h5,
+.md h6 {
+    margin: 18px 0 8px;
+    line-height: 1.3;
+}
+
+.md h2 { font-size: 1.3em; }
+.md h3 { font-size: 1.15em; }
+.md h4, .md h5, .md h6 { font-size: 1em; }
+
+.md ul,
+.md ol {
+    padding-left: 22px;
+}
+
+.md ul {
+    list-style: disc;
+}
+
+.md ol {
+    list-style: decimal;
+}
+
+.md li {
+    margin: 3px 0;
+}
+
+.md a {
+    color: color-mix(in srgb, var(--accent) 60%, white);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.md blockquote {
+    padding-left: 14px;
+    border-left: 3px solid color-mix(in srgb, var(--accent) 70%, transparent);
+    opacity: 0.85;
+}
+
+.md hr {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 16px 0;
+}
+
+.md code {
+    font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+    font-size: 0.9em;
+    padding: 2px 6px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.code-block {
+    border-radius: 14px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.code-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+    font-size: 12px;
+    background: rgba(255, 255, 255, 0.06);
+    opacity: 0.85;
+}
+
+.code-copy {
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 6px;
+}
+
+.code-copy:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.code-block pre {
+    margin: 0;
+    padding: 12px 14px;
+    overflow-x: auto;
+}
+
+.code-block code {
+    padding: 0;
+    background: none;
+    font-size: 13.5px;
+    line-height: 1.55;
+    white-space: pre;
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+.md table {
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.md th,
+.md td {
+    padding: 7px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    text-align: left;
+}
+
+.md th {
+    background: rgba(255, 255, 255, 0.07);
+}
+
+/* ---------- the box you type in ---------- */
+
+.composer {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    margin: 0 max(0px, calc((100% - 792px) / 2));
+    padding: 8px 8px 8px 18px;
+    border-radius: 26px;
+}
+
+.composer textarea {
+    flex: 1;
+    resize: none;
+    background: none;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 8px 0;
+    max-height: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.composer textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.send {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    background: #fff;
+    color: var(--bg-5);
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s var(--ease-spring, ease), background 0.2s ease;
+}
+
+.send:hover {
+    transform: scale(1.06);
+}
+
+.send.stop {
+    background: color-mix(in srgb, var(--accent) 70%, white 30%);
+}
+
+.fineprint {
+    margin: 8px 0 2px;
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.45;
+}
+
+@keyframes rise {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 0.25; transform: translateY(0); }
+    50% { opacity: 0.9; transform: translateY(-3px); }
+}
+
+/* ---------- tablets and phones: the chat list slides in from the left ---------- */
+
+.side-scrim {
+    display: none;
+}
+
+@media (max-width: 860px) {
+    .ai-app {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .ai-side {
+        position: fixed;
+        z-index: 20;
+        top: 8px;
+        bottom: 8px;
+        left: 8px;
+        width: min(280px, 80vw);
+        transform: translateX(calc(-100% - 16px));
+        transition: transform 0.4s var(--ease-spring, ease);
+    }
+
+    html.embedded .ai-side {
+        top: 74px;
+    }
+
+    body.side-open .ai-side {
+        transform: none;
+    }
+
+    .side-scrim {
+        display: block;
+        position: fixed;
+        inset: 0;
+        z-index: 19;
+        background: rgba(0, 0, 0, 0.35);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+    }
+
+    body.side-open .side-scrim {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .side-toggle {
+        display: grid;
+    }
+
+    .model-pick {
+        max-width: calc(100% - 100px);
+    }
+
+    .chat-delete {
+        opacity: 0.6;
+    }
+}
+
+@media (max-width: 560px) {
+    .chips {
+        grid-template-columns: minmax(0, 1fr);
+        width: 100%;
+    }
+
+    .chips .chip:nth-child(n+3) {
+        display: none;
+    }
+
+    .msg.user .bubble {
+        max-width: 85%;
+    }
+
+    .ai-avatar {
+        display: none;
+    }
+
+    .composer {
+        margin-bottom: env(safe-area-inset-bottom);
+    }
+}

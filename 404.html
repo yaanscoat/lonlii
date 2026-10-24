@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <script src="/assets/js/compat.js"></script>
+    <link rel="icon" type="image/png" href="/assets/img/lonelii.png">
+    <title>404 | lonlii</title>
+    <script src="/assets/js/routes.js"></script>
+    <script>
+        // static hosts serve this page for any unknown path. the subject urls (/chemistry,
+        // /advanced-music, ...) aren't real files, so hand those to the main app
+        if (lonliiRoutes.sectionFor(location.pathname)) {
+            location.replace("/?launch=1&route=" + encodeURIComponent(location.pathname) + location.hash);
+        }
+    </script>
+    <link rel="stylesheet" href="/assets/css/colors.css" id="css-theme-link">
+    <script src="/assets/js/colors.js"></script>
+    <link rel="stylesheet" href="/assets/css/font.css">
+    <link rel="stylesheet" href="/assets/css/glass.css">
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            min-height: 100dvh;
+            display: grid;
+            place-items: center;
+            background:
+                radial-gradient(ellipse at 20% 10%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 55%),
+                radial-gradient(ellipse at 85% 90%, color-mix(in srgb, var(--accent-2) 22%, transparent), transparent 55%),
+                var(--bg-5);
+        }
+
+        .card {
+            text-align: center;
+            padding: 40px 48px;
+            border-radius: 30px;
+            animation: rise-in 0.8s var(--ease-out) backwards;
+        }
+
+        .card img {
+            width: 56px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 72px;
+            margin: 10px 0 0;
+            font-weight: 600;
+            position: relative;
+        }
+
+        p {
+            color: rgba(255, 255, 255, 0.7);
+            position: relative;
+        }
+
+        a {
+            color: var(--accent);
+            position: relative;
+        }
+    </style>
+    <link rel="stylesheet" href="/assets/css/compat.css">
+</head>
+
+<body>
+    <div class="card glass">
+        <img src="/assets/img/lonelii.png" alt="">
+        <h1>404</h1>
+        <p>this page doesn't exist.</p>
+        <a href="/?launch=1">back to lonlii</a>
+    </div>
+</body>
+
+</html>

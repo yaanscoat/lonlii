@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Crazy Cattle",
+    "url": "/games/classplay/cc3d/",
+    "img": "/assets/img/games/cc3d.webp"
+  },
+  {
+    "name": "Tube Jumpers",
+    "url": "/games/classplay/tubejumpers/",
+    "img": "/games/classplay/tubejumpers/img/icon.jpg"
+  },
+  {
+    "name": "Minecraft 1.8",
+    "url": "/games/classplay/eag/1.8/",
+    "img": "/assets/img/games/mc.webp"
+  },
+  {
+    "name": "Dadish 3",
+    "url": "/games/classplay/dadish3/",
+    "img": "/assets/img/games/dadish3.webp"
+  },
+  {
+    "name": "Super Mario 64",
+    "url": "/games/classplay/supermario64/",
+    "img": "/assets/img/games/mario64.webp"
+  },
+  {
+    "name": "Retro Bowl",
+    "url": "/games/classplay/retro-bowl/",
+    "img": "/assets/img/games/retro-bowl.webp"
+  },
+  {
+    "name": "RB College",
+    "url": "/games/classplay/rb-college/",
+    "img": "/assets/img/games/rb-college.webp"
+  },
+  {
+    "name": "Football Bros",
+    "url": "/games/classplay/football-bros/",
+    "img": "/assets/img/games/footballbros.webp"
+  },
+  {
+    "name": "Polytrack 4",
+    "url": "/games/classplay/polytrack/",
+    "img": "/assets/img/games/polytrack.webp"
+  },
+  {
+    "name": "Slope",
+    "url": "/games/classplay/slope/",
+    "img": "/assets/img/games/slope.webp"
+  },
+  {
+    "name": "Amazing Rope Police",
+    "url": "/games/classplay/amazing-rope-police/",
+    "img": "/assets/img/games/gta.webp"
+  },
+  {
+    "name": "Dadish 2",
+    "url": "/games/classplay/dadish-2/",
+    "img": "/assets/img/games/dadish2.webp"
+  },
+  {
+    "name": "Dadish",
+    "url": "/games/classplay/dadish/",
+    "img": "/assets/img/games/dadish.webp"
+  },
+  {
+    "name": "Sandboxels",
+    "url": "/games/classplay/sandboxels/",
+    "img": "/assets/img/games/sandboxels.webp"
+  },
+  {
+    "name": "Sandtrix",
+    "url": "/games/classplay/sandtris/",
+    "img": "/assets/img/games/sandtrix.webp"
+  },
+  {
+    "name": "Snow Rider 3D",
+    "url": "/games/classplay/snowrider/",
+    "img": "/assets/img/games/snowrider.webp"
+  },
+  {
+    "name": "A Small World Cup 2023",
+    "url": "/games/classplay/asmallworldcup/",
+    "img": "/assets/img/games/aswc2023.webp"
+  },
+  {
+    "name": "1v1 LOL",
+    "url": "/games/classplay/1v1lol/",
+    "img": "/assets/img/games/1v1lol.webp"
+  },
+  {
+    "name": "OvO",
+    "url": "/games/classplay/ovo/",
+    "img": "/assets/img/games/ovo.webp"
+  },
+  {
+    "name": "Basket Bros",
+    "url": "/games/classplay/basketbros/",
+    "img": "/assets/img/games/basketbros.webp"
+  },
+  {
+    "name": "Drift Boss",
+    "url": "/games/classplay/driftboss/",
+    "img": "/assets/img/games/driftboss.webp"
+  },
+  {
+    "name": "Geometry Dash",
+    "url": "/games/classplay/html/gd.html",
+    "img": "/assets/img/games/gd.webp"
+  },
+  {
+    "name": "One Way Ticket",
+    "url": "/games/classplay/owt1/",
+    "img": "/assets/img/games/owt1.webp"
+  },
+  {
+    "name": "One Way Ticket 2",
+    "url": "/games/classplay/owt2/",
+    "img": "/assets/img/games/owt2.webp"
+  },
+  {
+    "name": "territorial.io",
+    "url": "/games/classplay/html/territorial.html",
+    "img": "/assets/img/games/territorial.webp"
+  },
+  {
+    "name": "World's Hardest Game",
+    "url": "/games/classplay/worldshardestgame/",
+    "img": "/assets/img/games/whg.webp"
+  },
+  {
+    "name": "Tic Tac Toe",
+    "url": "/games/classplay/tic-tac-toe/",
+    "img": "/assets/img/games/ttt.webp"
+  },
+  {
+    "name": "2048",
+    "url": "/games/classplay/2048/",
+    "img": "/assets/img/games/2048.webp"
+  },
+  {
+    "name": "Cookie Clicker",
+    "url": "#",
+    "img": "/assets/img/games/cookieclicker.webp"
+  },
+  {
+    "name": "Block Blast",
+    "url": "/games/classplay/blockblast/",
+    "img": "/assets/img/games/blockblast.webp"
+  },
+  {
+    "name": "House of Hazards",
+    "url": "/games/classplay/houseofhazards/",
+    "img": "/assets/img/games/hoh.webp"
+  },
+  {
+    "name": "8 Ball",
+    "url": "/games/classplay/8ball/",
+    "img": "/assets/img/games/8ball.webp"
+  },
+  {
+    "name": "Basketball Stars",
+    "url": "/games/classplay/basketballstars/",
+    "img": "/assets/img/games/bballstars.webp"
+  },
+  {
+    "name": "Big Tower Tiny Square",
+    "url": "/games/classplay/btts/",
+    "img": "/assets/img/games/btts.webp"
+  },
+  {
+    "name": "Alien Shooter",
+    "url": "/games/classplay/html/alienshooter.html",
+    "img": "/assets/img/games/alienshooter.webp"
+  },
+  {
+    "name": "Basket Random",
+    "url": "/games/classplay/basketrandom/",
+    "img": "/assets/img/games/basketrandom.webp"
+  },
+  {
+    "name": "Bitlife",
+    "url": "/games/classplay/bitlife/",
+    "img": "/assets/img/games/bitlife.webp"
+  },
+  {
+    "name": "Boxing Random",
+    "url": "/games/classplay/boxingrandom/",
+    "img": "/assets/img/games/boxingrandom.webp"
+  },
+  {
+    "name": "Cluster Rush",
+    "url": "/games/classplay/clusterrush/",
+    "img": "/assets/img/games/clusterrush.webp"
+  },
+  {
+    "name": "Eggy Car",
+    "url": "/games/classplay/eggycar/",
+    "img": "/assets/img/games/eggycar.webp"
+  },
+  {
+    "name": "MURDER 🗡️",
+    "url": "/games/classplay/murder/",
+    "img": "/assets/img/games/murder.webp"
+  },
+  {
+    "name": "paper.io 2",
+    "url": "/games/classplay/paperio2/",
+    "img": "/assets/img/games/paperio.webp"
+  },
+  {
+    "name": "Soccer Random",
+    "url": "/games/classplay/soccerrandom/",
+    "img": "/assets/img/games/soccerrandom.webp"
+  },
+  {
+    "name": "SUPERHOT",
+    "url": "/games/classplay/superhot/",
+    "img": "/assets/img/games/superhot.webp"
+  },
+  {
+    "name": "Time Shooter 3",
+    "url": "/games/classplay/timeshooter3/",
+    "img": "/assets/img/games/ts3.webp"
+  },
+  {
+    "name": "Tiny Fishing",
+    "url": "/games/classplay/tinyfishing/",
+    "img": "/assets/img/games/tinyfishing.webp"
+  },
+  {
+    "name": "Volley Random",
+    "url": "/games/classplay/volleyrandom/",
+    "img": "/assets/img/games/volleyrandom.webp"
+  },
+  {
+    "name": "SmashKarts",
+    "url": "/games/classplay/smashkarts/",
+    "img": "/assets/img/games/sk.webp"
+  }
+]

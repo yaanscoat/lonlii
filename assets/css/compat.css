@@ -1,0 +1,304 @@
+/* compatibility layer for phones, tablets, touch screens and browser quirks.
+   assets/js/compat.js adds the is-* / no-* classes on <html> that this file uses. */
+
+/* ---------- every device ---------- */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+body {
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior: none;
+}
+
+button,
+a,
+input,
+.app,
+nav ul li {
+    touch-action: manipulation; /* no 300ms tap delay on mobile */
+}
+
+/* firefox styles its scrollbars with these instead of ::-webkit-scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.25) transparent;
+}
+
+/* ---------- browsers without backdrop-filter or color-mix ---------- */
+
+/* glass needs the blur behind it to read as glass; without it, go solid */
+.no-backdrop nav,
+.no-backdrop .settings-container,
+.no-backdrop .apps-wrapper,
+.no-backdrop .games-wrapper,
+.no-backdrop .download-wrapper,
+.no-backdrop .searchathome,
+.no-backdrop #gohomeblock,
+.no-backdrop .glass,
+.no-backdrop .toast {
+    background: rgba(28, 18, 12, 0.94) !important;
+}
+
+.no-backdrop #lonlii-intro {
+    background: rgba(18, 11, 7, 0.97);
+}
+
+.no-color-mix .app,
+.no-color-mix button.button {
+    background: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* ---------- touch screens: hover effects stick after a tap, so turn them off ---------- */
+
+@media (hover: none) {
+    .app:hover,
+    nav ul li:hover,
+    .settings-section:hover,
+    button.button:hover,
+    #gohomeblock:hover,
+    .home-icon:hover,
+    .card:hover {
+        transform: none !important;
+    }
+
+    .app:hover::after {
+        transform: translateX(-120%);
+    }
+
+    .app:active,
+    nav ul li:active,
+    button.button:active,
+    .card:active {
+        transform: scale(0.96) !important;
+        transition-duration: 0.1s;
+    }
+
+    /* the game titles only showed on hover */
+    .app .app-title-cont {
+        bottom: 12px;
+        opacity: 1;
+    }
+
+    .app .bg-img {
+        filter: brightness(0.7);
+    }
+}
+
+/* ios zooms into any input with text smaller than 16px */
+.is-ios input,
+.is-ios textarea,
+.is-ios select {
+    font-size: max(16px, 1em) !important;
+}
+
+/* ---------- tablets and small laptops ---------- */
+
+@media (max-width: 1100px) {
+    .apps-wrapper,
+    .games-wrapper {
+        width: 92vw;
+        height: 80vh;
+        height: 80dvh;
+        box-sizing: border-box;
+    }
+
+    #apps-search {
+        width: calc(100% - 30px) !important;
+        box-sizing: border-box;
+    }
+
+    .apps-container,
+    .games-container {
+        width: calc(100% - 20px) !important;
+        box-sizing: border-box;
+    }
+}
+
+/* ---------- phones (and narrow windows) ---------- */
+
+@media (max-width: 700px) {
+    /* the nav is full on phones: github is still linked from settings → info */
+    nav ul li.nav-github {
+        display: none;
+    }
+
+    /* the nav runs along the top edge, clear of the notch, and scrolls if it has to */
+    nav {
+        max-width: calc(100vw - 16px);
+        margin-top: calc(8px + env(safe-area-inset-top));
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    nav ul li {
+        flex-shrink: 0;
+    }
+
+    #homeContent {
+        width: calc(100vw - 32px);
+    }
+
+    #homeContent h1 {
+        font-size: 56px !important;
+    }
+
+    .searchathome {
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+    }
+
+    #homesearch {
+        width: 100% !important;
+        min-width: 0;
+        flex: 1;
+    }
+
+    /* panels fill the screen under the nav */
+    .apps-wrapper,
+    .games-wrapper,
+    .settings-container,
+    .download-wrapper {
+        width: calc(100vw - 16px) !important;
+        height: calc(var(--app-height, 100vh) - 96px - env(safe-area-inset-top) - env(safe-area-inset-bottom)) !important;
+        top: calc(50% + 32px) !important;
+        padding: 10px !important;
+        box-sizing: border-box;
+        border-radius: 24px;
+    }
+
+    .apps-container,
+    .games-container {
+        height: calc(100% - 70px) !important;
+    }
+
+    /* two game cards per row */
+    .app {
+        width: calc(50% - 12px) !important;
+        height: auto !important;
+        aspect-ratio: 1;
+        margin: 6px !important;
+    }
+
+    .app .app-title-cont h2 {
+        font-size: 14px;
+    }
+
+    /* settings: the section list becomes a scrolling row of tabs on top */
+    .settings-container .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .settings-sidebar {
+        width: auto !important;
+        flex-direction: row !important;
+        overflow-x: auto;
+        flex-shrink: 0;
+        scrollbar-width: none;
+        margin: 0 0 6px !important;
+    }
+
+    .settings-sidebar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .settings-section {
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .settings-content-container {
+        position: static !important;
+        width: auto !important;
+        height: auto !important;
+        flex: 1;
+        min-height: 0;
+        margin: 0 !important;
+        padding: 0 6px 40px !important;
+    }
+
+    .version-tag {
+        display: none;
+    }
+
+    .wispInput {
+        width: 100% !important;
+        min-width: 0;
+    }
+
+    /* toasts sit at the bottom, full width, above the home indicator */
+    .toast-container {
+        left: 8px !important;
+        right: 8px !important;
+        width: auto !important;
+        bottom: calc(-20px + env(safe-area-inset-bottom)) !important;
+    }
+
+    /* proxy browser: tabs scroll sideways, the url bar takes the room */
+    .tabs {
+        overflow-x: auto;
+        scrollbar-width: none;
+        margin-left: 0 !important;
+    }
+
+    .tab {
+        width: 150px !important;
+        flex-shrink: 0;
+    }
+
+    .browser-buttons .hcontainer {
+        padding: 0 6px;
+    }
+
+    .browser-buttons input {
+        min-width: 0;
+        flex: 1;
+        margin: 0 4px !important;
+        width: auto !important;
+    }
+
+    /* the dev tools and fullscreen buttons don't fit (or work) on phones */
+    .browser-buttons button[onclick="launchEruda()"],
+    .browser-buttons button[onclick="full()"] {
+        display: none;
+    }
+
+    .browser-frame {
+        width: 100% !important;
+        height: calc(var(--app-height, 100vh) - 100px) !important;
+        border-radius: 14px 14px 0 0;
+    }
+
+    #gohomeblock {
+        top: calc(10px + env(safe-area-inset-top));
+        right: 10px;
+    }
+
+    #intro-clock {
+        font-size: 64px;
+    }
+}
+
+/* landscape phones: very little height, so keep chrome small */
+@media (max-height: 500px) and (orientation: landscape) {
+    #lonlii-intro {
+        gap: 12px;
+    }
+
+    .intro-time {
+        display: none;
+    }
+
+    #homeContent .home-icon {
+        display: none;
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <script src="/assets/js/compat.js"></script>
+    <title>lonlii | movies</title>
+    <link rel="shortcut icon" href="/assets/img/lonelii.png" type="image/png" id="tabIcon">
+    <link rel="stylesheet" href="/assets/css/colors.css" id="css-theme-link">
+    <script src="/assets/js/colors.js"></script>
+    <link rel="stylesheet" href="/assets/css/font.css">
+    <link rel="stylesheet" href="/assets/icons/remixicon/remixicon.css">
+    <link rel="stylesheet" href="/assets/css/glass.css">
+    <link rel="stylesheet" href="/assets/css/movies.css">
+    <script src="/proxy/uv/uv.bundle.js"></script>
+    <script src="/proxy/uv/uv.config.js"></script>
+    <script src="/proxy/bare-mux/index.js"></script>
+    <script src="/assets/js/transport.js"></script>
+    <script src="/assets/js/proxy.js"></script>
+    <script src="/assets/js/vendor/hls.min.js"></script>
+    <script src="/assets/js/bare-hls.js"></script>
+    <script>
+        // inside the main site the page is see-through so the video background shows behind it
+        if (window.self !== window.top) document.documentElement.classList.add("embedded")
+    </script>
+    <link rel="stylesheet" href="/assets/css/compat.css">
+</head>
+
+<body>
+    <header class="movies-header">
+        <h1>movies <span>&amp; tv</span></h1>
+        <div class="search glass">
+            <i class="ri-search-line"></i>
+            <input type="text" id="searchInput" placeholder="search movies and shows..." autocomplete="off">
+        </div>
+        <div class="tabs glass" id="tabs">
+            <button class="tab active" data-feed="trending">Trending</button>
+            <button class="tab" data-feed="movie">Movies</button>
+            <button class="tab" data-feed="tv">TV Shows</button>
+        </div>
+    </header>
+
+    <main class="movies-main">
+        <p class="section-title" id="sectionTitle">trending this week</p>
+        <div class="grid" id="grid"></div>
+        <button class="button more" id="loadMore">Load more</button>
+    </main>
+
+    <div class="detail-overlay" id="detailOverlay">
+        <div class="detail glass" id="detail"></div>
+    </div>
+
+    <div class="player-overlay" id="playerOverlay">
+        <div class="player-bar glass">
+            <button class="icon-btn" id="playerClose" title="Close"><i class="ri-arrow-left-line"></i></button>
+            <span class="now-playing" id="nowPlaying"></span>
+            <span class="status" id="playerStatus"></span>
+        </div>
+        <div class="server-bar" id="serverBar"></div>
+        <div class="player-content glass">
+            <video id="videoPlayer" controls autoplay playsinline></video>
+            <iframe id="embedPlayer" allowfullscreen allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+                referrerpolicy="no-referrer"></iframe>
+        </div>
+    </div>
+
+    <script src="/assets/js/movies.js"></script>
+</body>
+
+</html>

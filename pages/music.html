@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <script src="/assets/js/compat.js"></script>
+    <title>lonlii | music</title>
+    <link rel="shortcut icon" href="/assets/img/lonelii.png" type="image/png" id="tabIcon">
+    <link rel="stylesheet" href="/assets/css/colors.css" id="css-theme-link">
+    <script src="/assets/js/colors.js"></script>
+    <link rel="stylesheet" href="/assets/css/font.css">
+    <link rel="stylesheet" href="/assets/icons/remixicon/remixicon.css">
+    <link rel="stylesheet" href="/assets/css/glass.css">
+    <link rel="stylesheet" href="/assets/css/music.css">
+    <script src="/proxy/uv/uv.bundle.js"></script>
+    <script src="/proxy/uv/uv.config.js"></script>
+    <script src="/proxy/bare-mux/index.js"></script>
+    <script src="/assets/js/transport.js"></script>
+    <script src="/assets/js/proxy.js"></script>
+    <script src="/assets/js/vendor/hls.min.js"></script>
+    <script src="/assets/js/bare-hls.js"></script>
+    <script>
+        // inside the main site the page is see-through so the video background shows behind it
+        if (window.self !== window.top) document.documentElement.classList.add("embedded")
+    </script>
+    <link rel="stylesheet" href="/assets/css/compat.css">
+</head>
+
+<body>
+    <div class="music-app">
+        <!-- left: where to go -->
+        <aside class="sidebar glass">
+            <div class="brand"><i class="ri-music-2-fill"></i> music</div>
+            <div class="side-nav">
+                <a href="#/" data-view="home"><i class="ri-home-5-line"></i> Home</a>
+                <a href="#/search" data-view="search"><i class="ri-search-line"></i> Search</a>
+                <a href="#/liked" data-view="liked"><i class="ri-heart-3-line"></i> Liked songs</a>
+                <a href="#/recent" data-view="recent"><i class="ri-history-line"></i> Recently played</a>
+            </div>
+            <p class="side-label">Powered by YouTube Music, with SoundCloud as a backup.</p>
+        </aside>
+
+        <!-- middle: the current page -->
+        <main class="main">
+            <header class="topbar">
+                <div class="history-buttons">
+                    <button class="round" onclick="history.back()" title="Back"><i class="ri-arrow-left-s-line"></i></button>
+                    <button class="round" onclick="history.forward()" title="Forward"><i class="ri-arrow-right-s-line"></i></button>
+                </div>
+                <form class="search glass" id="searchForm" autocomplete="off">
+                    <i class="ri-search-line"></i>
+                    <input id="searchInput" type="search" placeholder="Songs, artists, albums" enterkeyhint="search">
+                    <div class="suggestions glass" id="suggestions"></div>
+                </form>
+            </header>
+            <div id="view" class="view"></div>
+        </main>
+
+        <!-- right (or a sheet on small screens): what's playing -->
+        <aside class="now-playing glass" id="nowPlaying">
+            <div class="np-head">
+                <button class="round np-close" id="npClose" title="Close"><i class="ri-arrow-down-s-line"></i></button>
+                <span>Now playing</span>
+                <div class="np-switch" id="npSwitch">
+                    <button data-mode="song" class="on">Song</button>
+                    <button data-mode="video">Video</button>
+                </div>
+            </div>
+            <div class="np-media" id="npMedia">
+                <div id="yt-player"></div>
+                <img id="npArt" alt="" hidden>
+            </div>
+            <div class="np-info">
+                <div class="np-text">
+                    <h2 id="npTitle">Nothing playing</h2>
+                    <p id="npArtist">Pick a song to start</p>
+                </div>
+                <button class="round like" id="npLike" title="Like"><i class="ri-heart-3-line"></i></button>
+            </div>
+            <div class="np-controls mobile-only">
+                <div class="progress"><span class="t" id="npTime">0:00</span><input type="range" class="seek" id="npSeek" min="0" max="1000" value="0"><span class="t" id="npDur">0:00</span></div>
+                <div class="buttons">
+                    <button class="round" data-action="shuffle"><i class="ri-shuffle-line"></i></button>
+                    <button class="round" data-action="prev"><i class="ri-skip-back-fill"></i></button>
+                    <button class="round big play" data-action="toggle"><i class="ri-play-fill"></i></button>
+                    <button class="round" data-action="next"><i class="ri-skip-forward-fill"></i></button>
+                    <button class="round" data-action="repeat"><i class="ri-repeat-line"></i></button>
+                </div>
+            </div>
+            <p class="np-note" id="npNote"></p>
+            <h3 class="np-label">Up next</h3>
+            <div class="queue" id="queue"></div>
+        </aside>
+
+        <!-- bottom: the player bar -->
+        <footer class="player-bar glass" id="playerBar">
+            <div class="pb-track" id="pbTrack">
+                <img id="pbArt" alt="">
+                <div class="pb-text">
+                    <span class="pb-title" id="pbTitle">Nothing playing</span>
+                    <span class="pb-artist" id="pbArtist"></span>
+                </div>
+                <button class="round like desktop-only" id="pbLike" title="Like"><i class="ri-heart-3-line"></i></button>
+            </div>
+            <div class="pb-center">
+                <div class="buttons">
+                    <button class="round desktop-only" data-action="shuffle" title="Shuffle"><i class="ri-shuffle-line"></i></button>
+                    <button class="round desktop-only" data-action="prev" title="Previous"><i class="ri-skip-back-fill"></i></button>
+                    <button class="round big play" data-action="toggle" title="Play"><i class="ri-play-fill"></i></button>
+                    <button class="round" data-action="next" title="Next"><i class="ri-skip-forward-fill"></i></button>
+                    <button class="round desktop-only" data-action="repeat" title="Repeat"><i class="ri-repeat-line"></i></button>
+                </div>
+                <div class="progress desktop-only"><span class="t" id="pbTime">0:00</span><input type="range" class="seek" id="pbSeek" min="0" max="1000" value="0"><span class="t" id="pbDur">0:00</span></div>
+            </div>
+            <div class="pb-right desktop-only">
+                <button class="round" id="npToggle" title="Now playing"><i class="ri-play-list-2-line"></i></button>
+                <i class="ri-volume-up-line vol-icon" id="volIcon"></i>
+                <input type="range" id="volume" min="0" max="100" value="80">
+            </div>
+            <div class="pb-bar mobile-only"><span id="pbMiniProgress"></span></div>
+        </footer>
+
+        <!-- phones: tabs along the bottom -->
+        <div class="mobile-tabs glass">
+            <a href="#/" data-view="home"><i class="ri-home-5-line"></i><span>Home</span></a>
+            <a href="#/search" data-view="search"><i class="ri-search-line"></i><span>Search</span></a>
+            <a href="#/liked" data-view="liked"><i class="ri-heart-3-line"></i><span>Liked</span></a>
+            <a href="#/recent" data-view="recent"><i class="ri-history-line"></i><span>Recent</span></a>
+        </div>
+    </div>
+
+    <script src="/assets/js/music/ytm.js"></script>
+    <script src="/assets/js/music/soundcloud.js"></script>
+    <script src="/assets/js/music/player.js"></script>
+    <script src="/assets/js/music/app.js"></script>
+</body>
+
+</html>

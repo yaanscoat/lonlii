@@ -1,0 +1,1038 @@
+/* lonlii liquid glass layer: loaded after the base styles, so it restyles them without touching layout */
+
+:root {
+    --glass-tint: color-mix(in srgb, var(--bg) 38%, transparent);
+    --glass-tint-strong: color-mix(in srgb, var(--bg) 62%, transparent);
+    --glass-hover: color-mix(in srgb, var(--bg-3) 45%, rgba(255, 255, 255, 0.08));
+    --glass-edge: rgba(255, 255, 255, 0.2);
+    --glass-blur: blur(22px) saturate(175%);
+    --glass-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.32),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.05),
+        inset 0 0 22px rgba(255, 255, 255, 0.04),
+        0 18px 50px rgba(0, 0, 0, 0.35);
+    --ease-spring: cubic-bezier(0.2, 0.9, 0.3, 1.2);
+    --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html,
+body {
+    color: var(--text);
+}
+
+html {
+    background-color: var(--bg-5);
+}
+
+/* transparent so the fixed video behind it (z-index -2) shows through */
+body {
+    background-color: transparent;
+}
+
+::selection {
+    background: color-mix(in srgb, var(--accent) 55%, transparent);
+    color: #fff;
+}
+
+/* ---------- background ---------- */
+
+/* the layer that holds the background (minecraft loop, your upload or your link). see background.js */
+#bg-layer {
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    overflow: hidden;
+    pointer-events: none;
+    background: var(--bg-5);
+    transition: filter 2.4s ease;
+}
+
+#bg-layer .bg-media {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1.2s ease;
+}
+
+#bg-layer .bg-media.shown {
+    opacity: 1;
+}
+
+#bg-layer .bg-media.bg-youtube:not(.shown) {
+    transition-duration: 0.7s;
+}
+
+/* a youtube player can't "object-fit", so it's sized to cover the screen at 16:9 and centered.
+   the slight zoom crops youtube's edges and logo */
+#bg-layer .bg-youtube {
+    inset: auto;
+    top: 50%;
+    left: 50%;
+    width: max(100vw, 177.78vh);
+    height: max(100vh, 56.25vw);
+    transform: translate(-50%, -50%) scale(1.18);
+}
+
+#bg-layer .bg-youtube iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* --bg-dim is the "Dim" slider in settings → proxy */
+#bg-tint {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+        radial-gradient(ellipse at 20% 10%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 55%),
+        radial-gradient(ellipse at 85% 90%, color-mix(in srgb, var(--accent-2) 18%, transparent), transparent 55%),
+        color-mix(in srgb, var(--bg-5) var(--bg-dim, 45%), transparent);
+    transition: background 0.8s ease;
+}
+
+/* no background (off, still loading, or it failed): the plain theme colors */
+body.no-bg #bg-tint {
+    background:
+        radial-gradient(ellipse at 20% 10%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 55%),
+        radial-gradient(ellipse at 85% 90%, color-mix(in srgb, var(--accent-2) 18%, transparent), transparent 55%),
+        var(--bg-5);
+}
+
+/* ---------- the glass material ---------- */
+
+nav,
+.settings-container,
+.apps-wrapper,
+.games-wrapper,
+.download-wrapper,
+.searchathome,
+#gohomeblock,
+.glass {
+    background: linear-gradient(135deg,
+            color-mix(in srgb, var(--glass-tint) 100%, rgba(255, 255, 255, 0.1)),
+            var(--glass-tint));
+    -webkit-backdrop-filter: var(--glass-blur);
+    backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-edge);
+    box-shadow: var(--glass-shadow);
+}
+
+/* specular rim: a gradient border that catches light on the top-left and bottom-right */
+nav::before,
+.settings-container::before,
+.apps-wrapper::before,
+.games-wrapper::before,
+.download-wrapper::before,
+.glass::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 0.6),
+            rgba(255, 255, 255, 0.08) 35%,
+            rgba(255, 255, 255, 0) 60%,
+            rgba(255, 255, 255, 0.28));
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.glass {
+    position: relative;
+}
+
+nav {
+    border-radius: 22px;
+    height: 54px;
+    margin-top: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav {
+    transition: opacity 0.3s ease, transform 0.45s var(--ease-spring);
+}
+
+body.nav-tucked nav {
+    opacity: 0 !important;
+    transform: translate(-50%, -80px);
+    pointer-events: none;
+}
+
+nav ul li {
+    transition: background 0.25s ease, transform 0.35s var(--ease-spring);
+}
+
+nav ul li:hover {
+    background: var(--glass-hover);
+    transform: translateY(-2px) scale(1.06);
+}
+
+nav ul li:active {
+    transform: scale(0.94);
+}
+
+nav ul li.divider {
+    width: 1px;
+    background: rgba(255, 255, 255, 0.18);
+}
+
+nav ul li.divider:hover {
+    transform: translateY(25%);
+}
+
+nav ul li a i {
+    transition: transform 0.35s var(--ease-spring), color 0.2s;
+}
+
+nav ul li:hover a i {
+    color: var(--accent);
+}
+
+.settings-container,
+.apps-wrapper,
+.games-wrapper,
+.download-wrapper {
+    border-radius: 30px;
+    filter: none;
+}
+
+.settings-hidden {
+    filter: blur(10px);
+}
+
+.settings-shown {
+    filter: none;
+}
+
+.settings-container,
+.apps-wrapper,
+.games-wrapper,
+.download-wrapper {
+    transition:
+        opacity 0.35s ease,
+        transform 0.5s var(--ease-spring),
+        filter 0.4s ease;
+}
+
+.blurOverlay {
+    backdrop-filter: blur(6px) brightness(0.7);
+    animation: fade-in 0.35s ease both;
+}
+
+.settings-section {
+    transition: background 0.25s ease, transform 0.3s var(--ease-spring);
+}
+
+.settings-section:hover {
+    background: var(--glass-hover);
+    transform: translateX(3px);
+}
+
+.settings-content-container h2 {
+    color: var(--bright-text);
+}
+
+.settings-content-container p {
+    color: color-mix(in srgb, var(--text) 75%, transparent);
+}
+
+.settings-page.settings-active {
+    animation: rise-in 0.45s var(--ease-out) both;
+}
+
+/* ---------- home ---------- */
+
+.home-icon {
+    width: 88px;
+    height: 88px;
+    margin: 0 auto 18px;
+    border-radius: 28px;
+    display: grid;
+    place-items: center;
+    transition: transform 0.5s var(--ease-spring);
+}
+
+.home-icon img {
+    width: 58px;
+    height: 58px;
+    position: relative;
+    z-index: 1;
+}
+
+.home-icon:hover {
+    transform: rotate(-6deg) scale(1.08);
+}
+
+.home-gradient {
+    background: linear-gradient(135deg, #ffffff 10%, var(--accent) 55%, var(--accent-2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: -0.02em;
+    filter: drop-shadow(0 6px 24px color-mix(in srgb, var(--accent) 35%, transparent));
+}
+
+#splash {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.searchathome {
+    border-radius: 24px;
+    position: relative;
+    transition: transform 0.4s var(--ease-spring), box-shadow 0.3s ease, background 0.3s ease;
+    margin: 0 auto;
+}
+
+.searchathome:has(#homesearch:focus) {
+    background: var(--glass-tint-strong);
+    transform: scale(1.03);
+    box-shadow:
+        var(--glass-shadow),
+        0 0 0 4px color-mix(in srgb, var(--accent) 28%, transparent);
+}
+
+#homesearch {
+    color: #fff;
+}
+
+#homesearch::placeholder {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+#gohomeblock {
+    border-radius: 18px;
+    color: #fff;
+    transition: transform 0.35s var(--ease-spring);
+}
+
+#gohomeblock:hover {
+    scale: 1;
+    transform: scale(1.08);
+}
+
+/* ---------- cards ---------- */
+
+.app {
+    background: var(--glass-tint);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 10px 28px rgba(0, 0, 0, 0.3);
+    border-radius: 24px;
+    transition: transform 0.45s var(--ease-spring), box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.app::after {
+    /* light sweep on hover */
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(115deg, transparent 30%, rgba(255, 255, 255, 0.22) 48%, transparent 66%);
+    transform: translateX(-120%);
+    transition: transform 0.8s var(--ease-out);
+    pointer-events: none;
+    z-index: 32;
+}
+
+.app:hover {
+    scale: 1;
+    transform: translateY(-6px) scale(1.04);
+    border-color: color-mix(in srgb, var(--accent) 60%, rgba(255, 255, 255, 0.3));
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.3),
+        0 18px 40px rgba(0, 0, 0, 0.4),
+        0 0 30px color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+.app:hover::after {
+    transform: translateX(120%);
+}
+
+.app:active {
+    transform: scale(0.97);
+}
+
+.settings-shown .app {
+    animation: card-in 0.55s var(--ease-out) backwards;
+    animation-delay: calc(var(--i, 0) * 22ms);
+}
+
+/* ---------- avatars (profile.js) ---------- */
+
+/* the picture is --size wide; the decoration is 1.2x that and hangs over every side, like discord's */
+.lonlii-avatar {
+    --size: 32px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    width: var(--size);
+    height: var(--size);
+    vertical-align: middle;
+}
+
+.lonlii-avatar .pfp {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    background: color-mix(in srgb, var(--bg-2) 70%, transparent);
+}
+
+/* the lonlii icon is pixel art on a transparent background, so it sits a little smaller in its circle */
+.lonlii-avatar.is-default .pfp {
+    padding: 14%;
+    box-sizing: border-box;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
+
+.lonlii-avatar .deco {
+    position: absolute;
+    left: -10%;
+    top: -10%;
+    width: 120%;
+    height: 120%;
+    pointer-events: none;
+}
+
+.lonlii-avatar .deco[hidden] {
+    display: none;
+}
+
+nav ul li.nav-avatar a {
+    height: 40px;
+    justify-content: center;
+}
+
+/* ---------- profile (settings → profile) ---------- */
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    padding: 18px 22px;
+    margin: 6px 0 8px;
+    border-radius: 22px;
+    background: color-mix(in srgb, var(--bg-2) 40%, rgba(255, 255, 255, 0.05));
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+#profilePreview {
+    padding: 9px;
+}
+
+.profile-card-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.profile-card-name {
+    font-size: 22px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.profile-card-deco {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+#settings-profile h3 {
+    margin: 16px 0 8px;
+}
+
+#profileName {
+    width: min(100%, 320px);
+    box-sizing: border-box;
+}
+
+.profile-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.profile-buttons .button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.profile-buttons .button:disabled {
+    opacity: 0.45;
+    pointer-events: none;
+}
+
+.deco-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
+    gap: 8px;
+}
+
+.deco-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 6px 10px;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    background: color-mix(in srgb, var(--bg-2) 30%, transparent);
+    color: #fff;
+    font: inherit;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease, transform 0.3s var(--ease-spring);
+}
+
+.deco-option span:last-child {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    opacity: 0.85;
+}
+
+.deco-option:hover {
+    background: color-mix(in srgb, var(--accent) 18%, rgba(255, 255, 255, 0.06));
+    transform: translateY(-2px);
+}
+
+.deco-option.on {
+    border-color: color-mix(in srgb, var(--accent) 80%, white 20%);
+    background: color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+/* the intro shows your picture instead of the lonlii icon once you've set one */
+.intro-avatar img.is-pfp {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* ---------- background picker (settings → proxy) ---------- */
+
+.bg-picker {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 4px 0 12px;
+}
+
+.bg-picker button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: color-mix(in srgb, var(--bg-2) 45%, rgba(255, 255, 255, 0.06));
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
+    color: #fff;
+    font: inherit;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.25s ease, transform 0.3s var(--ease-spring), border-color 0.25s ease;
+}
+
+.bg-picker button:hover {
+    background: color-mix(in srgb, var(--accent) 22%, rgba(255, 255, 255, 0.08));
+    transform: translateY(-1px);
+}
+
+.bg-picker button:active {
+    transform: scale(0.96);
+}
+
+.bg-picker button.on {
+    background: color-mix(in srgb, var(--accent) 55%, transparent);
+    border-color: color-mix(in srgb, var(--accent) 80%, white 20%);
+}
+
+#bgLinkForm {
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+#bgLinkForm[hidden] {
+    display: none;
+}
+
+#bgLinkForm .wispInput {
+    flex: 1;
+    min-width: 0;
+}
+
+.bg-status {
+    font-size: 14px;
+    opacity: 0.75;
+    overflow-wrap: anywhere;
+}
+
+.bg-status.error {
+    color: #ffb4a8;
+    opacity: 1;
+}
+
+.bg-dim {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 320px;
+}
+
+.bg-dim input {
+    flex: 1;
+    accent-color: var(--accent);
+}
+
+/* ---------- controls ---------- */
+
+button.button,
+.wispInput,
+#apps-search,
+.transport-selected,
+.search-engine-selected,
+.backend-selected,
+.decoy-selected,
+.cloak-link-selected,
+.theme-selected,
+.store-selected {
+    background: color-mix(in srgb, var(--bg-2) 45%, rgba(255, 255, 255, 0.06)) !important;
+    border: 1px solid rgba(255, 255, 255, 0.16) !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
+    color: #fff !important;
+    -webkit-backdrop-filter: blur(12px) saturate(160%);
+    backdrop-filter: blur(12px) saturate(160%);
+    transition: background 0.25s ease, transform 0.3s var(--ease-spring), box-shadow 0.25s ease;
+}
+
+button.button:hover,
+.transport-selected:hover,
+.search-engine-selected:hover,
+.backend-selected:hover,
+.decoy-selected:hover,
+.cloak-link-selected:hover,
+.theme-selected:hover,
+.store-selected:hover {
+    background: color-mix(in srgb, var(--accent) 22%, rgba(255, 255, 255, 0.08)) !important;
+    transform: translateY(-1px);
+}
+
+button.button:active {
+    transform: scale(0.96);
+}
+
+.wispInput:focus,
+#apps-search:focus {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18), 0 0 0 3px color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+#apps-search::placeholder,
+.wispInput::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.transport-options,
+.search-engine-options,
+.backend-options,
+.decoy-options,
+.cloak-link-options,
+.theme-options,
+.store-options {
+    background: var(--glass-tint-strong) !important;
+    -webkit-backdrop-filter: var(--glass-blur);
+    backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-edge) !important;
+    box-shadow: var(--glass-shadow);
+    color: rgba(255, 255, 255, 0.8) !important;
+    transform: translateY(-6px);
+    transition: max-height 0.35s var(--ease-out), opacity 0.25s ease, transform 0.35s var(--ease-spring) !important;
+}
+
+.transport-show,
+.search-engine-show,
+.backend-show,
+.decoy-show,
+.cloak-link-show,
+.theme-show,
+.store-show {
+    transform: translateY(0);
+}
+
+.transport-options div:hover,
+.search-engine-options div:hover,
+.backend-options div:hover,
+.decoy-options div:hover,
+.cloak-link-options div:hover,
+.theme-options div:hover,
+.store-options div:hover {
+    background: color-mix(in srgb, var(--accent) 25%, rgba(255, 255, 255, 0.06)) !important;
+    color: #fff !important;
+}
+
+.toast.success,
+.toast.error,
+.toast.info {
+    background: var(--glass-tint-strong);
+    -webkit-backdrop-filter: var(--glass-blur);
+    backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-edge);
+    box-shadow: var(--glass-shadow);
+    border-radius: 16px;
+}
+
+.switch input:checked+.slider {
+    background: var(--accent);
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+}
+
+p a,
+.version-tag a {
+    color: var(--accent);
+}
+
+/* ---------- changelog (settings → info) ---------- */
+
+.changelog {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.changelog .release {
+    padding: 12px 14px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.changelog h3 {
+    margin: 0 0 6px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.changelog h3 span {
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 6px;
+    padding: 2px 8px;
+    border-radius: 99px;
+    background: color-mix(in srgb, var(--accent) 40%, transparent);
+}
+
+.changelog ul {
+    margin: 0;
+    padding-left: 18px;
+    list-style: disc;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* ---------- intro: a lock-screen style welcome that dissolves into the site ---------- */
+
+/* the frosted layer sits over the real (already running) site, so clearing the blur
+   and the darkness reveals the page instead of cutting to it */
+#lonlii-intro {
+    position: fixed;
+    inset: 0;
+    z-index: 2147483646;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    padding: env(safe-area-inset-top) 16px env(safe-area-inset-bottom);
+    background:
+        radial-gradient(circle at 50% 42%, color-mix(in srgb, var(--accent-2) 28%, transparent), transparent 62%),
+        color-mix(in srgb, var(--bg-5) 82%, transparent);
+    -webkit-backdrop-filter: blur(38px) saturate(140%);
+    backdrop-filter: blur(38px) saturate(140%);
+    cursor: default;
+    user-select: none;
+    -webkit-user-select: none;
+    /* intro-failsafe: never trap the page if the script that dismisses the intro fails */
+    animation: intro-failsafe 0.8s ease 9s forwards;
+    transition:
+        background 1.4s ease,
+        -webkit-backdrop-filter 1.4s ease,
+        backdrop-filter 1.4s ease,
+        opacity 0.9s ease 0.6s;
+}
+
+#lonlii-intro.leaving {
+    background: transparent;
+    -webkit-backdrop-filter: blur(0) saturate(100%);
+    backdrop-filter: blur(0) saturate(100%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.intro-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    animation: intro-drop 1s var(--ease-out) 0.15s backwards;
+    transition: transform 0.9s var(--ease-out), opacity 0.6s ease, filter 0.8s ease;
+}
+
+#intro-clock {
+    font-size: clamp(56px, 11vw, 96px);
+    font-weight: 300;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+    text-shadow: 0 8px 40px rgba(0, 0, 0, 0.35);
+}
+
+#intro-date {
+    margin-top: 8px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.72);
+    letter-spacing: 0.02em;
+}
+
+.intro-card {
+    width: min(320px, 100%);
+    padding: 30px 28px 26px;
+    border-radius: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: intro-card-in 1.1s var(--ease-spring) 0.35s backwards;
+    transition: transform 0.9s var(--ease-out), opacity 0.6s ease, filter 0.8s ease;
+}
+
+.intro-avatar {
+    position: relative;
+    width: 112px;
+    height: 112px;
+    display: grid;
+    place-items: center;
+    z-index: 1;
+}
+
+.intro-avatar img {
+    width: 64px;
+    height: 64px;
+    position: relative;
+    animation: intro-icon 1s var(--ease-spring) 0.6s backwards;
+    transition: transform 0.6s var(--ease-spring);
+}
+
+.intro-ring {
+    position: absolute;
+    inset: 0;
+    transform: rotate(-90deg);
+    overflow: visible;
+}
+
+.intro-ring circle {
+    fill: none;
+    stroke-width: 3;
+}
+
+.ring-track {
+    stroke: rgba(255, 255, 255, 0.12);
+}
+
+.ring-progress {
+    stroke: var(--accent);
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    filter: drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 70%, transparent));
+    transition: stroke-dashoffset 0.8s var(--ease-out), stroke 0.4s ease;
+}
+
+#lonlii-intro.ready .ring-progress {
+    stroke: #fff;
+}
+
+#lonlii-intro.ready .intro-avatar img {
+    transform: scale(1.12);
+}
+
+.intro-greeting {
+    margin: 18px 0 0;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    z-index: 1;
+    animation: rise-in 0.8s var(--ease-out) 0.75s backwards;
+}
+
+.intro-name {
+    margin: 2px 0 0;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+.intro-name span {
+    display: inline-block;
+    background: linear-gradient(135deg, #fff 20%, var(--accent));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: intro-letter 0.7s var(--ease-spring) backwards;
+}
+
+.intro-name span:nth-child(1) { animation-delay: 0.85s; }
+.intro-name span:nth-child(2) { animation-delay: 0.91s; }
+.intro-name span:nth-child(3) { animation-delay: 0.97s; }
+.intro-name span:nth-child(4) { animation-delay: 1.03s; }
+.intro-name span:nth-child(5) { animation-delay: 1.09s; }
+.intro-name span:nth-child(6) { animation-delay: 1.15s; }
+
+.intro-status {
+    margin: 12px 0 0;
+    min-height: 18px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    z-index: 1;
+    animation: fade-in 0.6s ease 1.2s backwards;
+    transition: opacity 0.25s ease;
+}
+
+.intro-skip {
+    position: absolute;
+    bottom: calc(22px + env(safe-area-inset-bottom));
+    margin: 0;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.4);
+    animation: fade-in 0.8s ease 1.6s backwards;
+    transition: opacity 0.4s ease;
+}
+
+/* exit: the card lifts away first, then the frost clears */
+#lonlii-intro.leaving .intro-card {
+    transform: translateY(-28px) scale(1.05);
+    opacity: 0;
+    filter: blur(10px);
+}
+
+#lonlii-intro.leaving .intro-time {
+    transform: translateY(-40px);
+    opacity: 0;
+    filter: blur(8px);
+}
+
+#lonlii-intro.leaving .intro-skip {
+    opacity: 0;
+}
+
+/* page content waits behind the intro, then rises in as the frost clears */
+body:not(.lonlii-ready) nav,
+body:not(.lonlii-ready) #homeContent>* {
+    opacity: 0;
+}
+
+body.lonlii-ready nav {
+    animation: nav-drop 1.1s var(--ease-spring) 0.35s backwards;
+}
+
+body.lonlii-ready #homeContent>* {
+    animation: rise-in 1.1s var(--ease-out) backwards;
+}
+
+body.lonlii-ready #homeContent>*:nth-child(1) { animation-delay: 0.45s; }
+body.lonlii-ready #homeContent>*:nth-child(2) { animation-delay: 0.55s; }
+body.lonlii-ready #homeContent>*:nth-child(3) { animation-delay: 0.65s; }
+body.lonlii-ready #homeContent>*:nth-child(4) { animation-delay: 0.75s; }
+body.lonlii-ready #homeContent>*:nth-child(5) { animation-delay: 0.85s; }
+
+/* the background brightens from dusk as the intro clears */
+body:not(.lonlii-ready) #bg-layer {
+    filter: brightness(0.35) saturate(0.8);
+}
+
+@keyframes intro-failsafe {
+    to { opacity: 0; visibility: hidden; pointer-events: none; }
+}
+
+@keyframes intro-drop {
+    from { opacity: 0; transform: translateY(-24px); filter: blur(10px); }
+    to { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+@keyframes intro-card-in {
+    from { opacity: 0; transform: translateY(30px) scale(0.92); filter: blur(14px); }
+    to { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+}
+
+@keyframes intro-icon {
+    from { opacity: 0; transform: scale(0.4) rotate(-20deg); }
+    to { opacity: 1; transform: scale(1) rotate(0); }
+}
+
+@keyframes intro-letter {
+    from { opacity: 0; transform: translateY(14px) scale(0.8); filter: blur(6px); }
+    to { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+}
+
+@keyframes nav-drop {
+    from { opacity: 0; transform: translate(-50%, -30px) scale(0.92); }
+    to { opacity: 1; transform: translate(-50%, 0) scale(1); }
+}
+
+@keyframes rise-in {
+    from { opacity: 0; transform: translateY(18px); filter: blur(6px); }
+    to { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+@keyframes card-in {
+    from { opacity: 0; transform: translateY(16px) scale(0.94); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* reduced motion (also on when windows "animation effects" is off): keep the splash and the
+   background, just skip the movement */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-delay: 0ms !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    #lonlii-intro {
+        animation: none !important;
+        transition: opacity 0.5s ease !important;
+    }
+}
